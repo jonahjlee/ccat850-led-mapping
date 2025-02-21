@@ -2317,6 +2317,12 @@
 		(uuid "35b89c20-56f0-4753-86a8-4dbd2d8c6d2b")
 	)
 	(junction
+		(at 289.56 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35d6ad14-9022-427e-83dc-605e4fd76590")
+	)
+	(junction
 		(at 320.04 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5029,12 +5035,6 @@
 		(uuid "a164d6e8-c3e9-4ce5-aac6-5ddcea46ca75")
 	)
 	(junction
-		(at 294.64 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2927c9a-2550-4b8e-aa03-8d74675e04a5")
-	)
-	(junction
 		(at 228.6 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6325,12 +6325,6 @@
 		(uuid "d89c2198-b4eb-4afd-84d5-49a5f6132b74")
 	)
 	(junction
-		(at 271.78 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8cf2204-70d8-42e1-954b-5f976bea5905")
-	)
-	(junction
 		(at 213.36 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6677,6 +6671,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7f8edc2-83b2-4759-961b-67a3d01dff7a")
+	)
+	(junction
+		(at 266.7 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e81b4558-e2ef-497b-a99b-5cf52293b4b2")
 	)
 	(junction
 		(at 195.58 193.04)
@@ -8596,7 +8596,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 78.74) (xy 302.26 78.74)
+			(xy 287.02 78.74) (xy 302.26 78.74)
 		)
 		(stroke
 			(width 0)
@@ -10436,7 +10436,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 106.68) (xy 266.7 114.3)
+			(xy 266.7 99.06) (xy 266.7 114.3)
 		)
 		(stroke
 			(width 0)
@@ -11616,16 +11616,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 101.6) (xy 279.4 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c889db1-67fa-43be-a911-45d6c698e721")
-	)
-	(wire
-		(pts
 			(xy 281.94 99.06) (xy 281.94 106.68)
 		)
 		(stroke
@@ -11896,7 +11886,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 101.6) (xy 271.78 101.6)
+			(xy 264.16 101.6) (xy 279.4 101.6)
 		)
 		(stroke
 			(width 0)
@@ -12193,16 +12183,6 @@
 			(type default)
 		)
 		(uuid "6e45a81b-b8ca-4537-9091-a077e7f29afa")
-	)
-	(wire
-		(pts
-			(xy 287.02 78.74) (xy 294.64 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e5fb577-ff0f-445e-ac86-b7fb7ffc20d0")
 	)
 	(wire
 		(pts
@@ -17816,7 +17796,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 83.82) (xy 289.56 91.44)
+			(xy 289.56 76.2) (xy 289.56 91.44)
 		)
 		(stroke
 			(width 0)
@@ -35006,76 +34986,6 @@
 	)
 	(symbol
 		(lib_id "Device:LED_45deg")
-		(at 292.1 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "66f3dd9f-20b3-40d4-b488-4d6ad9803679")
-		(property "Reference" "D461"
-			(at 289.56 79.756 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 292.608 83.058 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
-			(at 292.1 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 292.1 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, rotated by 45°"
-			(at 292.1 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2ec3773-d28e-451b-8c61-96edb3ffcd58")
-		)
-		(pin "2"
-			(uuid "37aa548c-e3a7-4f9e-a8d6-3db316af7693")
-		)
-		(instances
-			(project "led_mapper_850"
-				(path "/51b7e780-688f-494d-9172-4437a593740a"
-					(reference "D461")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_45deg")
 		(at 215.9 165.1 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -42909,76 +42819,6 @@
 			(project "led_mapper_850"
 				(path "/51b7e780-688f-494d-9172-4437a593740a"
 					(reference "D542")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_45deg")
-		(at 269.24 104.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a4a6bc4c-9b8b-474c-a9ff-b15de6d00389")
-		(property "Reference" "D392"
-			(at 266.7 102.616 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 269.748 105.918 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
-			(at 269.24 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 269.24 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, rotated by 45°"
-			(at 269.24 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ca8b178-01e9-4f3e-8766-9b238ad2cbcc")
-		)
-		(pin "2"
-			(uuid "a3e6f3c9-4c37-429c-9801-3607a33fa8b9")
-		)
-		(instances
-			(project "led_mapper_850"
-				(path "/51b7e780-688f-494d-9172-4437a593740a"
-					(reference "D392")
 					(unit 1)
 				)
 			)
