@@ -1,3 +1,13 @@
+# ============================================================================ #
+# lay_out_pcb.py
+#
+# Jonah Lee
+# CCAT Prime 2025
+#
+# Lay out PCB. 
+# KiCAD script to place LEDs for 850GHz LED mapping
+# ============================================================================ #
+
 import pcbnew
 
 active_pcb = pcbnew.GetBoard()
@@ -28,7 +38,6 @@ class LedPlacer():
         self.reference_y_um = 0.0
 
     def set_led_positions(self) -> None:
-    
         for row_idx in range(self.num_rows):
             row = row_idx + 1
     
