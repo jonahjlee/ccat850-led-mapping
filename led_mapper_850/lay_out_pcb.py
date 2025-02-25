@@ -17,6 +17,18 @@ class LedPlacer():
     def __init__(self, pcb: pcbnew.BOARD=active_pcb):
         self.pcb = pcb
 
+        layertable = {}
+
+        for i in range(1000):
+            name = pcb.GetLayerName(i)
+            if name != "BAD INDEX!":
+                layertable[name]=i
+
+        self.layertable: int = layertable
+        self.front_copper_layer: int = self.layertable['F.Cu']
+        self.back_copper_layer: int = self.layertable['B.Cu']
+        self.edgecut: int = self.layertable['Edge.Cuts']
+
         # constants based on led_mapper_850.kicad_sch
         # rows and columns refer to position on pcb, not in schematic,
         # though the schematic is on the same grid except discontinuities where diagonals are missing
@@ -37,12 +49,34 @@ class LedPlacer():
         self.reference_x_um = 0.0
         self.reference_y_um = 0.0
 
-    def set_led_positions(self) -> None:
+        self.default_via_width = int(0.6*10**6)
+        self.default_via_drill = int(0.3*10**6)
+        self.default_via_type = pcbnew.VIATYPE_THROUGH
+
+    def do_for_each_position(self, func_apply) -> None:
+        """Iterate over each point in the 11.5 x 46 hex grid and call func_apply for each, passing in relevant arguments
+        
+        :param Callable func_apply: Is called for each LED given a dict containing:
+        - row: int, ranging from 1-12
+        - row_idx: int, ranging from 0-11
+        - col: int, ranging from 1-46
+        - col_idx: int, ranging from 0-45
+        - x_um: float, x position of grid point in um
+        - y_um: float, y position of grid point in um
+        - led_fp: pcbnew.FOOTPRINT, footprint of the given LED
+        """
         for row_idx in range(self.num_rows):
             row = row_idx + 1
     
             for col_idx in range(self.num_cols):
                 col = col_idx + 1
+
+                pos_data: dict = {
+                    'row': row,
+                    'col': col,
+                    'row_idx': row_idx,
+                    'col_idx': col_idx
+                }
 
                 # last row is half full
                 if (row == self.num_rows and col > self.num_cols // 2): continue
@@ -51,18 +85,40 @@ class LedPlacer():
 
                 fp: pcbnew.FOOTPRINT = self.pcb.FindFootprintByReference(ref)
                 assert fp is not None, f"footprint with refdes: '{ref}' not found!"
-                
-                if ref == self.reference_led:
-                    self.set_microns(fp, self.reference_x_um, self.reference_y_um)
-                    continue
+                pos_data['led_fp'] = fp
 
+                if ref == self.reference_led:
+                    pos_data['x_um'] = self.reference_x_um
+                    pos_data['y_um'] = self.reference_y_um
                 else:
-                    x_um = self.reference_x_um + col_idx * self.col_width_um + row_idx * self.row_shift_um
-                    y_um = self.reference_y_um + row_idx * self.row_height_um
-                    self.set_microns(fp, x_um, y_um)
+                    pos_data['x_um'] = self.reference_x_um + col_idx * self.col_width_um + row_idx * self.row_shift_um
+                    pos_data['y_um'] = self.reference_y_um + row_idx * self.row_height_um
+
+                func_apply(pos_data)
+
+    def place_leds(self, orientation_deg=0) -> None:
+        def place_led(pos_data):
+            self.set_microns(pos_data['led_fp'], pos_data['x_um'],  pos_data['y_um'])
+            pos_data['led_fp'].SetOrientationDegrees(orientation_deg)
+        self.do_for_each_position(place_led)
     
-    def set_microns(self, fp: pcbnew.FOOTPRINT, x_um: float, y_um: float) -> None:
-        fp.SetPosition(pcbnew.VECTOR2I_MM(x_um / 1000, y_um / 1000))
+    def place_pin1_vias(self) -> None:
+        def place_pin1_via(pos_data):
+
+            fp: pcbnew.FOOTPRINT = pos_data['led_fp']
+            pad1: pcbnew.PAD = fp.FindPadByNumber(1)
+            net: int = pad1.GetNetCode()
+            
+            offset_um = 12  # Adjustment to center via vertically between rows. I don't know why this is needed.
+            via: pcbnew.PCB_VIA = self.place_new_via(
+                pos_data['x_um'] - self.spacing_um / 2,
+                pos_data['y_um'] + self.row_height_um / 2 - offset_um,
+                net
+            )
+        self.do_for_each_position(place_pin1_via)
+    
+    def set_microns(self, item: pcbnew.EDA_ITEM, x_um: float, y_um: float) -> None:
+        item.SetPosition(pcbnew.VECTOR2I_MM(x_um / 1000, y_um / 1000))
 
     def led_footprint(self, row: int, col: int) -> pcbnew.FOOTPRINT:
         return self.pcb.FindFootprintByReference(self.led_ref(row, col))
@@ -95,3 +151,23 @@ class LedPlacer():
 
         row_idx = row - 1
         return row_idx * self.num_cols + col
+
+    def place_new_via(self, x_um: float, y_um: float, net: int,
+                      width: int=None, drill: int=None,
+                      top_layer: int=None, bottom_layer: int=None,
+                      via_type=None) -> pcbnew.PCB_VIA:
+        if width is None: width = self.default_via_width
+        if drill is None: drill = self.default_via_drill
+        if top_layer is None: top_layer = self.front_copper_layer
+        if bottom_layer is None: bottom_layer = self.back_copper_layer
+        if via_type is None: via_type = self.default_via_type
+
+        via = pcbnew.PCB_VIA(self.pcb)
+        self.pcb.Add(via)
+        self.set_microns(via, x_um, y_um)
+        via.SetWidth(width)
+        via.SetDrill(drill)
+        via.SetViaType(via_type)
+        via.SetLayerPair(top_layer, bottom_layer)
+        via.SetNetCode(net)
+        return via
