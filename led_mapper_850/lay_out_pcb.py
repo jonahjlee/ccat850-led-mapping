@@ -15,7 +15,14 @@ active_pcb = pcbnew.GetBoard()
 
 class LedPlacer():
 
-    def __init__(self, pcb: pcbnew.BOARD=active_pcb):
+    def __init__(self, network: int, pcb: pcbnew.BOARD=active_pcb):
+
+        valid_networks = {1, 2, 3, 4}
+        assert network in valid_networks, f"network must be one of: {valid_networks}"
+        self.network = network  # charlieplexed network id
+
+        self.connector_ref = f'J{self.network}'
+
         self.pcb = pcb
 
         layertable = {}
@@ -46,9 +53,23 @@ class LedPlacer():
         # equilateral triangle height, positive means we go down with increasing rows for top right rhombus
         self.row_height_um = (self.spacing_um ** 2 - self.row_shift_um ** 2) ** 0.5
         
-        self.reference_led = 'D1'  # set top left LED as reference position
-        self.reference_x_um = 0.0
-        self.reference_y_um = 0.0
+        if self.network == 1:
+            self.reference_led = 'D1'  # set top left LED as reference position
+            self.reference_x_um = 0.0
+            self.reference_y_um = 0.0
+        if self.network == 2:
+            self.reference_led = 'D530'  # set top left LED as reference position
+            self.reference_x_um = 200e3
+            self.reference_y_um = 0.0
+        if self.network == 3:
+            self.reference_led = 'D1059'  # set top left LED as reference position
+            self.reference_x_um = 0.0
+            self.reference_y_um = 200e3
+        if self.network == 4:
+            self.reference_led = 'D1588'  # set top left LED as reference position
+            self.reference_x_um = 200e3
+            self.reference_y_um = 200e3
+        
 
         self.default_via_width_nm = int(0.6*10**6)
         self.default_via_drill_nm = int(0.3*10**6)
@@ -181,18 +202,18 @@ class LedPlacer():
         self.do_for_each_position(place_pad2_via)
 
         # route each LED pad 1 (cathode) to its via
-        def route_pad2_to_via(pos_data):
-            fp: pcbnew.FOOTPRINT = pos_data['led_fp']
-            pad1: pcbnew.PAD = fp.FindPadByNumber(2)
-            via: pcbnew.PCB_VIA = pad2_vias[pos_data['row_idx']][pos_data['col_idx']]
+        # def route_pad2_to_via(pos_data):
+        #     fp: pcbnew.FOOTPRINT = pos_data['led_fp']
+        #     pad1: pcbnew.PAD = fp.FindPadByNumber(2)
+        #     via: pcbnew.PCB_VIA = pad2_vias[pos_data['row_idx']][pos_data['col_idx']]
             
-            track: pcbnew.PCB_TRACK = pcbnew.PCB_TRACK(self.pcb)
-            track.SetStart(pad1.GetCenter())
-            track.SetEnd(via.GetCenter())
-            track.SetWidth(self.track_width_nm)
-            track.SetLayer(self.front_copper_layer)
-            self.pcb.Add(track)
-        self.do_for_each_position(route_pad2_to_via)
+        #     track: pcbnew.PCB_TRACK = pcbnew.PCB_TRACK(self.pcb)
+        #     track.SetStart(pad1.GetCenter())
+        #     track.SetEnd(via.GetCenter())
+        #     track.SetWidth(self.track_width_nm)
+        #     track.SetLayer(self.front_copper_layer)
+        #     self.pcb.Add(track)
+        # self.do_for_each_position(route_pad2_to_via)
 
         pcbnew.Refresh()
 
@@ -202,14 +223,14 @@ class LedPlacer():
         Since Networks need to be tiled tightly, it is easiest to put tracks
         to the connector on the two sparsely-populated inner layers.
         """
-        j1_fp: pcbnew.FOOTPRINT = self.pcb.FindFootprintByReference('J1')
+        j1_fp: pcbnew.FOOTPRINT = self.pcb.FindFootprintByReference(self.connector_ref)
         for padnum in range(1, 13):
             # pad 1-12, left side
             pad: pcbnew.PAD = j1_fp.FindPadByNumber(padnum)
             via_x_um = (pad.GetCenter().x - pad.GetSizeX() / 2) / 1000 - self.connector_via_dist_um
             via_y_um = pad.GetCenter().y / 1000
             via: pcbnew.PCB_VIA = self.place_new_via(via_x_um, via_y_um, pad.GetNetCode())
-            self.add_track(pad, via, layer=self.back_copper_layer)
+            # self.add_track(pad, via, layer=self.back_copper_layer)
         for padnum in range(13, 25):
             # pad 13-24, left side
             pad: pcbnew.PAD = j1_fp.FindPadByNumber(padnum)
@@ -217,7 +238,7 @@ class LedPlacer():
             via_x_um = (pad.GetCenter().x + pad.GetSizeX() / 2) / 1000 + self.connector_via_dist_um
             via_y_um = pad.GetCenter().y / 1000
             via: pcbnew.PCB_VIA = self.place_new_via(via_x_um, via_y_um, pad.GetNetCode())
-            self.add_track(pad, via, layer=self.back_copper_layer)
+            # self.add_track(pad, via, layer=self.back_copper_layer)
 
         pcbnew.Refresh()
 
@@ -309,7 +330,8 @@ class LedPlacer():
         :param int col: The column of the LED in the rectangular grid, from left (col 1) to right (col 46)
         :return int: LED refdes
         '''
-        return f'D{self.led_id(row, col)}'
+        network_offset = (self.network - 1) * 529
+        return f'D{self.led_id(row, col) + network_offset}'
 
     def led_id(self, row: int, col: int) -> int:
         '''Get the id of an LED given its position in the grid.

@@ -472,7 +472,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "<no net>"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -603,6 +608,22 @@
     [
       "51b7e780-688f-494d-9172-4437a593740a",
       "Root"
+    ],
+    [
+      "0336ac2d-1518-434b-98ce-7b750e20605b",
+      "network1"
+    ],
+    [
+      "d9c8edf6-0db8-4a05-9e19-e51ea97e1f56",
+      "network2"
+    ],
+    [
+      "1301c309-39c1-43ee-a07e-79636b377c26",
+      "network3"
+    ],
+    [
+      "acdf1064-22a7-45b0-b045-023df4437ef1",
+      "network4"
     ]
   ],
   "text_variables": {}
