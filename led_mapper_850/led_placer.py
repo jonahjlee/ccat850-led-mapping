@@ -32,10 +32,9 @@ class LedPlacer():
             if name != "BAD INDEX!":
                 layertable[name]=i
 
-        self.layertable: int = layertable
+        self.layertable: dict = layertable
         self.front_copper_layer: int = self.layertable['F.Cu']
         self.back_copper_layer: int = self.layertable['B.Cu']
-        self.edgecut: int = self.layertable['Edge.Cuts']
 
         # constants based on led_mapper_850.kicad_sch
         # rows and columns refer to position on pcb, not in schematic,
@@ -46,143 +45,207 @@ class LedPlacer():
 
         # constants based on pixel_loc_analysis.xlsx
         # LEDs lie on a hexagonal grid composed of equilateral triangles with side length equal to self.spacing_um
-        # this script is intended to generate the top left rhombus -- the other 2 can be obtained through copy/paste/transformations/edits
         self.spacing_um = 1400.0
-        self.row_shift_um = -self.spacing_um / 2  # rows shift left for increasing rows for top right rhombus
+        # below are magnitudes only, directions change for different networks
+        self.row_shift_um = self.spacing_um / 2
         self.col_width_um = self.spacing_um
-        # equilateral triangle height, positive means we go down with increasing rows for top right rhombus
         self.row_height_um = (self.spacing_um ** 2 - self.row_shift_um ** 2) ** 0.5
-        
+
         if self.network == 1:
-            self.reference_led = 'D1'  # set top left LED as reference position
+            self.reference_led = 'D1'
+            self.leds: list[pcbnew.FOOTPRINT] = [self.pcb.FindFootprintByReference(f'D{ref_id}') for ref_id in range(1, 530)]
             self.reference_x_um = 0.0
             self.reference_y_um = 0.0
         if self.network == 2:
-            self.reference_led = 'D530'  # set top left LED as reference position
-            self.reference_x_um = 200e3
-            self.reference_y_um = 0.0
+            self.reference_led = 'D530'
+            self.leds: list[pcbnew.FOOTPRINT] = [self.pcb.FindFootprintByReference(f'D{ref_id}') for ref_id in range(530, 1059)]
+            self.reference_x_um = 45 * self.col_width_um - 22 * self.row_shift_um
+            self.reference_y_um = 22 * self.row_height_um
         if self.network == 3:
-            self.reference_led = 'D1059'  # set top left LED as reference position
-            self.reference_x_um = 0.0
-            self.reference_y_um = 200e3
+            self.reference_led = 'D1059'
+            self.leds: list[pcbnew.FOOTPRINT] = [self.pcb.FindFootprintByReference(f'D{ref_id}') for ref_id in range(1059, 1588)]
+            self.reference_x_um = -23 * self.row_shift_um
+            self.reference_y_um = 23 * self.row_height_um
         if self.network == 4:
-            self.reference_led = 'D1588'  # set top left LED as reference position
-            self.reference_x_um = 200e3
-            self.reference_y_um = 200e3
-        
+            self.reference_led = 'D1588'
+            self.leds: list[pcbnew.FOOTPRINT] = [self.pcb.FindFootprintByReference(f'D{ref_id}') for ref_id in range(1588, 2117)]
+            self.reference_x_um = 45 * self.col_width_um - 45 * self.row_shift_um
+            self.reference_y_um = 45 * self.row_height_um
 
-        self.default_via_width_nm = int(0.6*10**6)
-        self.default_via_drill_nm = int(0.3*10**6)
-        self.default_via_type = pcbnew.VIATYPE_THROUGH
+        self.via_width_nm = int(0.6 * 10 ** 6)
+        self.via_drill_nm = int(0.3 * 10 ** 6)
+        self.via_type = pcbnew.VIATYPE_THROUGH
         self.via_offset_um = 12  # Adjustment to center via vertically between rows. I don't know why this is needed.
-
         self.track_width_nm = int(0.2*10**6)
 
         self.connector_via_dist_um = 2000
 
-    def do_for_each_position(self, func_apply) -> None:
-        """Iterate over each point in the 11.5 x 46 hex grid and call func_apply for each, passing in relevant arguments
-        
-        :param Callable func_apply: Is called for each LED given a dict containing:
-        - row: int, ranging from 1-12
-        - row_idx: int, ranging from 0-11
-        - col: int, ranging from 1-46
-        - col_idx: int, ranging from 0-45
-        - x_um: float, x position of grid point in um
-        - y_um: float, y position of grid point in um
-        - led_fp: pcbnew.FOOTPRINT, footprint of the given LED
-        """
+        self.pad2_vias: dict[str, pcbnew.PCB_VIA] = {}  # map from led fp reference to pad 2 via
+
+    def place_leds(self) -> None:
+        """Place LEDs in a 46x11.5 hexagonal grid"""
         for row_idx in range(self.num_rows):
             row = row_idx + 1
-    
             for col_idx in range(self.num_cols):
                 col = col_idx + 1
 
-                pos_data: dict = {
-                    'row': row,
-                    'col': col,
-                    'row_idx': row_idx,
-                    'col_idx': col_idx
-                }
-
                 # last row is half full
-                if (row == self.num_rows and col > self.num_cols // 2): continue
+                if row == self.num_rows and col > self.num_cols // 2: continue
 
                 ref = self.led_ref(row, col)
-
                 fp: pcbnew.FOOTPRINT = self.pcb.FindFootprintByReference(ref)
                 assert fp is not None, f"footprint with refdes: '{ref}' not found!"
-                pos_data['led_fp'] = fp
 
                 if ref == self.reference_led:
-                    pos_data['x_um'] = self.reference_x_um
-                    pos_data['y_um'] = self.reference_y_um
+                    x_um = self.reference_x_um
+                    y_um = self.reference_y_um
                 else:
-                    pos_data['x_um'] = self.reference_x_um + col_idx * self.col_width_um + row_idx * self.row_shift_um
-                    pos_data['y_um'] = self.reference_y_um + row_idx * self.row_height_um
+                    if self.network in (1, 3):
+                        x_um = self.reference_x_um + col_idx * self.col_width_um - row_idx * self.row_shift_um
+                        y_um = self.reference_y_um + row_idx * self.row_height_um
+                    else:
+                        x_um = self.reference_x_um - col_idx * self.col_width_um + row_idx * self.row_shift_um
+                        y_um = self.reference_y_um - row_idx * self.row_height_um
 
-                func_apply(pos_data)
-
-    def place_leds(self, orientation_deg=60) -> None:
-        """Place LEDs in a 46x11.5 hexagonal grid"""
-        def place_led(pos_data):
-            self.set_microns(pos_data['led_fp'], pos_data['x_um'],  pos_data['y_um'])
-            pos_data['led_fp'].SetOrientationDegrees(orientation_deg)
-        self.do_for_each_position(place_led)
-
+                self.set_microns(fp, x_um, y_um)
+                orientation_deg = 60 if self.network in (1, 3) else 240
+                fp.SetOrientationDegrees(orientation_deg)
         pcbnew.Refresh()
-    
+
+    def route_rows(self) -> None:
+        """Route tracks for horizontal rows for LED pad 1"""
+        for row_idx in range(self.num_rows):
+            row = row_idx + 1
+            track1_start = self.led_footprint(row, 1).FindPadByNumber(1)
+            track1_end = self.led_footprint(row, 23).FindPadByNumber(1)
+            self.add_track_between_items(track1_start, track1_end)
+            if row != 12:
+                track2_start = self.led_footprint(row, 24).FindPadByNumber(1)
+                track2_end = self.led_footprint(row, 46).FindPadByNumber(1)
+                self.add_track_between_items(track2_start, track2_end)
+        pcbnew.Refresh()
+
     def place_pad2_vias(self) -> None:
         """Place vias and connect them with tracks to each LED pad 2 (cathode)"""
-        # designed for orientation_deg = 60
-        
-        pad2_vias = {}  # pad1_vias[row_idx][col_idx]
-
-        # place a via for each LED pad 1
-        def place_pad2_via(pos_data):
-
-            fp: pcbnew.FOOTPRINT = pos_data['led_fp']
+        # place a via for each LED pad 2
+        for fp in self.leds:
             pad1: pcbnew.PAD = fp.FindPadByNumber(2)
             net: int = pad1.GetNetCode()
-
             # vector from footprint centre to via center, before rotation
             x_offset = self.spacing_um / 2  # point to positive x (to the right), since this is for pad 2
             y_offset = self.row_height_um / 2 - self.via_offset_um
-
-            # rotate by 60 deg.
-            rot_x_offset =  cos(radians(60.)) * x_offset + sin(radians(60.)) * y_offset
-            rot_y_offset = -sin(radians(60.)) * x_offset + cos(radians(60.)) * y_offset
-            
+            # Apply clockwise rotation transformation matrix. It looks like counter-clockwise rotation,
+            # but since positive y is downwards, the plane is flipped.
+            rotate_angle = 60
+            if self.network in (2, 4): rotate_angle += 180
+            rot_x_offset =  cos(radians(rotate_angle)) * x_offset + sin(radians(rotate_angle)) * y_offset
+            rot_y_offset = -sin(radians(rotate_angle)) * x_offset + cos(radians(rotate_angle)) * y_offset
+            # add via
             via: pcbnew.PCB_VIA = self.place_new_via(
-                pos_data['x_um'] + rot_x_offset,
-                pos_data['y_um'] + rot_y_offset,
+                fp.GetPosition().x / 1000 + rot_x_offset,
+                fp.GetPosition().y / 1000 + rot_y_offset,
                 net
             )
-            if pos_data['row_idx'] in pad2_vias.keys():
-                pad2_vias[pos_data['row_idx']][pos_data['col_idx']] = via
-            else:
-                pad2_vias[pos_data['row_idx']] = {pos_data['col_idx']: via}
-        self.do_for_each_position(place_pad2_via)
+            # add track
+            self.add_track_between_items(pad1, via)
+            self.pad2_vias[fp.GetReference()] = via
+        pcbnew.Refresh()
 
-        # route each LED pad 1 (anode) to its via
-        # def route_pad2_to_via(pos_data):
-        #     fp: pcbnew.FOOTPRINT = pos_data['led_fp']
-        #     pad1: pcbnew.PAD = fp.FindPadByNumber(2)
-        #     via: pcbnew.PCB_VIA = pad2_vias[pos_data['row_idx']][pos_data['col_idx']]
-            
-        #     track: pcbnew.PCB_TRACK = pcbnew.PCB_TRACK(self.pcb)
-        #     track.SetStart(pad1.GetCenter())
-        #     track.SetEnd(via.GetCenter())
-        #     track.SetWidth(self.track_width_nm)
-        #     track.SetLayer(self.front_copper_layer)
-        #     self.pcb.Add(track)
-        # self.do_for_each_position(route_pad2_to_via)
+    def route_columns(self) -> None:
+        """Route tracks for vertical columns across for LED pad 2 (cathode)"""
+        for col_idx in range(self.num_cols):
+            col = col_idx + 1
+
+            if 1 <= col <= 12 or 35 <= col <= 46:
+                # left & right rectangular sections -- simply route all the way down
+                start_row = 1
+                end_row = 12 if col <= 23 else 11
+                start_via: pcbnew.PCB_VIA = self.get_pad2_via(start_row, col)
+                end_via: pcbnew.PCB_VIA = self.get_pad2_via(end_row, col)
+                self.add_track_between_items(start_via, end_via, layer=self.back_copper_layer)
+            if 13 <= col <= 22:
+                # triangle top left half
+                start_row = 1
+                end_row = 24 - col  # as we go to the right, we end further up
+                start_via: pcbnew.PCB_VIA = self.get_pad2_via(start_row, col)
+                end_via: pcbnew.PCB_VIA = self.get_pad2_via(end_row, col)
+                self.add_track_between_items(start_via, end_via, layer=self.back_copper_layer)
+            if 14 <= col <= 23:
+                # triangle section 1 bottom left half
+                start_row = 25 - col  # as we go to the right, we start further up
+                end_row = 12  # left half has full height
+                start_via: pcbnew.PCB_VIA = self.get_pad2_via(start_row, col)
+                end_via: pcbnew.PCB_VIA = self.get_pad2_via(end_row, col)
+                self.add_track_between_items(start_via, end_via, layer=self.back_copper_layer)
+            if 24 <= col <= 33:
+                # triangle top right half
+                start_row = 1
+                end_row = 35 - col  # as we go to the right, we end further up
+                start_via: pcbnew.PCB_VIA = self.get_pad2_via(start_row, col)
+                end_via: pcbnew.PCB_VIA = self.get_pad2_via(end_row, col)
+                self.add_track_between_items(start_via, end_via, layer=self.back_copper_layer)
+            if 26 <= col <= 34:
+                # triangle section 1 bottom right half
+                start_row = 36 - col  # as we go to the right, we start further up
+                end_row = 11  # left half has full height
+                start_via: pcbnew.PCB_VIA = self.get_pad2_via(start_row, col)
+                end_via: pcbnew.PCB_VIA = self.get_pad2_via(end_row, col)
+                self.add_track_between_items(start_via, end_via, layer=self.back_copper_layer)
+        pcbnew.Refresh()
+
+    def stitch_columns(self) -> None:
+
+        def stitch_track(start_via: pcbnew.PCB_VIA):
+            """Weave a track to connect vias on the back layer on the diagonal."""
+
+            # route up and to the right
+            track1_start = start_via.GetCenter()
+            track1_vec = self.vector2i_um(self.col_width_um / 2, 0)
+            if self.network in (2, 4): track1_vec *= -1
+            track1_end = track1_start + track1_vec
+            self.add_track_between_positions(track1_start, track1_end, layer=self.back_copper_layer)
+
+            track2_start = track1_end
+            track2_vec = self.vector2i_um(self.col_width_um, -2 * self.row_height_um)
+            if self.network in (2, 4): track2_vec *= -1
+            track2_end = track2_start + track2_vec
+            self.add_track_between_positions(track2_start, track2_end, layer=self.back_copper_layer)
+
+            track3_start = track2_end
+            track3_vec = self.vector2i_um(self.col_width_um / 2, 0)
+            if self.network in (2, 4): track3_vec *= -1
+            track3_end = track3_start + track3_vec
+            self.add_track_between_positions(track3_start, track3_end, layer=self.back_copper_layer)
+
+        for col in range (13, 22 + 1):
+            row = 25 - col
+            start_via: pcbnew.PCB_VIA = self.get_pad2_via(row, col)
+            stitch_track(start_via)
+        for col in range (25, 33 + 1):
+            row = 36 - col
+            start_via: pcbnew.PCB_VIA = self.get_pad2_via(row, col)
+            stitch_track(start_via)
+
+        pcbnew.Refresh()
+
+    def short_front_rows(self) -> None:
+        """Short rows on the front layer as appropriate to join pin rows/cols."""
+        for col in range(13, 23 + 1):
+            row = 25 - col
+            start_pad = self.led_footprint(row, col).FindPadByNumber(2)
+            end_pad = self.led_footprint(row - 1, col).FindPadByNumber(1)
+            self.add_track_between_items(start_pad, end_pad, layer=self.front_copper_layer)
+        for col in range(25, 34 + 1):
+            row = 36 - col
+            start_pad = self.led_footprint(row, col).FindPadByNumber(2)
+            end_pad = self.led_footprint(row - 1, col).FindPadByNumber(1)
+            self.add_track_between_items(start_pad, end_pad, layer=self.front_copper_layer)
 
         pcbnew.Refresh()
 
     def place_connector_vias(self) -> None:
         """Route each pad on the connector to a nearby via.
-        
+
         Since Networks need to be tiled tightly, it is easiest to put tracks
         to the connector on the two sparsely-populated inner layers.
         """
@@ -197,96 +260,50 @@ class LedPlacer():
         for padnum in range(13, 25):
             # pad 13-24, left side
             pad: pcbnew.PAD = j1_fp.FindPadByNumber(padnum)
-            pad: pcbnew.PAD = j1_fp.FindPadByNumber(padnum)
             via_x_um = (pad.GetCenter().x + pad.GetSizeX() / 2) / 1000 + self.connector_via_dist_um
             via_y_um = pad.GetCenter().y / 1000
             via: pcbnew.PCB_VIA = self.place_new_via(via_x_um, via_y_um, pad.GetNetCode())
             # self.add_track(pad, via, layer=self.back_copper_layer)
-
         pcbnew.Refresh()
 
-    def route_columns(self) -> None:
-        """Route tracks for vertical columns across for LED pad 2 (cathode)"""
-        for col_idx in range(self.num_cols):
-            col = col_idx + 1
+    def add_track_between_items(self, start_item: pcbnew.BOARD_ITEM, end_item: pcbnew.BOARD_ITEM, layer=None) -> None:
+        self.add_track_between_positions(start_item.GetCenter(), end_item.GetCenter(), layer=layer)
 
-            if 1 <= col <= 12 or 35 <= col <= 46:
-                # left & right rectangular sections -- simply route all the way down
-                start_row = 1
-                end_row = 12 if col <= 23 else 11
-                start_pad: pcbnew.PAD = self.led_footprint(start_row, col).FindPadByNumber(2)
-                end_pad: pcbnew.PAD = self.led_footprint(end_row, col).FindPadByNumber(2)
-                self.add_track(start_pad, end_pad)
-            if 13 <= col <= 22:
-                # triangle top left half
-                start_row = 1
-                end_row = 24 - col  # as we go to the right, we end further up
-                start_pad: pcbnew.PAD = self.led_footprint(start_row, col).FindPadByNumber(2)
-                end_pad: pcbnew.PAD = self.led_footprint(end_row, col).FindPadByNumber(2)
-                self.add_track(start_pad, end_pad)
-            if 14 <= col <= 23:
-                # triangle section 1 bottom left half
-                start_row = 25 - col  # as we go to the right, we start further up
-                end_row = 12  # left half has full height
-                start_pad: pcbnew.PAD = self.led_footprint(start_row, col).FindPadByNumber(2)
-                end_pad: pcbnew.PAD = self.led_footprint(end_row, col).FindPadByNumber(2)
-                self.add_track(start_pad, end_pad)
-            if 24 <= col <= 33:
-                # triangle top right half
-                start_row = 1
-                end_row = 35 - col  # as we go to the right, we end further up
-                start_pad: pcbnew.PAD = self.led_footprint(start_row, col).FindPadByNumber(2)
-                end_pad: pcbnew.PAD = self.led_footprint(end_row, col).FindPadByNumber(2)
-                self.add_track(start_pad, end_pad)
-            if 26 <= col <= 34:
-                # triangle section 1 bottom right half
-                start_row = 36 - col  # as we go to the right, we start further up
-                end_row = 11  # left half has full height
-                start_pad: pcbnew.PAD = self.led_footprint(start_row, col).FindPadByNumber(2)
-                end_pad: pcbnew.PAD = self.led_footprint(end_row, col).FindPadByNumber(2)
-                self.add_track(start_pad, end_pad)
-
-        pcbnew.Refresh()
-
-    def place_column_vias(self):
-        """place vias for pad 2 at the bottom of each column"""
-        for col_idx in range(self.num_cols):
-            col = col_idx + 1
-            bottom_row = 12 if col <= 23 else 11
-            bottom_fp: pcbnew.FOOTPRINT = self.led_footprint(bottom_row, col)
-            fp_pos_um: pcbnew.VECTOR2I = bottom_fp.GetPosition() / 1000
-            bottom_pad2: pcbnew.PAD = bottom_fp.FindPadByNumber(2)
-            net: int = bottom_pad2.GetNetCode()
-
-            via: pcbnew.PCB_VIA = self.place_new_via(
-                fp_pos_um.x,
-                fp_pos_um.y + self.row_height_um / 2 - self.via_offset_um,
-                net
-            )
-
-            self.add_track(bottom_pad2, via)
-        
-        pcbnew.Refresh()
-
-    def add_track(self, start_item: pcbnew.BOARD_ITEM, end_item: pcbnew.BOARD_ITEM, layer=None) -> None:
+    def add_track_between_positions(self, start_pos: pcbnew.VECTOR2I, end_pos: pcbnew.VECTOR2I, layer=None) -> None:
         if layer is None: layer = self.front_copper_layer
-        if start_item == end_item: return
+        if start_pos == end_pos: return
         track: pcbnew.PCB_TRACK = pcbnew.PCB_TRACK(self.pcb)
-        track.SetStart(start_item.GetCenter())
-        track.SetEnd(end_item.GetCenter())
+        track.SetStart(start_pos)
+        track.SetEnd(end_pos)
         track.SetWidth(self.track_width_nm)
         track.SetLayer(layer)
         self.pcb.Add(track)
 
-    def set_microns(self, item: pcbnew.EDA_ITEM, x_um: float, y_um: float) -> None:
-        item.SetPosition(pcbnew.VECTOR2I_MM(x_um / 1000, y_um / 1000))
+    def place_new_via(self, x_um: float, y_um: float, net: int,
+                      top_layer: int=None, bottom_layer: int=None) -> pcbnew.PCB_VIA:
+        if top_layer is None: top_layer = self.front_copper_layer
+        if bottom_layer is None: bottom_layer = self.back_copper_layer
+
+        via = pcbnew.PCB_VIA(self.pcb)
+        self.pcb.Add(via)
+        self.set_microns(via, x_um, y_um)
+        via.SetWidth(self.via_width_nm)
+        via.SetDrill(self.via_drill_nm)
+        via.SetViaType(self.via_type)
+        via.SetLayerPair(top_layer, bottom_layer)
+        via.SetNetCode(net)
+        return via
+
+    def get_pad2_via(self, row, col) -> pcbnew.PCB_VIA:
+        assert len(self.pad2_vias) > 0, "this placer must run place_pad2_vias() before via refs can be obtained"
+        return self.pad2_vias[self.led_footprint(row, col).GetReference()]
 
     def led_footprint(self, row: int, col: int) -> pcbnew.FOOTPRINT:
         return self.pcb.FindFootprintByReference(self.led_ref(row, col))
 
     def led_ref(self, row: int, col: int) -> str:
         '''Get the refdes of an LED given its position in the grid.
-        
+
         This method will break if the schematic is changed.
 
         :param int row: The row of the LED in the rectangular grid, from top (row 1) to bottom (row 12)
@@ -298,7 +315,7 @@ class LedPlacer():
 
     def led_id(self, row: int, col: int) -> int:
         '''Get the id of an LED given its position in the grid.
-        
+
         This method will break if the schematic is changed.
 
         :param int row: The row of the LED in the rectangular grid, from top (row 1) to bottom (row 12)
@@ -314,22 +331,9 @@ class LedPlacer():
         row_idx = row - 1
         return row_idx * self.num_cols + col
 
-    def place_new_via(self, x_um: float, y_um: float, net: int,
-                      width: int=None, drill: int=None,
-                      top_layer: int=None, bottom_layer: int=None,
-                      via_type=None) -> pcbnew.PCB_VIA:
-        if width is None: width = self.default_via_width_nm
-        if drill is None: drill = self.default_via_drill_nm
-        if top_layer is None: top_layer = self.front_copper_layer
-        if bottom_layer is None: bottom_layer = self.back_copper_layer
-        if via_type is None: via_type = self.default_via_type
+    def set_microns(self, item: pcbnew.EDA_ITEM, x_um: float, y_um: float) -> None:
+        item.SetPosition(self.vector2i_um(x_um, y_um))
 
-        via = pcbnew.PCB_VIA(self.pcb)
-        self.pcb.Add(via)
-        self.set_microns(via, x_um, y_um)
-        via.SetWidth(width)
-        via.SetDrill(drill)
-        via.SetViaType(via_type)
-        via.SetLayerPair(top_layer, bottom_layer)
-        via.SetNetCode(net)
-        return via
+    @staticmethod
+    def vector2i_um(x_um: float, y_um: float) -> pcbnew.VECTOR2I:
+        return pcbnew.VECTOR2I_MM(x_um / 1000, y_um / 1000)
