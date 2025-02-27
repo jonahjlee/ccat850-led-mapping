@@ -108,7 +108,7 @@ class LedPlacer():
                         y_um = self.reference_y_um - row_idx * self.row_height_um
 
                 self.set_microns(fp, x_um, y_um)
-                orientation_deg = 60 if self.network in (1, 3) else 240
+                orientation_deg = 60
                 fp.SetOrientationDegrees(orientation_deg)
         pcbnew.Refresh()
 
@@ -137,7 +137,6 @@ class LedPlacer():
             # Apply clockwise rotation transformation matrix. It looks like counter-clockwise rotation,
             # but since positive y is downwards, the plane is flipped.
             rotate_angle = 60
-            if self.network in (2, 4): rotate_angle += 180
             rot_x_offset =  cos(radians(rotate_angle)) * x_offset + sin(radians(rotate_angle)) * y_offset
             rot_y_offset = -sin(radians(rotate_angle)) * x_offset + cos(radians(rotate_angle)) * y_offset
             # add via
@@ -230,15 +229,17 @@ class LedPlacer():
 
     def short_front_rows(self) -> None:
         """Short rows on the front layer as appropriate to join pin rows/cols."""
+        start_padnum = 2 if self.network in (1, 3) else 1
+        end_padnum = 1 if self.network in (1, 3) else 2
         for col in range(13, 23 + 1):
             row = 25 - col
-            start_pad = self.led_footprint(row, col).FindPadByNumber(2)
-            end_pad = self.led_footprint(row - 1, col).FindPadByNumber(1)
+            start_pad = self.led_footprint(row, col).FindPadByNumber(start_padnum)
+            end_pad = self.led_footprint(row - 1, col).FindPadByNumber(end_padnum)
             self.add_track_between_items(start_pad, end_pad, layer=self.front_copper_layer)
         for col in range(25, 34 + 1):
             row = 36 - col
-            start_pad = self.led_footprint(row, col).FindPadByNumber(2)
-            end_pad = self.led_footprint(row - 1, col).FindPadByNumber(1)
+            start_pad = self.led_footprint(row, col).FindPadByNumber(start_padnum)
+            end_pad = self.led_footprint(row - 1, col).FindPadByNumber(end_padnum)
             self.add_track_between_items(start_pad, end_pad, layer=self.front_copper_layer)
 
         pcbnew.Refresh()
