@@ -123,7 +123,8 @@ class LedPlacer():
 
                 func_apply(pos_data)
 
-    def place_leds(self, orientation_deg=0) -> None:
+    def place_leds(self, orientation_deg=60) -> None:
+        """Place LEDs in a 46x11.5 hexagonal grid"""
         def place_led(pos_data):
             self.set_microns(pos_data['led_fp'], pos_data['x_um'],  pos_data['y_um'])
             pos_data['led_fp'].SetOrientationDegrees(orientation_deg)
@@ -131,46 +132,8 @@ class LedPlacer():
 
         pcbnew.Refresh()
     
-    def place_pad1_vias(self) -> None:
-        # designed for orientation_deg = 0
-        
-        pad1_vias = {}  # pad1_vias[row_idx][col_idx]
-
-        # place a via for each LED pad 1
-        def place_pad1_via(pos_data):
-
-            fp: pcbnew.FOOTPRINT = pos_data['led_fp']
-            pad1: pcbnew.PAD = fp.FindPadByNumber(1)
-            net: int = pad1.GetNetCode()
-            
-            via: pcbnew.PCB_VIA = self.place_new_via(
-                pos_data['x_um'] - self.spacing_um / 2,
-                pos_data['y_um'] + self.row_height_um / 2 - self.via_offset_um,
-                net
-            )
-            if pos_data['row_idx'] in pad1_vias.keys():
-                pad1_vias[pos_data['row_idx']][pos_data['col_idx']] = via
-            else:
-                pad1_vias[pos_data['row_idx']] = {pos_data['col_idx']: via}
-        self.do_for_each_position(place_pad1_via)
-
-        # route each LED pad 1 (cathode) to its via
-        def route_pad1_to_via(pos_data):
-            fp: pcbnew.FOOTPRINT = pos_data['led_fp']
-            pad1: pcbnew.PAD = fp.FindPadByNumber(1)
-            via: pcbnew.PCB_VIA = pad1_vias[pos_data['row_idx']][pos_data['col_idx']]
-            
-            track: pcbnew.PCB_TRACK = pcbnew.PCB_TRACK(self.pcb)
-            track.SetStart(pad1.GetCenter())
-            track.SetEnd(via.GetCenter())
-            track.SetWidth(self.track_width_nm)
-            track.SetLayer(self.front_copper_layer)
-            self.pcb.Add(track)
-        self.do_for_each_position(route_pad1_to_via)
-
-        pcbnew.Refresh()
-    
     def place_pad2_vias(self) -> None:
+        """Place vias and connect them with tracks to each LED pad 2 (cathode)"""
         # designed for orientation_deg = 60
         
         pad2_vias = {}  # pad1_vias[row_idx][col_idx]
@@ -201,7 +164,7 @@ class LedPlacer():
                 pad2_vias[pos_data['row_idx']] = {pos_data['col_idx']: via}
         self.do_for_each_position(place_pad2_via)
 
-        # route each LED pad 1 (cathode) to its via
+        # route each LED pad 1 (anode) to its via
         # def route_pad2_to_via(pos_data):
         #     fp: pcbnew.FOOTPRINT = pos_data['led_fp']
         #     pad1: pcbnew.PAD = fp.FindPadByNumber(2)
@@ -243,7 +206,7 @@ class LedPlacer():
         pcbnew.Refresh()
 
     def route_columns(self) -> None:
-        """Route tracks for vertical columns across for LED pad 2 (anode)"""
+        """Route tracks for vertical columns across for LED pad 2 (cathode)"""
         for col_idx in range(self.num_cols):
             col = col_idx + 1
 
