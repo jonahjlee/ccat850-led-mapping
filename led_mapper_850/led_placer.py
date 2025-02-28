@@ -1,5 +1,5 @@
 # ============================================================================ #
-# lay_out_pcb.py
+# led_placer.py
 #
 # Jonah Lee
 # CCAT Prime 2025
@@ -13,7 +13,7 @@ from math import cos, sin, radians
 
 active_pcb = pcbnew.GetBoard()
 
-class LedPlacer():
+class LedPlacer:
 
     def __init__(self, network: int, pcb: pcbnew.BOARD=active_pcb):
 
@@ -21,19 +21,12 @@ class LedPlacer():
         assert network in valid_networks, f"network must be one of: {valid_networks}"
         self.network = network  # charlieplexed network id
 
-        self.connector_ref = f'J{self.network}'
-
         self.pcb = pcb
 
-        layertable = {}
-
-        for i in range(1000):
-            name = pcb.GetLayerName(i)
-            if name != "BAD INDEX!":
-                layertable[name]=i
-
-        self.layertable: dict = layertable
+        self.layertable: dict[str, int] = self.get_layertable()
         self.front_copper_layer: int = self.layertable['F.Cu']
+        self.inner_layer_1 = self.layertable['In1.Cu']
+        self.inner_layer_2 = self.layertable['In2.Cu']
         self.back_copper_layer: int = self.layertable['B.Cu']
 
         # constants based on led_mapper_850.kicad_sch
@@ -51,26 +44,7 @@ class LedPlacer():
         self.col_width_um = self.spacing_um
         self.row_height_um = (self.spacing_um ** 2 - self.row_shift_um ** 2) ** 0.5
 
-        if self.network == 1:
-            self.reference_led = 'D1'
-            self.leds: list[pcbnew.FOOTPRINT] = [self.pcb.FindFootprintByReference(f'D{ref_id}') for ref_id in range(1, 530)]
-            self.reference_x_um = 0.0
-            self.reference_y_um = 0.0
-        if self.network == 2:
-            self.reference_led = 'D530'
-            self.leds: list[pcbnew.FOOTPRINT] = [self.pcb.FindFootprintByReference(f'D{ref_id}') for ref_id in range(530, 1059)]
-            self.reference_x_um = 45 * self.col_width_um - 22 * self.row_shift_um
-            self.reference_y_um = 22 * self.row_height_um
-        if self.network == 3:
-            self.reference_led = 'D1059'
-            self.leds: list[pcbnew.FOOTPRINT] = [self.pcb.FindFootprintByReference(f'D{ref_id}') for ref_id in range(1059, 1588)]
-            self.reference_x_um = -23 * self.row_shift_um
-            self.reference_y_um = 23 * self.row_height_um
-        if self.network == 4:
-            self.reference_led = 'D1588'
-            self.leds: list[pcbnew.FOOTPRINT] = [self.pcb.FindFootprintByReference(f'D{ref_id}') for ref_id in range(1588, 2117)]
-            self.reference_x_um = 45 * self.col_width_um - 45 * self.row_shift_um
-            self.reference_y_um = 45 * self.row_height_um
+        self.reference_led, self.leds, self.reference_x_um, self.reference_y_um = self.get_leds()
 
         self.via_width_nm = int(0.6 * 10 ** 6)
         self.via_drill_nm = int(0.3 * 10 ** 6)
@@ -78,9 +52,14 @@ class LedPlacer():
         self.via_offset_um = 12  # Adjustment to center via vertically between rows. I don't know why this is needed.
         self.track_width_nm = int(0.2*10**6)
 
+        self.connector_ref = f'J{self.network}'
         self.connector_via_dist_um = 2000
 
         self.pad2_vias: dict[str, pcbnew.PCB_VIA] = {}  # map from led fp reference to pad 2 via
+
+    # =====================================================
+    # PLACEMENT METHODS - MODIFY THE PCB
+    # =====================================================
 
     def place_leds(self) -> None:
         """Place LEDs in a 46x11.5 hexagonal grid"""
@@ -195,26 +174,26 @@ class LedPlacer():
     def stitch_columns(self) -> None:
 
         def stitch_track(start_via: pcbnew.PCB_VIA):
-            """Weave a track to connect vias on the back layer on the diagonal."""
+            """Weave a track to connect vias on the back layer on the diagonal.
 
-            # route up and to the right
-            track1_start = start_via.GetCenter()
-            track1_vec = self.vector2i_um(self.col_width_um / 2, 0)
-            if self.network in (2, 4): track1_vec *= -1
-            track1_end = track1_start + track1_vec
-            self.add_track_between_positions(track1_start, track1_end, layer=self.back_copper_layer)
+            Shape illustrated (roughly):
+               /-
+              /
+            -/
+            """
 
-            track2_start = track1_end
-            track2_vec = self.vector2i_um(self.col_width_um, -2 * self.row_height_um)
-            if self.network in (2, 4): track2_vec *= -1
-            track2_end = track2_start + track2_vec
-            self.add_track_between_positions(track2_start, track2_end, layer=self.back_copper_layer)
+            track_start = start_via.GetCenter()
+            direction = 1 if self.network in (1, 3) else -1
 
-            track3_start = track2_end
-            track3_vec = self.vector2i_um(self.col_width_um / 2, 0)
-            if self.network in (2, 4): track3_vec *= -1
-            track3_end = track3_start + track3_vec
-            self.add_track_between_positions(track3_start, track3_end, layer=self.back_copper_layer)
+            self.route_segmented_track(
+                track_start,
+                [
+                    self.vector2i_um(self.col_width_um / 2, 0) * direction,
+                    self.vector2i_um(self.col_width_um, -2 * self.row_height_um) * direction,
+                    self.vector2i_um(self.col_width_um / 2, 0) * direction
+                ],
+                layer=self.back_copper_layer
+            )
 
         for col in range (13, 22 + 1):
             row = 25 - col
@@ -266,6 +245,46 @@ class LedPlacer():
             via: pcbnew.PCB_VIA = self.place_new_via(via_x_um, via_y_um, pad.GetNetCode())
             # self.add_track(pad, via, layer=self.back_copper_layer)
         pcbnew.Refresh()
+
+    def connect_sections_in1(self) -> None:
+        for col_1 in range(1, 12 + 1):
+            col_2 = col_1 + 23
+            row = col_1
+
+
+    # =====================================================
+    # HELPER METHODS
+    # =====================================================
+
+    def add_track_around_vias(self, row: int, col1: int, col2: int, layer: int, route_below: bool=True) -> None:
+        """Create a horizontal track that joins vias on the same row.
+
+        Shape illustrated (roughly) for route_below. If route_below==False, it is mirrored vertically.
+        \                   /
+         \-----------------/
+        """
+        left_via = self.get_pad2_via(row, col1)
+        right_via = self.get_pad2_via(row, col2)
+
+        direction: int = 1 if route_below else -1
+        track_start = left_via.GetCenter()
+        left_x_um = left_via.GetCenter().x * 1000
+        right_x_um = right_via.GetCenter().x * 1000
+        self.route_segmented_track(
+            track_start,
+            [
+                self.vector2i_um(self.col_width_um / 4, self.row_height_um / 2 * direction),
+                self.vector2i_um(right_x_um - left_x_um - self.col_width_um / 2, 0),
+                self.vector2i_um(self.col_width_um / 4, self.row_height_um / 2 * -direction)
+            ],
+            layer=layer
+        )
+
+    def route_segmented_track(self, start_loc: pcbnew.VECTOR2I, segments: list[pcbnew.VECTOR2I], layer=None) -> None:
+        prev_loc: pcbnew.VECTOR2I = start_loc
+        for vec in segments:
+            self.add_track_between_positions(prev_loc, prev_loc + vec, layer=layer)
+            prev_loc += vec
 
     def add_track_between_items(self, start_item: pcbnew.BOARD_ITEM, end_item: pcbnew.BOARD_ITEM, layer=None) -> None:
         self.add_track_between_positions(start_item.GetCenter(), end_item.GetCenter(), layer=layer)
@@ -338,3 +357,35 @@ class LedPlacer():
     @staticmethod
     def vector2i_um(x_um: float, y_um: float) -> pcbnew.VECTOR2I:
         return pcbnew.VECTOR2I_MM(x_um / 1000, y_um / 1000)
+
+    def get_layertable(self) -> dict[str, int]:
+        layertable: dict[str, int] = {}
+        for i in range(1000):
+            name = self.pcb.GetLayerName(i)
+            if name != "BAD INDEX!":
+                layertable[name] = i
+        return layertable
+
+    def get_leds(self) -> tuple[str, list[pcbnew.FOOTPRINT], float, float]:
+        if self.network == 1:
+            reference_led = 'D1'
+            leds: list[pcbnew.FOOTPRINT] = [self.pcb.FindFootprintByReference(f'D{ref_id}') for ref_id in range(1, 530)]
+            reference_x_um = 0.0
+            reference_y_um = 0.0
+        elif self.network == 2:
+            reference_led = 'D530'
+            leds: list[pcbnew.FOOTPRINT] = [self.pcb.FindFootprintByReference(f'D{ref_id}') for ref_id in range(530, 1059)]
+            reference_x_um = 45 * self.col_width_um - 22 * self.row_shift_um
+            reference_y_um = 22 * self.row_height_um
+        elif self.network == 3:
+            reference_led = 'D1059'
+            leds: list[pcbnew.FOOTPRINT] = [self.pcb.FindFootprintByReference(f'D{ref_id}') for ref_id in range(1059, 1588)]
+            reference_x_um = -23 * self.row_shift_um
+            reference_y_um = 23 * self.row_height_um
+        else:
+            assert self.network == 4, "invalid network ID!"
+            reference_led = 'D1588'
+            leds: list[pcbnew.FOOTPRINT] = [self.pcb.FindFootprintByReference(f'D{ref_id}') for ref_id in range(1588, 2117)]
+            reference_x_um = 45 * self.col_width_um - 45 * self.row_shift_um
+            reference_y_um = 45 * self.row_height_um
+        return reference_led, leds, reference_x_um, reference_y_um
