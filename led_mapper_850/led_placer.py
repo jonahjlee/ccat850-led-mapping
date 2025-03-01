@@ -289,38 +289,17 @@ class LedPlacer:
         for args in track_args:
             self.add_track_around_vias(*args)
         pcbnew.Refresh()
-        # if self.network in (1, 3):
-        #     for col_1 in range(1, 6 + 1):
-        #         row = col_1
-        #         col_2 = col_1 + 23
-        #         self.add_track_around_vias(row, col_1, col_2, self.inner_layer_1)
-        #     for col_1 in range(7, 11 + 1):
-        #         row = col_1
-        #         col_2 = col_1 + 22
-        #         self.add_track_around_vias(row, col_1, col_2, self.inner_layer_1)
-        #     self.add_track_around_vias(11, 12, 34, self.inner_layer_1, route_below=True)
-        # else:
-        #     for col_1 in range(13, 18 + 1):
-        #         row = col_1 - 12
-        #         col_2 = col_1 + 22
-        #         self.add_track_around_vias(row, col_1, col_2, self.inner_layer_1, route_below=True)
-        #     self.add_track_around_vias(7, 18, 18 + 24, self.inner_layer_1, route_below=True)
-        #     for col_1 in range(19, 22 + 1):
-        #         row = col_1 - 12
-        #         col_2 = col_1 + 24
-        #         self.add_track_around_vias(row, col_1, col_2, self.inner_layer_1)
-        # self.add_track_around_vias(11, 23, 46, self.inner_layer_1) - not enough space
 
     def connect_sections_in2(self) -> None:
         # dict indexed by row
         # values are in the form (row:int, col1:int, col2:int, layer:int,route_below:bool)
         if self.network in (1, 3):
             track_args = [
-                (1,  13, 35, self.inner_layer_2, True),
-                (2,  14, 37, self.inner_layer_2, True),
-                (3,  15, 37, self.inner_layer_2, True),
-                (4,  16, 38, self.inner_layer_2, True),
-                (5,  17, 39, self.inner_layer_2, True),
+                (2,  14, 36, self.inner_layer_2, False),
+                (3,  15, 37, self.inner_layer_2, False),
+                (4,  16, 38, self.inner_layer_2, False),
+                (5,  17, 39, self.inner_layer_2, False),
+                (5,  19, 41, self.inner_layer_2, True),
                 (6,  18, 40, self.inner_layer_2, True),
                 (7,  19, 42, self.inner_layer_2, True),
                 (8,  20, 43, self.inner_layer_2, True),
@@ -336,12 +315,12 @@ class LedPlacer:
                 (4,  4,  27, self.inner_layer_2, True),
                 (5,  5,  28, self.inner_layer_2, True),
                 (6,  6,  29, self.inner_layer_2, True),
-                (7,  8,  30, self.inner_layer_2, True),
-                (8,  8,  31, self.inner_layer_2, True),
-                (9,  10, 32, self.inner_layer_2, True),
-                (10, 11, 33, self.inner_layer_2, True),
-                (11, 12, 34, self.inner_layer_2, True),
-                (11, 13, 35, self.inner_layer_2, False),
+                (7,  7,  29, self.inner_layer_2, True),
+                (8,  8,  30, self.inner_layer_2, True),
+                (9,  9,  31, self.inner_layer_2, True),
+                (10, 10, 32, self.inner_layer_2, True),
+                (11, 11, 33, self.inner_layer_2, True),
+                (11, 12, 34, self.inner_layer_2, False),
             ]
         for args in track_args:
             self.add_track_around_vias(*args)
