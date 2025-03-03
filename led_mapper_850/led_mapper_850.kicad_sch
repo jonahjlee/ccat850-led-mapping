@@ -26,7 +26,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "single_net.kicad_sch"
 			(at 29.21 164.4146 0)
 			(effects
 				(font
@@ -64,7 +64,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "single_net.kicad_sch"
 			(at 156.21 72.9746 0)
 			(effects
 				(font
@@ -102,7 +102,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "single_net.kicad_sch"
 			(at 158.75 161.8746 0)
 			(effects
 				(font
@@ -140,7 +140,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "single_net.kicad_sch"
 			(at 24.13 71.7046 0)
 			(effects
 				(font
