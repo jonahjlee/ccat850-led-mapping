@@ -407,26 +407,26 @@ class LedPlacer:
         return self.pcb.FindFootprintByReference(self.led_ref(row, col))
 
     def led_ref(self, row: int, col: int) -> str:
-        '''Get the refdes of an LED given its position in the grid.
+        """Get the refdes of an LED given its position in the grid.
 
         This method will break if the schematic is changed.
 
         :param int row: The row of the LED in the rectangular grid, from top (row 1) to bottom (row 12)
         :param int col: The column of the LED in the rectangular grid, from left (col 1) to right (col 46)
         :return int: LED refdes
-        '''
+        """
         network_offset = (self.network - 1) * 529
         return f'D{self.led_id(row, col) + network_offset}'
 
     def led_id(self, row: int, col: int) -> int:
-        '''Get the id of an LED given its position in the grid.
+        """Get the id of an LED given its position in the grid.
 
         This method will break if the schematic is changed.
 
         :param int row: The row of the LED in the rectangular grid, from top (row 1) to bottom (row 12)
         :param int col: The column of the LED in the rectangular grid, from left (col 1) to right (col 46)
         :return int: LED id
-        '''
+        """
         assert 1 <= row <= self.num_rows, f"row {row} is outside the grid!"
         assert 1 <= col <= self.num_cols, f"column {col} is outside the grid!"
         half_cols = self.num_cols // 2
