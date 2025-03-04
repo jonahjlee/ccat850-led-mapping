@@ -31,6 +31,11 @@ fp-info-cache
 *.xml
 *.csv
 
+# User changes
+
 # Gerber files
 *.gbr
 *.gbrjob
+
+# Pycharm
+*.iml
