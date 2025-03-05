@@ -11,8 +11,6 @@
 import pcbnew
 from math import cos, sin, radians
 
-from wx.lib.agw.aui import left_focus
-
 active_pcb = pcbnew.GetBoard()
 
 class LedPlacer:
