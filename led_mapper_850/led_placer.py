@@ -134,13 +134,18 @@ class LedPlacer:
         for col_idx in range(self.num_cols):
             col = col_idx + 1
 
-            if 1 <= col <= 12 or 35 <= col <= 46:
+            if (1 <= col <= 12 or 35 <= col <= 46) and self.network == 1:
                 # left & right rectangular sections -- simply route all the way down
+                # since they go across ALL networks, only route from network 1
                 start_row = 1
                 end_row = 12 if col <= 23 else 11
                 start_via: pcbnew.PCB_VIA = self.get_pad2_via(start_row, col)
-                end_via: pcbnew.PCB_VIA = self.get_pad2_via(end_row, col)
-                self.add_track_between_items(start_via, end_via, layer=self.back_copper_layer)
+                path_across_all: pcbnew.VECTOR2I = self.vector2i_um(-45 * self.row_shift_um, 45 * self.row_height_um)
+                self.route_segmented_track(
+                    start_via.GetCenter(),
+                    [path_across_all],
+                    self.back_copper_layer
+                )
             if 13 <= col <= 22:
                 # triangle top left half
                 start_row = 1
@@ -173,7 +178,7 @@ class LedPlacer:
 
     def stitch_columns(self) -> None:
 
-        def stitch_track(start_via: pcbnew.PCB_VIA):
+        def stitch_diagonal(start_via: pcbnew.PCB_VIA):
             """Weave a track to connect vias on the back layer on the diagonal.
 
             Shape illustrated (roughly):
@@ -195,14 +200,47 @@ class LedPlacer:
                 layer=self.back_copper_layer
             )
 
+        # stitch diagonals
         for col in range (13, 22 + 1):
             row = 25 - col
             start_via: pcbnew.PCB_VIA = self.get_pad2_via(row, col)
-            stitch_track(start_via)
+            stitch_diagonal(start_via)
         for col in range (25, 33 + 1):
             row = 36 - col
             start_via: pcbnew.PCB_VIA = self.get_pad2_via(row, col)
-            stitch_track(start_via)
+            stitch_diagonal(start_via)
+
+        # stitch between networks
+        down_and_right: pcbnew.VECTOR2I = self.vector2i_um(self.row_shift_um, self.row_height_um)
+        down_and_left: pcbnew.VECTOR2I = self.vector2i_um(-self.row_shift_um, self.row_height_um)
+        around_to_the_right: list[pcbnew.VECTOR2I] = [
+            self.vector2i_um(self.row_shift_um / 2, self.row_height_um / 2),
+            self.vector2i_um(-self.row_shift_um * 1.5, self.row_height_um * 1.5),
+            self.vector2i_um(-self.col_width_um / 2, 0)
+        ]
+        around_to_the_left: list[pcbnew.VECTOR2I] = [
+            self.vector2i_um(-self.row_shift_um / 2, 0),
+            self.vector2i_um(-self.row_shift_um * 1.5, self.row_height_um * 1.5),
+            self.vector2i_um(self.row_shift_um / 2, self.row_height_um / 2)
+        ]
+        if self.network in (1, 3):
+            self.route_segmented_track(self.get_pad2_via(11, 13).GetCenter(), around_to_the_left, self.back_copper_layer)
+            for col in range(13, 21 + 1):
+                self.route_segmented_track(self.get_pad2_via(12, col).GetCenter(), [down_and_right], self.back_copper_layer)
+            self.route_segmented_track(self.get_pad2_via(12, 22).GetCenter(), around_to_the_right, self.back_copper_layer)
+            self.route_segmented_track(self.get_pad2_via(12, 23).GetCenter(), [down_and_left], self.back_copper_layer)
+            for col in range(32, 33 + 1):
+                self.route_segmented_track(self.get_pad2_via(11, col).GetCenter(), [down_and_right], self.back_copper_layer)
+            self.route_segmented_track(self.get_pad2_via(11, 34).GetCenter(), around_to_the_right, self.back_copper_layer)
+        elif self.network == 2:
+            # since we are going in between, no need to route from net 4
+            self.route_segmented_track(self.get_pad2_via(2, 34).GetCenter(), around_to_the_left, self.back_copper_layer)
+            for col in range(25, 34 + 1):
+                self.route_segmented_track(self.get_pad2_via(1, col).GetCenter(), [down_and_right], self.back_copper_layer)
+            self.route_segmented_track(self.get_pad2_via(1, 24).GetCenter(), around_to_the_right, self.back_copper_layer)
+            for col in range(14, 15 + 1):
+                self.route_segmented_track(self.get_pad2_via(1, col).GetCenter(), [down_and_right], self.back_copper_layer)
+            self.route_segmented_track(self.get_pad2_via(1, 13).GetCenter(), around_to_the_right, self.back_copper_layer)
 
         pcbnew.Refresh()
 
@@ -365,7 +403,9 @@ class LedPlacer:
 
     def route_segmented_track(self, start_loc: pcbnew.VECTOR2I, segments: list[pcbnew.VECTOR2I], layer=None) -> None:
         prev_loc: pcbnew.VECTOR2I = start_loc
+        assert isinstance(segments, list), f"segments '{segments}' must be a list!"
         for vec in segments:
+            assert isinstance(vec, pcbnew.VECTOR2I), f"Elements of segments must be VECTOR2Is! {vec=}"
             self.add_track_between_positions(prev_loc, prev_loc + vec, layer=layer)
             prev_loc += vec
 
