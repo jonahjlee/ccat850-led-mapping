@@ -219,7 +219,7 @@ class LedPlacer:
             self.vector2i_um(-self.col_width_um / 2, 0)
         ]
         around_to_the_left: list[pcbnew.VECTOR2I] = [
-            self.vector2i_um(-self.row_shift_um / 2, 0),
+            self.vector2i_um(-self.col_width_um / 2, 0),
             self.vector2i_um(-self.row_shift_um * 1.5, self.row_height_um * 1.5),
             self.vector2i_um(self.row_shift_um / 2, self.row_height_um / 2)
         ]
@@ -250,15 +250,20 @@ class LedPlacer:
         end_padnum = 1 if self.network in (1, 3) else 2
         for col in range(13, 23 + 1):
             row = 25 - col
+            if row < 10 and self.network in (2, 4): continue
             start_pad = self.led_footprint(row, col).FindPadByNumber(start_padnum)
             end_pad = self.led_footprint(row - 1, col).FindPadByNumber(end_padnum)
             self.add_track_between_items(start_pad, end_pad, layer=self.front_copper_layer)
+
+        if self.network in (1, 3):
+            pcbnew.Refresh()
+            return
+
         for col in range(25, 34 + 1):
             row = 36 - col
             start_pad = self.led_footprint(row, col).FindPadByNumber(start_padnum)
             end_pad = self.led_footprint(row - 1, col).FindPadByNumber(end_padnum)
             self.add_track_between_items(start_pad, end_pad, layer=self.front_copper_layer)
-
         pcbnew.Refresh()
 
     def place_connector_vias(self) -> None:
@@ -290,6 +295,34 @@ class LedPlacer:
             via: pcbnew.PCB_VIA = self.place_new_via(via_pos.x / 1000, via_pos.y / 1000, pad.GetNetCode())
             self.add_track_between_items(pad, via, layer=self.back_copper_layer)
         pcbnew.Refresh()
+    
+    def place_row_end_vias(self, place_tracks=True) -> None:
+        # position relative to the same LED's pad 2 via
+        via_displacement: pcbnew.VECTOR2I = self.vector2i_um(self.row_shift_um, self.row_height_um)
+        if self.network in (1, 3):
+            end_row = 11
+            rightmost_column = 46
+        else:
+            end_row = 12
+            rightmost_column = 1
+        for row in range(1, end_row + 1):
+            led_fp: pcbnew.FOOTPRINT = self.led_footprint(row, rightmost_column)
+            pad_1: pcbnew.PAD = led_fp.FindPadByNumber(1)
+            pad2_via_pos = self.pad2_vias[led_fp.GetReference()].GetCenter()
+            via_pos: pcbnew.VECTOR2I = pad2_via_pos + via_displacement
+            via: pcbnew.PCB_VIA = self.place_new_via(via_pos.x / 1000, via_pos.y / 1000, pad_1.GetNetCode())
+            if place_tracks:
+                x_dist_um: float = (pad2_via_pos.x - pad_1.GetCenter().x) / 1000 + self.row_shift_um / 2
+                self.route_segmented_track(
+                    pad_1.GetCenter(),
+                    [
+                        self.vector2i_um(x_dist_um, 0),
+                        self.vector2i_um(self.row_shift_um / 2, self.row_height_um / 2)
+                    ],
+                    self.front_copper_layer
+                )
+        pcbnew.Refresh()
+                
 
     def connect_sections_in1(self) -> None:
         if self.network in (1, 3):
