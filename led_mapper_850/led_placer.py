@@ -244,7 +244,7 @@ class LedPlacer:
 
         if self.network in (1, 3):
             for row in range(2, 4 + 1):
-                col = 35 - row
+                col = 36 - row
                 start_pad = self.led_footprint(row, col).FindPadByNumber(start_padnum)
                 end_pad = self.led_footprint(row - 1, col).FindPadByNumber(end_padnum)
                 self.add_track_between_items(start_pad, end_pad, layer=self.front_copper_layer)
