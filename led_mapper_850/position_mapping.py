@@ -56,9 +56,14 @@ class LEDPositions850:
 
 if __name__ == "__main__":
     # test position mapper
+    # pos_mapper = LEDPositions850()
+    # for led_id  in range(1, 529 + 1):
+    #     row, col = pos_mapper.led_position(led_id)
+    #     out_id = pos_mapper.led_id(row, col)
+    #     assert led_id == out_id, f"FAIL for {led_id=}, got {out_id=}."
+    #     print(f"LED ID {led_id} passes the test!")
     pos_mapper = LEDPositions850()
-    for led_id  in range(1, 529 + 1):
-        row, col = pos_mapper.led_position(led_id)
-        out_id = pos_mapper.led_id(row, col)
-        assert led_id == out_id, f"FAIL for {led_id=}, got {out_id=}."
-        print(f"LED ID {led_id} passes the test!")
+    led_refnum = int(input("Enter the LED ref number (int): "))
+    led_id = (led_refnum-1) % 529 + 1
+    led_net = (led_refnum-1) // 529 + 1
+    print(f"(row, col): {pos_mapper.led_position(led_id)}, {led_net=}")
