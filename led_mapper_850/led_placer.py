@@ -309,7 +309,7 @@ class LedPlacer:
                 end_col = 47  # not a real led column, this is where the row_end vias are
                 self.add_track_around_vias(row, start_col, end_col - start_col, self.inner_layer_1, route_below=True)
         else:
-            for start_col in range(37, 45 + 1):
+            for start_col in range(38, 45 + 1):
                 row = 46 - start_col
                 end_col = 0  # not a real led column, this is where the row_end vias are
                 self.add_track_around_vias(row, start_col, start_col - end_col, self.inner_layer_1, route_below=True)
