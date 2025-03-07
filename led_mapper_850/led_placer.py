@@ -49,7 +49,7 @@ class LedPlacer:
         self.via_width_nm = int(0.6 * 10 ** 6)
         self.via_drill_nm = int(0.3 * 10 ** 6)
         self.via_type = pcbnew.VIATYPE_THROUGH
-        self.via_offset_um = 12  # Adjustment to center via vertically between rows. I don't know why this is needed.
+        self.via_adjustment = self.vector2i_um(-13, -22)  # Adjustment to center via. I don't know why this is needed.
         self.track_width_nm = int(0.2*10**6)
 
         self.connector_ref = f'J1'
@@ -113,7 +113,7 @@ class LedPlacer:
         for fp in self.leds:
             pad: pcbnew.PAD = fp.FindPadByNumber(2)
             via_pos: pcbnew.VECTOR2I = self.pad2_via_positions[fp.GetReference()]
-            via: pcbnew.PCB_VIA = self.place_new_via(via_pos.x / 1000, via_pos.y / 1000, pad.GetNetCode())
+            via: pcbnew.PCB_VIA = self.place_new_via(via_pos, pad.GetNetCode())
             if place_tracks: self.add_track_between_items(pad, via)
         pcbnew.Refresh()
 
@@ -243,6 +243,11 @@ class LedPlacer:
             self.add_track_between_items(start_pad, end_pad, layer=self.front_copper_layer)
 
         if self.network in (1, 3):
+            for row in range(2, 4 + 1):
+                col = 36 - row
+                start_pad = self.led_footprint(row, col).FindPadByNumber(start_padnum)
+                end_pad = self.led_footprint(row - 1, col).FindPadByNumber(end_padnum)
+                self.add_track_between_items(start_pad, end_pad, layer=self.front_copper_layer)
             pcbnew.Refresh()
             return
 
@@ -263,24 +268,28 @@ class LedPlacer:
         for padnum in range(1, 24 + 1):
             pad: pcbnew.PAD = j1_fp.FindPadByNumber(padnum)
             via_pos: pcbnew.VECTOR2I = self.connector_via_positions[padnum]
-            via: pcbnew.PCB_VIA = self.place_new_via(via_pos.x / 1000, via_pos.y / 1000, pad.GetNetCode())
-            self.add_track_between_items(pad, via)
+            via: pcbnew.PCB_VIA = self.place_new_via(via_pos, pad.GetNetCode())
+            self.add_track_between_items(pad, via, layer=self.back_copper_layer)
+        pcbnew.Refresh()
 
     def place_row_end_vias(self, place_tracks=True) -> None:
         # position relative to the same LED's pad 2 via
         via_displacement: pcbnew.VECTOR2I = self.vector2i_um(self.row_shift_um, self.row_height_um)
         if self.network in (1, 3):
-            end_row = 11
+            rows = range(4, 11 + 1)
             rightmost_column = 46
-        else:
-            end_row = 12
+        elif self.network == 4:
+            rows = range(2, 9 + 1)
             rightmost_column = 1
-        for row in range(1, end_row + 1):
+        else:
+            rows = range(1, 9 + 1)
+            rightmost_column = 1
+        for row in rows:
             led_fp: pcbnew.FOOTPRINT = self.led_footprint(row, rightmost_column)
             pad_1: pcbnew.PAD = led_fp.FindPadByNumber(1)
             pad2_via_pos = self.pad2_via_positions[led_fp.GetReference()]
             via_pos: pcbnew.VECTOR2I = self.row_end_via_positions[row]
-            self.place_new_via(via_pos.x / 1000, via_pos.y / 1000, pad_1.GetNetCode())
+            self.place_new_via(via_pos, pad_1.GetNetCode())
             if place_tracks:
                 x_dist_um: float = (pad2_via_pos.x - pad_1.GetCenter().x) / 1000 + self.row_shift_um / 2
                 self.route_segmented_track(
@@ -291,77 +300,34 @@ class LedPlacer:
                     ],
                     self.front_copper_layer
                 )
-        pcbnew.Refresh()       
+        pcbnew.Refresh()
 
     def connect_sections_in1(self) -> None:
         if self.network in (1, 3):
-            track_args = [
-                (1,  1,  24, self.inner_layer_1, False),
-                (2,  2,  25, self.inner_layer_1, False),
-                (3,  3,  26, self.inner_layer_1, False),
-                (4,  4,  27, self.inner_layer_1, False),
-                (5,  5,  28, self.inner_layer_1, False),
-                (6,  6,  29, self.inner_layer_1, False),
-                (7,  7,  29, self.inner_layer_1, False),
-                (8,  8,  30, self.inner_layer_1, False),
-                (9,  9,  31, self.inner_layer_1, False),
-                (10, 10, 32, self.inner_layer_1, False),
-                (11, 11, 33, self.inner_layer_1, False),
-                (11, 12, 34, self.inner_layer_1, True),
-            ]
+            for start_col in range(2, 9 + 1):
+                row = 14 - start_col
+                end_col = 47  # not a real led column, this is where the row_end vias are
+                self.add_track_around_vias(row, start_col, end_col - start_col, self.inner_layer_1, route_below=True)
         else:
-            track_args = [
-                # (1,  13, 35, self.inner_layer_1, True), insufficient space
-                (2,  14, 36, self.inner_layer_1, True),
-                (3,  15, 37, self.inner_layer_1, True),
-                (4,  16, 38, self.inner_layer_1, True),
-                (5,  17, 39, self.inner_layer_1, True),
-                (6,  18, 40, self.inner_layer_1, True),
-                (7,  18, 41, self.inner_layer_1, True),
-                (7,  19, 42, self.inner_layer_1, False),
-                (8,  20, 43, self.inner_layer_1, False),
-                (9,  21, 44, self.inner_layer_1, False),
-                (10, 22, 45, self.inner_layer_1, False),
-                (11, 23, 46, self.inner_layer_1, False),
-            ]
-        for args in track_args:
-            self.add_track_around_vias(*args)
+            for start_col in range(38, 45 + 1):
+                row = 46 - start_col
+                end_col = 0  # not a real led column, this is where the row_end vias are
+                self.add_track_around_vias(row, start_col, start_col - end_col, self.inner_layer_1, route_below=True)
+        if self.network == 3:
+            self.add_track_around_vias(1, 1, 46, self.inner_layer_1, route_below=True)
         pcbnew.Refresh()
 
     def connect_sections_in2(self) -> None:
         # dict indexed by row
         # values are in the form (row:int, col1:int, col2:int, layer:int,route_below:bool)
-        if self.network in (1, 3):
-            track_args = [
-                (2,  14, 36, self.inner_layer_2, False),
-                (3,  15, 37, self.inner_layer_2, False),
-                (4,  16, 38, self.inner_layer_2, False),
-                (5,  17, 39, self.inner_layer_2, False),
-                (5,  19, 41, self.inner_layer_2, True),
-                (6,  18, 40, self.inner_layer_2, True),
-                (7,  19, 42, self.inner_layer_2, True),
-                (8,  20, 43, self.inner_layer_2, True),
-                (9,  21, 44, self.inner_layer_2, True),
-                (10, 22, 45, self.inner_layer_2, True),
-                (11, 23, 46, self.inner_layer_2, True),
-            ]
-        else:
-            track_args = [
-                (1,  1,  24, self.inner_layer_2, True),
-                (2,  2,  25, self.inner_layer_2, True),
-                (3,  3,  26, self.inner_layer_2, True),
-                (4,  4,  27, self.inner_layer_2, True),
-                (5,  5,  28, self.inner_layer_2, True),
-                (6,  6,  29, self.inner_layer_2, True),
-                (7,  7,  29, self.inner_layer_2, True),
-                (8,  8,  30, self.inner_layer_2, True),
-                (9,  9,  31, self.inner_layer_2, True),
-                (10, 10, 32, self.inner_layer_2, True),
-                (11, 11, 33, self.inner_layer_2, True),
-                (11, 12, 34, self.inner_layer_2, False),
-            ]
-        for args in track_args:
-            self.add_track_around_vias(*args)
+        if self.network == 1:
+            for row in range(2, 12 + 1):
+                start_col = 25 - row
+                self.add_track_around_vias(row, start_col, 23, self.inner_layer_2, route_below=False)
+        if self.network == 2:
+            for row in range(8, 11 + 1):
+                start_col = 45 - row
+                self.add_track_around_vias(row, start_col, 22, self.inner_layer_2, route_below=False)
         pcbnew.Refresh()
 
     def connector_far_pins(self) -> None:
@@ -425,7 +391,7 @@ class LedPlacer:
         for fp in self.leds:
             # vector from footprint centre to via center, before rotation
             x_offset = self.spacing_um / 2  # point to positive x (to the right), since this is for pad 2
-            y_offset = self.row_height_um / 2 - self.via_offset_um
+            y_offset = self.row_height_um / 2
             # Apply clockwise rotation transformation matrix. It looks like counter-clockwise rotation,
             # but since positive y is downwards, the plane is flipped.
             rotate_angle = 60
@@ -433,7 +399,7 @@ class LedPlacer:
                 cos(radians(rotate_angle)) * x_offset + sin(radians(rotate_angle)) * y_offset,
                 -sin(radians(rotate_angle)) * x_offset + cos(radians(rotate_angle)) * y_offset
             )
-            via_pos: pcbnew.VECTOR2I = fp.GetCenter() + offset_vec
+            via_pos: pcbnew.VECTOR2I = fp.GetCenter() + offset_vec + self.via_adjustment
             pad2_via_positions[fp.GetReference()] = via_pos
         self._pad2_via_positions = pad2_via_positions
         return pad2_via_positions
@@ -485,40 +451,26 @@ class LedPlacer:
         self._row_end_via_positions = row_end_via_positions
         return row_end_via_positions
 
-    def add_track_around_vias(self, row: int, col1: int, col2: int, layer: int, route_below: bool=False) -> None:
+    def add_track_around_vias(self, row: int, left_col: int, cols_right: int, layer: int, route_below: bool=False) -> None:
         """Create a horizontal track that joins vias on the same row.
 
         Shape illustrated (roughly) for route_below. If route_below==False, it is mirrored vertically.
          \__________/
         """
-        via_1_pos = self.get_pad2_via_pos(row, col1)
-        via_2_pos = self.get_pad2_via_pos(row, col2)
-        if via_1_pos.x > via_2_pos.x:
-            right_via_pos = via_1_pos
-            left_via_pos = via_2_pos
-        else:
-            right_via_pos = via_2_pos
-            left_via_pos = via_1_pos
-
+        left_via_pos = self.get_pad2_via_pos(row, left_col)
         direction: int = 1 if route_below else -1
         track_start = left_via_pos
         left_x_um = float(left_via_pos.x / 1000)
-        right_x_um = float(right_via_pos.x / 1000)
-        try:
-            self.route_segmented_track(
-                track_start,
-                [
-                    self.vector2i_um(self.col_width_um / 4, self.row_height_um / 2 * direction),
-                    self.vector2i_um(right_x_um - left_x_um - self.col_width_um / 2, 0),
-                    self.vector2i_um(self.col_width_um / 4, self.row_height_um / 2 * -direction)
-                ],
-                layer=layer
-            )
-        except OverflowError:
-            print('something went wrong...')
-            print(f'{right_x_um=}')
-            print(f'{left_x_um=}')
-            print(f'{right_x_um - left_x_um - self.col_width_um / 2=}')
+        right_x_um = left_x_um + cols_right * self.col_width_um
+        self.route_segmented_track(
+            track_start,
+            [
+                self.vector2i_um(self.col_width_um / 4, self.row_height_um / 2 * direction),
+                self.vector2i_um(right_x_um - left_x_um - self.col_width_um / 2, 0),
+                self.vector2i_um(self.col_width_um / 4, self.row_height_um / 2 * -direction)
+            ],
+            layer=layer
+        )
 
     def route_segmented_track(self, start_loc: pcbnew.VECTOR2I, segments: list[pcbnew.VECTOR2I], layer=None) -> None:
         prev_loc: pcbnew.VECTOR2I = start_loc
@@ -541,14 +493,14 @@ class LedPlacer:
         track.SetLayer(layer)
         self.pcb.Add(track)
 
-    def place_new_via(self, x_um: float, y_um: float, net: int,
+    def place_new_via(self, position: pcbnew.VECTOR2I, net: int,
                       top_layer: int=None, bottom_layer: int=None) -> pcbnew.PCB_VIA:
         if top_layer is None: top_layer = self.front_copper_layer
         if bottom_layer is None: bottom_layer = self.back_copper_layer
 
         via = pcbnew.PCB_VIA(self.pcb)
         self.pcb.Add(via)
-        self.set_microns(via, x_um, y_um)
+        via.SetPosition(position)
         via.SetWidth(self.via_width_nm)
         via.SetDrill(self.via_drill_nm)
         via.SetViaType(self.via_type)

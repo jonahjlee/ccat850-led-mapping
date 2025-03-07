@@ -63,7 +63,13 @@ if __name__ == "__main__":
     #     assert led_id == out_id, f"FAIL for {led_id=}, got {out_id=}."
     #     print(f"LED ID {led_id} passes the test!")
     pos_mapper = LEDPositions850()
-    led_refnum = int(input("Enter the LED ref number (int): "))
-    led_id = (led_refnum-1) % 529 + 1
-    led_net = (led_refnum-1) // 529 + 1
-    print(f"(row, col): {pos_mapper.led_position(led_id)}, {led_net=}")
+    while True:
+        input_str = input("Enter the LED ref number (int): ")
+        try:
+            led_refnum = int(input_str)
+        except ValueError:
+            print("Non-integer entered, exiting program...")
+            break
+        led_id = (led_refnum-1) % 529 + 1
+        led_net = (led_refnum-1) // 529 + 1
+        print(f"(row, col): {pos_mapper.led_position(led_id)}, {led_net=}")
