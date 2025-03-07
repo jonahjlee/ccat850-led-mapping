@@ -55,7 +55,8 @@ class LedPlacer:
         self.connector_ref = f'J{self.network}'
         self.connector_via_dist_um = 3000
 
-        self.pad2_vias: dict[str, pcbnew.PCB_VIA] = {}  # map from led fp reference to pad 2 via
+        self._pad2_via_positions: dict[str, pcbnew.VECTOR2I] = None  # led_ref: via_pos
+        self._connector_via_positions: dict[int, pcbnew.VECTOR2I] = None  # padnum: via_pos
 
     # =====================================================
     # PLACEMENT METHODS - MODIFY THE PCB
@@ -108,26 +109,32 @@ class LedPlacer:
         """Place vias and connect them with tracks to each LED pad 2 (cathode)"""
         # place a via for each LED pad 2
         for fp in self.leds:
-            pad1: pcbnew.PAD = fp.FindPadByNumber(2)
-            net: int = pad1.GetNetCode()
+            pad: pcbnew.PAD = fp.FindPadByNumber(2)
+            via_pos: pcbnew.VECTOR2I = self.pad2_via_positions[fp.GetReference()]
+            via: pcbnew.PCB_VIA = self.place_new_via(via_pos.x / 1000, via_pos.y / 1000, pad.GetNetCode())
+            if place_tracks: self.add_track_between_items(pad, via)
+        pcbnew.Refresh()
+
+    @property
+    def pad2_via_positions(self) -> dict[str, pcbnew.VECTOR2I]:
+        if self._pad2_via_positions is not None: return self._pad2_via_positions
+        pad2_via_positions: dict[str, pcbnew.VECTOR2I] = {}  # led_ref: via_pos
+         # place a via for each LED pad 2
+        for fp in self.leds:
             # vector from footprint centre to via center, before rotation
             x_offset = self.spacing_um / 2  # point to positive x (to the right), since this is for pad 2
             y_offset = self.row_height_um / 2 - self.via_offset_um
             # Apply clockwise rotation transformation matrix. It looks like counter-clockwise rotation,
             # but since positive y is downwards, the plane is flipped.
             rotate_angle = 60
-            rot_x_offset =  cos(radians(rotate_angle)) * x_offset + sin(radians(rotate_angle)) * y_offset
-            rot_y_offset = -sin(radians(rotate_angle)) * x_offset + cos(radians(rotate_angle)) * y_offset
-            # add via
-            via: pcbnew.PCB_VIA = self.place_new_via(
-                fp.GetPosition().x / 1000 + rot_x_offset,
-                fp.GetPosition().y / 1000 + rot_y_offset,
-                net
+            offset_vec: pcbnew.VECTOR2I = self.vector2i_um(
+                cos(radians(rotate_angle)) * x_offset + sin(radians(rotate_angle)) * y_offset,
+                -sin(radians(rotate_angle)) * x_offset + cos(radians(rotate_angle)) * y_offset
             )
-            # add track
-            if place_tracks: self.add_track_between_items(pad1, via)
-            self.pad2_vias[fp.GetReference()] = via
-        pcbnew.Refresh()
+            via_pos: pcbnew.VECTOR2I = fp.GetCenter() + offset_vec
+            pad2_via_positions[fp.GetReference()] = via_pos
+        self._pad2_via_positions = pad2_via_positions
+        return pad2_via_positions
 
     def route_columns(self) -> None:
         """Route tracks for vertical columns across for LED pad 2 (cathode)"""
@@ -139,10 +146,10 @@ class LedPlacer:
                 # since they go across ALL networks, only route from network 1
                 start_row = 1
                 end_row = 12 if col <= 23 else 11
-                start_via: pcbnew.PCB_VIA = self.get_pad2_via(start_row, col)
+                start_via_pos: pcbnew.VECTOR2I = self.get_pad2_via_pos(start_row, col)
                 path_across_all: pcbnew.VECTOR2I = self.vector2i_um(-45 * self.row_shift_um, 45 * self.row_height_um)
                 self.route_segmented_track(
-                    start_via.GetCenter(),
+                    start_via_pos,
                     [path_across_all],
                     self.back_copper_layer
                 )
@@ -150,30 +157,30 @@ class LedPlacer:
                 # triangle top left half
                 start_row = 1
                 end_row = 24 - col  # as we go to the right, we end further up
-                start_via: pcbnew.PCB_VIA = self.get_pad2_via(start_row, col)
-                end_via: pcbnew.PCB_VIA = self.get_pad2_via(end_row, col)
-                self.add_track_between_items(start_via, end_via, layer=self.back_copper_layer)
+                start_via_pos: pcbnew.VECTOR2I = self.get_pad2_via_pos(start_row, col)
+                end_via_pos: pcbnew.VECTOR2I = self.get_pad2_via_pos(end_row, col)
+                self.add_track_between_positions(start_via_pos, end_via_pos, layer=self.back_copper_layer)
             if 14 <= col <= 23:
                 # triangle section 1 bottom left half
                 start_row = 25 - col  # as we go to the right, we start further up
                 end_row = 12  # left half has full height
-                start_via: pcbnew.PCB_VIA = self.get_pad2_via(start_row, col)
-                end_via: pcbnew.PCB_VIA = self.get_pad2_via(end_row, col)
-                self.add_track_between_items(start_via, end_via, layer=self.back_copper_layer)
+                start_via_pos: pcbnew.VECTOR2I = self.get_pad2_via_pos(start_row, col)
+                end_via_pos: pcbnew.VECTOR2I = self.get_pad2_via_pos(end_row, col)
+                self.add_track_between_positions(start_via_pos, end_via_pos, layer=self.back_copper_layer)
             if 24 <= col <= 33:
                 # triangle top right half
                 start_row = 1
                 end_row = 35 - col  # as we go to the right, we end further up
-                start_via: pcbnew.PCB_VIA = self.get_pad2_via(start_row, col)
-                end_via: pcbnew.PCB_VIA = self.get_pad2_via(end_row, col)
-                self.add_track_between_items(start_via, end_via, layer=self.back_copper_layer)
+                start_via_pos: pcbnew.VECTOR2I = self.get_pad2_via_pos(start_row, col)
+                end_via_pos: pcbnew.VECTOR2I = self.get_pad2_via_pos(end_row, col)
+                self.add_track_between_positions(start_via_pos, end_via_pos, layer=self.back_copper_layer)
             if 26 <= col <= 34:
                 # triangle section 1 bottom right half
                 start_row = 36 - col  # as we go to the right, we start further up
                 end_row = 11  # left half has full height
-                start_via: pcbnew.PCB_VIA = self.get_pad2_via(start_row, col)
-                end_via: pcbnew.PCB_VIA = self.get_pad2_via(end_row, col)
-                self.add_track_between_items(start_via, end_via, layer=self.back_copper_layer)
+                start_via_pos: pcbnew.VECTOR2I = self.get_pad2_via_pos(start_row, col)
+                end_via_pos: pcbnew.VECTOR2I = self.get_pad2_via_pos(end_row, col)
+                self.add_track_between_positions(start_via_pos, end_via_pos, layer=self.back_copper_layer)
         pcbnew.Refresh()
 
     def stitch_columns(self) -> None:
@@ -273,7 +280,19 @@ class LedPlacer:
         to the connector on the two sparsely-populated inner layers.
         """
         j1_fp: pcbnew.FOOTPRINT = self.pcb.FindFootprintByReference(self.connector_ref)
+        connector_via_positions: dict[str, pcbnew.VECTOR2I] = self.get_connector_via_positions()
+        for padnum in range(1, 24 + 1):
+            pad: pcbnew.PAD = j1_fp.FindPadByNumber(padnum)
+            via_pos: pcbnew.VECTOR2I = connector_via_positions[padnum]
+            via: pcbnew.PCB_VIA = self.place_new_via(via_pos.x / 1000, via_pos.y / 1000, pad.GetNetCode())
+            self.add_track_between_items(pad, via)
+
+    @property
+    def connector_via_positions(self) -> dict[str, pcbnew.VECTOR2I]:
+        if self._connector_via_positions is not None: return self._connector_via_positions
+        j1_fp: pcbnew.FOOTPRINT = self.pcb.FindFootprintByReference(self.connector_ref)
         orientation_deg: float = j1_fp.GetOrientationDegrees()
+        connector_via_positions: dict[int, pcbnew.VECTOR2I] = {}  # padnum: via_pos
         for padnum in range(1, 13):
             # pad 1-12, left side
             pad: pcbnew.PAD = j1_fp.FindPadByNumber(padnum)
@@ -282,8 +301,7 @@ class LedPlacer:
                 self.connector_via_dist_um * sin(radians(orientation_deg))
             )
             via_pos: pcbnew.VECTOR2I = pad.GetCenter() + track_vec
-            via: pcbnew.PCB_VIA = self.place_new_via(via_pos.x / 1000, via_pos.y / 1000, pad.GetNetCode())
-            self.add_track_between_items(pad, via, layer=self.back_copper_layer)
+            connector_via_positions[padnum] = via_pos
         for padnum in range(13, 25):
             # pad 13-24, left side
             pad: pcbnew.PAD = j1_fp.FindPadByNumber(padnum)
@@ -292,9 +310,9 @@ class LedPlacer:
                 -self.connector_via_dist_um * sin(radians(orientation_deg))
             )
             via_pos: pcbnew.VECTOR2I = pad.GetCenter() + track_vec
-            via: pcbnew.PCB_VIA = self.place_new_via(via_pos.x / 1000, via_pos.y / 1000, pad.GetNetCode())
-            self.add_track_between_items(pad, via, layer=self.back_copper_layer)
-        pcbnew.Refresh()
+            connector_via_positions[padnum] = via_pos
+        self._connector_via_positions = connector_via_positions
+        return connector_via_positions
     
     def place_row_end_vias(self, place_tracks=True) -> None:
         # position relative to the same LED's pad 2 via
@@ -308,7 +326,7 @@ class LedPlacer:
         for row in range(1, end_row + 1):
             led_fp: pcbnew.FOOTPRINT = self.led_footprint(row, rightmost_column)
             pad_1: pcbnew.PAD = led_fp.FindPadByNumber(1)
-            pad2_via_pos = self.pad2_vias[led_fp.GetReference()].GetCenter()
+            pad2_via_pos = self.pad2_via_positions[led_fp.GetReference()]
             via_pos: pcbnew.VECTOR2I = pad2_via_pos + via_displacement
             via: pcbnew.PCB_VIA = self.place_new_via(via_pos.x / 1000, via_pos.y / 1000, pad_1.GetNetCode())
             if place_tracks:
@@ -470,10 +488,6 @@ class LedPlacer:
         via.SetNetCode(net)
         return via
 
-    def get_pad2_via(self, row, col) -> pcbnew.PCB_VIA:
-        assert len(self.pad2_vias) > 0, "this placer must run place_pad2_vias() before via refs can be obtained"
-        return self.pad2_vias[self.led_footprint(row, col).GetReference()]
-
     def led_footprint(self, row: int, col: int) -> pcbnew.FOOTPRINT:
         return self.pcb.FindFootprintByReference(self.led_ref(row, col))
 
@@ -545,3 +559,6 @@ class LedPlacer:
             reference_x_um = 45 * self.col_width_um - 45 * self.row_shift_um
             reference_y_um = 45 * self.row_height_um
         return reference_led, leds, reference_x_um, reference_y_um
+    
+    def get_pad2_via_pos(self, row, col) -> pcbnew.VECTOR2I:
+        return self.pad2_via_positions[self.led_footprint(row, col).GetReference()]
