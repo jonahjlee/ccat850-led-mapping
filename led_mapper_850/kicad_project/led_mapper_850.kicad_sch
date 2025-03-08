@@ -1419,7 +1419,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "LCSC Part #" "C19268781"
 			(at 107.95 171.45 0)
 			(effects
 				(font
