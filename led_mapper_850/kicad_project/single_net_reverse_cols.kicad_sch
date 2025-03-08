@@ -18427,6 +18427,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 39.37 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d43445fc-e54a-4ab9-96c0-bda126e401fb")
 		)
@@ -18499,6 +18508,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 250.19 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 250.19 52.07 0)
 			(effects
 				(font
@@ -18587,6 +18605,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 280.67 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "45b79d45-6406-42cd-aebf-517d4a1e6f26")
 		)
@@ -18659,6 +18686,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 387.35 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 387.35 36.83 0)
 			(effects
 				(font
@@ -18747,6 +18783,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 85.09 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2100ed54-e522-4d30-8937-5f9ee82712f6")
 		)
@@ -18819,6 +18864,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 207.01 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 207.01 74.93 0)
 			(effects
 				(font
@@ -18907,6 +18961,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 54.61 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5b81fb68-98c2-4c4a-95a6-bcd0dc6a8837")
 		)
@@ -18979,6 +19042,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 394.97 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 394.97 29.21 0)
 			(effects
 				(font
@@ -19067,6 +19139,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 250.19 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c76f5636-9bea-4527-b961-ace54c706593")
 		)
@@ -19139,6 +19220,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 280.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 280.67 97.79 0)
 			(effects
 				(font
@@ -19227,6 +19317,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 227.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7818ad64-503b-4d32-871a-4fea88fbbad0")
 		)
@@ -19299,6 +19398,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 379.73 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 379.73 52.07 0)
 			(effects
 				(font
@@ -19387,6 +19495,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 341.63 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f2c160a1-84c6-4613-ad2b-b2f70d3d0a5c")
 		)
@@ -19459,6 +19576,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 334.01 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 334.01 82.55 0)
 			(effects
 				(font
@@ -19547,6 +19673,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 318.77 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a23e6f8-f142-4782-85d4-5d90b923dada")
 		)
@@ -19619,6 +19754,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 100.33 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 100.33 36.83 0)
 			(effects
 				(font
@@ -19707,6 +19851,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 39.37 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "36cee574-b995-4878-928e-96b458fb9967")
 		)
@@ -19779,6 +19932,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 257.81 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 257.81 90.17 0)
 			(effects
 				(font
@@ -19867,6 +20029,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 242.57 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "372945df-6721-4010-9688-538eab09346a")
 		)
@@ -19939,6 +20110,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 138.43 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 138.43 90.17 0)
 			(effects
 				(font
@@ -20027,6 +20207,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 199.39 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4a171a3e-4f63-4c01-9e0f-c37d82b5a80b")
 		)
@@ -20099,6 +20288,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 123.19 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 123.19 82.55 0)
 			(effects
 				(font
@@ -20187,6 +20385,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 46.99 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6b1ee1ee-f71f-4045-ae38-3c46930ca477")
 		)
@@ -20259,6 +20466,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 62.23 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 62.23 59.69 0)
 			(effects
 				(font
@@ -20347,6 +20563,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 295.91 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "587bf8b2-5ae1-43c9-ab18-ec75551ba722")
 		)
@@ -20419,6 +20644,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 318.77 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 318.77 52.07 0)
 			(effects
 				(font
@@ -20507,6 +20741,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 341.63 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dfd92e5c-787f-4f40-831c-fec37f9bd738")
 		)
@@ -20579,6 +20822,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 265.43 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 265.43 36.83 0)
 			(effects
 				(font
@@ -20667,6 +20919,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 184.15 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3c19745b-4cb3-48e6-89c7-b3dda614b83e")
 		)
@@ -20739,6 +21000,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 77.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 77.47 36.83 0)
 			(effects
 				(font
@@ -20827,6 +21097,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 138.43 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b89c3b36-9fa9-40f7-b7b0-6434fddb3b6b")
 		)
@@ -20899,6 +21178,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 199.39 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 199.39 74.93 0)
 			(effects
 				(font
@@ -20987,6 +21275,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 153.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "00899d9a-d9b6-432b-b8b2-10a62d313d05")
 		)
@@ -21059,6 +21356,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 250.19 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 250.19 59.69 0)
 			(effects
 				(font
@@ -21147,6 +21453,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 176.53 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "70206105-a3de-4599-b40d-44abf9195bd2")
 		)
@@ -21219,6 +21534,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 257.81 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 257.81 29.21 0)
 			(effects
 				(font
@@ -21307,6 +21631,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 176.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "debab289-4047-4aa7-9ace-054125d5378e")
 		)
@@ -21379,6 +21712,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 146.05 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 146.05 67.31 0)
 			(effects
 				(font
@@ -21467,6 +21809,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 394.97 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c758531c-bdc5-4476-9ebf-548f7f828e55")
 		)
@@ -21539,6 +21890,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 334.01 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 334.01 44.45 0)
 			(effects
 				(font
@@ -21627,6 +21987,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 318.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "db55e375-2571-40ad-b960-baefc33c87f7")
 		)
@@ -21699,6 +22068,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 176.53 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 176.53 36.83 0)
 			(effects
 				(font
@@ -21787,6 +22165,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 199.39 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a85f7b86-5568-40b2-b9d6-c63e8196bf5b")
 		)
@@ -21859,6 +22246,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 168.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 168.91 105.41 0)
 			(effects
 				(font
@@ -21947,6 +22343,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 107.95 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4cac48a5-c316-49c4-9e4d-631aae462079")
 		)
@@ -22019,6 +22424,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 31.75 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 31.75 44.45 0)
 			(effects
 				(font
@@ -22107,6 +22521,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 364.49 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c05a111b-0eb4-4638-8af9-003653bd75f2")
 		)
@@ -22179,6 +22602,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 288.29 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 288.29 52.07 0)
 			(effects
 				(font
@@ -22267,6 +22699,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 372.11 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2979e1c0-58d2-48ea-8b41-28b9c314a03e")
 		)
@@ -22339,6 +22780,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 311.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 311.15 59.69 0)
 			(effects
 				(font
@@ -22427,6 +22877,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 100.33 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4dd61985-aa69-4fe4-944e-0a619e6d4a44")
 		)
@@ -22499,6 +22958,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 100.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 100.33 67.31 0)
 			(effects
 				(font
@@ -22587,6 +23055,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 107.95 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f0d5af15-11a0-4f54-bf7c-f47f47fb73a5")
 		)
@@ -22659,6 +23136,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 77.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 77.47 59.69 0)
 			(effects
 				(font
@@ -22747,6 +23233,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 77.47 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14697a4a-2a0a-468d-a43f-3d9bc74b5fce")
 		)
@@ -22819,6 +23314,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 191.77 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 191.77 74.93 0)
 			(effects
 				(font
@@ -22907,6 +23411,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 31.75 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f37c8730-39fa-41ef-b235-82159dc24d3a")
 		)
@@ -22979,6 +23492,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 39.37 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 39.37 36.83 0)
 			(effects
 				(font
@@ -23067,6 +23589,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 92.71 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c146d50-2949-4059-9ba4-f40b307a064d")
 		)
@@ -23139,6 +23670,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 318.77 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 318.77 67.31 0)
 			(effects
 				(font
@@ -23227,6 +23767,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 184.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3d726749-ece5-4ce6-8044-b1c6222c2053")
 		)
@@ -23299,6 +23848,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 100.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 100.33 97.79 0)
 			(effects
 				(font
@@ -23387,6 +23945,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 153.67 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3e665e73-386a-4c96-b148-901086eeb258")
 		)
@@ -23459,6 +24026,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 184.15 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 184.15 29.21 0)
 			(effects
 				(font
@@ -23547,6 +24123,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 265.43 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7e5e942-952f-43da-89ee-347395cea0d5")
 		)
@@ -23619,6 +24204,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 234.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 234.95 90.17 0)
 			(effects
 				(font
@@ -23707,6 +24301,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 130.81 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0249c032-4a49-455e-a7ab-40d4a996fd9b")
 		)
@@ -23779,6 +24382,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 199.39 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 199.39 44.45 0)
 			(effects
 				(font
@@ -23867,6 +24479,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 207.01 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16220970-ec52-43a6-917c-f03a74a325e2")
 		)
@@ -23939,6 +24560,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 250.19 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 250.19 74.93 0)
 			(effects
 				(font
@@ -24027,6 +24657,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 372.11 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3e9e1f04-1fd8-4d94-8d1e-b461b9dfd1e6")
 		)
@@ -24099,6 +24738,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 146.05 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 146.05 44.45 0)
 			(effects
 				(font
@@ -24187,6 +24835,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 168.91 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "890e542d-81a2-4ad0-b515-f06708392cf4")
 		)
@@ -24259,6 +24916,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 356.87 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 356.87 90.17 0)
 			(effects
 				(font
@@ -24347,6 +25013,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 311.15 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "572d079a-e7c0-4fd5-ac1e-9f3010487b9e")
 		)
@@ -24419,6 +25094,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 250.19 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 250.19 44.45 0)
 			(effects
 				(font
@@ -24507,6 +25191,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 176.53 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "10dc7a4c-65c6-49e9-8224-d668c3cc5814")
 		)
@@ -24579,6 +25272,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 69.85 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 69.85 44.45 0)
 			(effects
 				(font
@@ -24667,6 +25369,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 69.85 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b71ae47-146b-4bfd-9b10-5b8bc2568f32")
 		)
@@ -24739,6 +25450,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 288.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 288.29 97.79 0)
 			(effects
 				(font
@@ -24827,6 +25547,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 191.77 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "96d62f9d-8558-4fd8-917f-51dafb50bfd5")
 		)
@@ -24899,6 +25628,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 62.23 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 62.23 97.79 0)
 			(effects
 				(font
@@ -24987,6 +25725,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 280.67 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8e5bc68b-12a5-4fe2-92e4-fded06bed21c")
 		)
@@ -25059,6 +25806,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 219.71 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 219.71 97.79 0)
 			(effects
 				(font
@@ -25147,6 +25903,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 123.19 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6c98f786-12a3-4824-a912-049d2a4156ee")
 		)
@@ -25219,6 +25984,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 92.71 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 92.71 113.03 0)
 			(effects
 				(font
@@ -25307,6 +26081,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 39.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "79934a1d-d718-4c4f-a098-260b489a5cf6")
 		)
@@ -25379,6 +26162,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 326.39 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 326.39 36.83 0)
 			(effects
 				(font
@@ -25467,6 +26259,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 265.43 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cf462010-85bb-4ea4-912a-bbebd30ae4b0")
 		)
@@ -25539,6 +26340,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 69.85 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 69.85 59.69 0)
 			(effects
 				(font
@@ -25627,6 +26437,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 176.53 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eb206e4f-24f2-4043-b6e2-73f8bcc2107b")
 		)
@@ -25699,6 +26518,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 146.05 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 146.05 105.41 0)
 			(effects
 				(font
@@ -25787,6 +26615,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 349.25 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8fb3dccf-7c73-4a38-8e21-e308278ef89f")
 		)
@@ -25859,6 +26696,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 207.01 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 207.01 59.69 0)
 			(effects
 				(font
@@ -25947,6 +26793,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 250.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "69d9de5b-499e-40fa-9417-d536bfd47b76")
 		)
@@ -26019,6 +26874,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 387.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 387.35 97.79 0)
 			(effects
 				(font
@@ -26107,6 +26971,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 130.81 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "12276504-11da-484c-b9f6-050d0031ad23")
 		)
@@ -26179,6 +27052,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 318.77 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 318.77 74.93 0)
 			(effects
 				(font
@@ -26267,6 +27149,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 341.63 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "27bc7ac8-7178-40b5-ac6a-4005588f0797")
 		)
@@ -26339,6 +27230,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 46.99 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 46.99 67.31 0)
 			(effects
 				(font
@@ -26427,6 +27327,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 130.81 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3ed8205c-ae03-4567-b9a2-f080e0c5712c")
 		)
@@ -26499,6 +27408,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 227.33 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 227.33 90.17 0)
 			(effects
 				(font
@@ -26587,6 +27505,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 176.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "819684be-7ff9-42b4-849b-0fd29a676f8a")
 		)
@@ -26659,6 +27586,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 318.77 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 318.77 82.55 0)
 			(effects
 				(font
@@ -26747,6 +27683,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 153.67 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "176a6257-44c2-41a7-aadd-56cf014cf914")
 		)
@@ -26819,6 +27764,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 54.61 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 54.61 97.79 0)
 			(effects
 				(font
@@ -26907,6 +27861,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 280.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5275b01f-453e-4408-8b6b-8190dbacf075")
 		)
@@ -26979,6 +27942,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 379.73 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 379.73 105.41 0)
 			(effects
 				(font
@@ -27067,6 +28039,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 100.33 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d325895d-2083-4b33-b3cc-3ecfa58c466c")
 		)
@@ -27139,6 +28120,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 257.81 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 257.81 44.45 0)
 			(effects
 				(font
@@ -27227,6 +28217,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 303.53 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0ca44f4-640b-4766-9f61-3f03c8c49f6b")
 		)
@@ -27299,6 +28298,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 54.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 54.61 59.69 0)
 			(effects
 				(font
@@ -27387,6 +28395,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 303.53 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d77a59a1-f5d7-4465-b587-f139c154e23c")
 		)
@@ -27459,6 +28476,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 356.87 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 356.87 52.07 0)
 			(effects
 				(font
@@ -27547,6 +28573,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 161.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "378e3ec6-329f-4f5a-abbf-c18dea18abd7")
 		)
@@ -27619,6 +28654,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 364.49 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 364.49 67.31 0)
 			(effects
 				(font
@@ -27707,6 +28751,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 107.95 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a85fc9a7-3f2a-4760-9e66-77ecac5a95be")
 		)
@@ -27779,6 +28832,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 39.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 39.37 90.17 0)
 			(effects
 				(font
@@ -27867,6 +28929,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 168.91 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bc7ff9b2-2daf-4435-ade0-05e51575421e")
 		)
@@ -27939,6 +29010,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 54.61 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 54.61 36.83 0)
 			(effects
 				(font
@@ -28027,6 +29107,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 69.85 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c83458b9-0d1c-4e65-8c73-1e9c9bdccf63")
 		)
@@ -28099,6 +29188,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 176.53 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 176.53 113.03 0)
 			(effects
 				(font
@@ -28187,6 +29285,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 311.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c1acf618-476d-4271-8e39-40339344c122")
 		)
@@ -28259,6 +29366,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 372.11 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 372.11 105.41 0)
 			(effects
 				(font
@@ -28347,6 +29463,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 356.87 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "007d0f64-0e55-406c-903b-ea1c402e5a53")
 		)
@@ -28419,6 +29544,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 92.71 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 92.71 74.93 0)
 			(effects
 				(font
@@ -28507,6 +29641,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 318.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "920a5051-b3fd-4b05-9f17-3c40df6e07c6")
 		)
@@ -28579,6 +29722,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 191.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 191.77 36.83 0)
 			(effects
 				(font
@@ -28667,6 +29819,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 341.63 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a96d375-73db-4e6c-982c-c1f4bd07d991")
 		)
@@ -28739,6 +29900,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 394.97 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 394.97 36.83 0)
 			(effects
 				(font
@@ -28827,6 +29997,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 318.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c1b661af-8af4-4f80-b5e7-e1ed6e660705")
 		)
@@ -28899,6 +30078,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 138.43 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 138.43 82.55 0)
 			(effects
 				(font
@@ -28987,6 +30175,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 311.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4b131ee3-2b2d-4ef7-8991-afbe5fe63019")
 		)
@@ -29059,6 +30256,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 387.35 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 387.35 29.21 0)
 			(effects
 				(font
@@ -29147,6 +30353,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 107.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d6233959-84c3-4f6e-973e-4f5e61bacda0")
 		)
@@ -29219,6 +30434,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 273.05 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 273.05 52.07 0)
 			(effects
 				(font
@@ -29307,6 +30531,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 69.85 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90d39e3d-7fec-4b5a-b323-1a956641bccc")
 		)
@@ -29379,6 +30612,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 184.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 184.15 82.55 0)
 			(effects
 				(font
@@ -29467,6 +30709,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 288.29 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8b36d7b-fd49-46a1-9159-76ca4b187242")
 		)
@@ -29539,6 +30790,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 372.11 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 372.11 82.55 0)
 			(effects
 				(font
@@ -29627,6 +30887,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 207.01 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4ee221f1-fe15-433b-a51d-0d736da93e66")
 		)
@@ -29699,6 +30968,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 326.39 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 326.39 44.45 0)
 			(effects
 				(font
@@ -29787,6 +31065,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 161.29 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "02ccd3c0-5be3-446c-8cf7-51d59233d417")
 		)
@@ -29859,6 +31146,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 176.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 176.53 74.93 0)
 			(effects
 				(font
@@ -29947,6 +31243,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 146.05 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fe165e40-01e8-4374-9233-543112fd9c20")
 		)
@@ -30019,6 +31324,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 62.23 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 62.23 113.03 0)
 			(effects
 				(font
@@ -30107,6 +31421,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 311.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f210f99-0ed1-4aca-bc0c-386be9ac6ac5")
 		)
@@ -30179,6 +31502,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 153.67 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 153.67 67.31 0)
 			(effects
 				(font
@@ -30267,6 +31599,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 207.01 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "81059e9a-246f-43cd-a274-476c0840a9f8")
 		)
@@ -30339,6 +31680,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 39.37 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 39.37 59.69 0)
 			(effects
 				(font
@@ -30427,6 +31777,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 334.01 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "19704075-0424-485d-b3dc-aff2e44f43c8")
 		)
@@ -30499,6 +31858,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 153.67 105.41 0)
 			(effects
 				(font
@@ -30587,6 +31955,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 364.49 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f499f7c4-6155-4e66-8851-cc0dee02e99c")
 		)
@@ -30659,6 +32036,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 77.47 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 77.47 67.31 0)
 			(effects
 				(font
@@ -30747,6 +32133,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 280.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ee4ac50-54a4-4169-978d-66e62d40d6d8")
 		)
@@ -30819,6 +32214,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 31.75 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 31.75 36.83 0)
 			(effects
 				(font
@@ -30907,6 +32311,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 326.39 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e68b1951-cefe-46be-bde1-271fdd7da3bf")
 		)
@@ -30979,6 +32392,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 273.05 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 273.05 105.41 0)
 			(effects
 				(font
@@ -31067,6 +32489,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 92.71 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d0a07954-0c91-4200-89ad-3a68c3b0dfa1")
 		)
@@ -31139,6 +32570,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 295.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 295.91 74.93 0)
 			(effects
 				(font
@@ -31227,6 +32667,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 54.61 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85e1253d-061e-4af0-8e19-6cd499b32264")
 		)
@@ -31299,6 +32748,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 168.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 168.91 36.83 0)
 			(effects
 				(font
@@ -31387,6 +32845,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f8cc156f-7a5a-4c0d-ac27-ad75ea01b276")
 		)
@@ -31459,6 +32926,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 161.29 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 161.29 59.69 0)
 			(effects
 				(font
@@ -31547,6 +33023,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 341.63 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "27d7955d-a375-4a9f-a254-2b8ac78e4210")
 		)
@@ -31619,6 +33104,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 31.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 31.75 59.69 0)
 			(effects
 				(font
@@ -31707,6 +33201,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 356.87 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5edbcfdf-db26-414a-ba7b-81d6c8b53df0")
 		)
@@ -31779,6 +33282,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 227.33 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 227.33 44.45 0)
 			(effects
 				(font
@@ -31867,6 +33379,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 303.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "243f23f6-9fee-4394-9c1f-ccfa25b117c2")
 		)
@@ -31939,6 +33460,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 199.39 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 199.39 29.21 0)
 			(effects
 				(font
@@ -32027,6 +33557,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 295.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d3235a09-b479-44b7-ab88-7fc518770030")
 		)
@@ -32099,6 +33638,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 227.33 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 227.33 52.07 0)
 			(effects
 				(font
@@ -32187,6 +33735,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 219.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a02bdb39-c136-42eb-9345-163366e60f99")
 		)
@@ -32259,6 +33816,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 349.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 349.25 97.79 0)
 			(effects
 				(font
@@ -32347,6 +33913,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 85.09 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "51df2c52-790b-4144-b2a3-3f48bdcfc871")
 		)
@@ -32419,6 +33994,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 387.35 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 387.35 105.41 0)
 			(effects
 				(font
@@ -32507,6 +34091,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 280.67 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "57bd3d11-51c9-4368-910b-5064d236e1bf")
 		)
@@ -32579,6 +34172,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 85.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 85.09 74.93 0)
 			(effects
 				(font
@@ -32667,6 +34269,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 107.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b09e66a3-7be9-4952-9350-853a6fcd1a9c")
 		)
@@ -32739,6 +34350,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 265.43 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 265.43 59.69 0)
 			(effects
 				(font
@@ -32827,6 +34447,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 77.47 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9439a380-aeb1-434a-b4c1-7a7c2681f5b2")
 		)
@@ -32899,6 +34528,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 280.67 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 280.67 44.45 0)
 			(effects
 				(font
@@ -32987,6 +34625,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 364.49 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ccee0d8b-2e11-47df-93b9-1214427743b5")
 		)
@@ -33059,6 +34706,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 273.05 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 273.05 82.55 0)
 			(effects
 				(font
@@ -33147,6 +34803,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 379.73 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a8db4d8-81f7-4484-8ce2-0b0d355db53e")
 		)
@@ -33219,6 +34884,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 92.71 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 92.71 52.07 0)
 			(effects
 				(font
@@ -33307,6 +34981,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 130.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4830fb9c-d06d-4ebd-b3ec-50bcea0f595e")
 		)
@@ -33379,6 +35062,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 100.33 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 100.33 74.93 0)
 			(effects
 				(font
@@ -33467,6 +35159,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 303.53 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a36db9a-2164-4e32-9ccd-735f5251637e")
 		)
@@ -33539,6 +35240,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 39.37 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 39.37 44.45 0)
 			(effects
 				(font
@@ -33627,6 +35337,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 265.43 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "947dffed-0650-49c5-9b7e-d831a2401b83")
 		)
@@ -33699,6 +35418,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 138.43 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 138.43 67.31 0)
 			(effects
 				(font
@@ -33787,6 +35515,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 288.29 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac49ca70-e2fd-4a2c-bee3-ea7a6dffa29c")
 		)
@@ -33859,6 +35596,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 146.05 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 146.05 82.55 0)
 			(effects
 				(font
@@ -33947,6 +35693,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 311.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ffa11e61-be99-4fe5-9628-333094baca53")
 		)
@@ -34019,6 +35774,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 168.91 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 168.91 113.03 0)
 			(effects
 				(font
@@ -34107,6 +35871,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 311.15 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a87c1f23-17a5-4aa3-8768-053c3e4923fd")
 		)
@@ -34179,6 +35952,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 191.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 191.77 105.41 0)
 			(effects
 				(font
@@ -34267,6 +36049,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 39.37 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0fb5a464-b794-408f-abb4-41b4066ce092")
 		)
@@ -34339,6 +36130,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 265.43 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 265.43 52.07 0)
 			(effects
 				(font
@@ -34427,6 +36227,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 123.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e21f182d-86b0-43ff-baa3-dbe55ce5b270")
 		)
@@ -34499,6 +36308,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 92.71 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 92.71 90.17 0)
 			(effects
 				(font
@@ -34587,6 +36405,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 31.75 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7e43cc02-10eb-46fb-a906-b99a9ec68d80")
 		)
@@ -34659,6 +36486,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 341.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 341.63 105.41 0)
 			(effects
 				(font
@@ -34747,6 +36583,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 295.91 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b8580d88-c53f-4a1a-82e8-7a20448d2b4b")
 		)
@@ -34819,6 +36664,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 161.29 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 161.29 105.41 0)
 			(effects
 				(font
@@ -34907,6 +36761,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 191.77 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "738dd2c7-ef25-42e7-9a03-b9dc2f27e48e")
 		)
@@ -34979,6 +36842,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 184.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 184.15 74.93 0)
 			(effects
 				(font
@@ -35067,6 +36939,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 387.35 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cbafd54e-2d44-436d-aa2f-e9bd13b9aac1")
 		)
@@ -35139,6 +37020,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 92.71 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 92.71 97.79 0)
 			(effects
 				(font
@@ -35227,6 +37117,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 77.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "abbc1de0-d079-4a4e-8d8a-c804f28a1897")
 		)
@@ -35299,6 +37198,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 356.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 356.87 97.79 0)
 			(effects
 				(font
@@ -35387,6 +37295,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 146.05 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "62f5137a-6661-4809-b6c6-f0cce1429d8c")
 		)
@@ -35459,6 +37376,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 168.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 168.91 82.55 0)
 			(effects
 				(font
@@ -35547,6 +37473,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 168.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d2c3c841-8c88-4a36-8452-0e7160112578")
 		)
@@ -35619,6 +37554,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 265.43 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 265.43 29.21 0)
 			(effects
 				(font
@@ -35707,6 +37651,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 107.95 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ed77f95-a0f7-41d2-b3eb-5c691a867698")
 		)
@@ -35779,6 +37732,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 242.57 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 242.57 36.83 0)
 			(effects
 				(font
@@ -35867,6 +37829,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 85.09 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5128e87-5cc4-450c-b2a8-3ac41de13703")
 		)
@@ -35939,6 +37910,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 356.87 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 356.87 29.21 0)
 			(effects
 				(font
@@ -36027,6 +38007,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 349.25 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "61104a6c-2251-4085-9988-07544e4580e4")
 		)
@@ -36099,6 +38088,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 364.49 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 364.49 97.79 0)
 			(effects
 				(font
@@ -36187,6 +38185,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 46.99 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "82a1768c-fea0-4fad-86a0-02906510bc34")
 		)
@@ -36259,6 +38266,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 242.57 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 242.57 74.93 0)
 			(effects
 				(font
@@ -36347,6 +38363,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 85.09 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb1a9b2d-a307-4d50-8748-d5347d8fc517")
 		)
@@ -36419,6 +38444,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 341.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 341.63 36.83 0)
 			(effects
 				(font
@@ -36507,6 +38541,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 334.01 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "55fd7595-9397-4374-b536-0abf29f9cf03")
 		)
@@ -36579,6 +38622,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 153.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 153.67 59.69 0)
 			(effects
 				(font
@@ -36667,6 +38719,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 257.81 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fa385f2f-7c13-4b60-8ef7-dec99809c27c")
 		)
@@ -36739,6 +38800,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 100.33 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 100.33 29.21 0)
 			(effects
 				(font
@@ -36827,6 +38897,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 394.97 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ebf057c0-cba2-46b7-8a3e-96aeedf6b288")
 		)
@@ -36899,6 +38978,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 387.35 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 387.35 90.17 0)
 			(effects
 				(font
@@ -36987,6 +39075,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 62.23 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0163fb69-adb6-4372-8305-8658280c21d0")
 		)
@@ -37059,6 +39156,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 303.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 303.53 97.79 0)
 			(effects
 				(font
@@ -37147,6 +39253,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 387.35 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4d843697-799a-4245-9871-8bd5a088f1dd")
 		)
@@ -37219,6 +39334,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 153.67 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 153.67 29.21 0)
 			(effects
 				(font
@@ -37307,6 +39431,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 85.09 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a7083fe0-85b2-43d8-8353-e5f20ac85cbc")
 		)
@@ -37379,6 +39512,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 219.71 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 219.71 82.55 0)
 			(effects
 				(font
@@ -37467,6 +39609,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 123.19 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eee98c4f-1bdb-4b0f-8ae9-ca9e2fa62f86")
 		)
@@ -37539,6 +39690,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 311.15 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 311.15 52.07 0)
 			(effects
 				(font
@@ -37627,6 +39787,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 303.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9006fe2d-ae89-4240-b173-d33d7b13f16c")
 		)
@@ -37699,6 +39868,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 176.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 176.53 97.79 0)
 			(effects
 				(font
@@ -37787,6 +39965,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 242.57 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a254157-e0b4-4428-9fea-70a721a7e1a6")
 		)
@@ -37859,6 +40046,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 146.05 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 146.05 74.93 0)
 			(effects
 				(font
@@ -37947,6 +40143,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 273.05 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5888d8c8-0bfd-4eff-9213-40032fa7b724")
 		)
@@ -38019,6 +40224,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 356.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 356.87 59.69 0)
 			(effects
 				(font
@@ -38107,6 +40321,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 326.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9ac65ba4-1ae5-436e-878f-d45ed3605472")
 		)
@@ -38179,6 +40402,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 46.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 46.99 74.93 0)
 			(effects
 				(font
@@ -38267,6 +40499,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 257.81 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3d3a437e-3489-4b5f-a87a-c6445f4bcb9b")
 		)
@@ -38339,6 +40580,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 46.99 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 46.99 29.21 0)
 			(effects
 				(font
@@ -38427,6 +40677,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 334.01 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "36a0c643-2163-4427-b684-29b76f406f8a")
 		)
@@ -38499,6 +40758,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 372.11 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 372.11 90.17 0)
 			(effects
 				(font
@@ -38587,6 +40855,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 387.35 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0efe4b7b-f7ed-4348-bffd-63843143cb92")
 		)
@@ -38659,6 +40936,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 168.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 168.91 97.79 0)
 			(effects
 				(font
@@ -38747,6 +41033,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 191.77 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a7f8c56-bcab-49df-9815-516dbe69959d")
 		)
@@ -38819,6 +41114,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 257.81 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 257.81 67.31 0)
 			(effects
 				(font
@@ -38907,6 +41211,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 123.19 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16efe028-951f-46a0-b39b-b780370e66fb")
 		)
@@ -38979,6 +41292,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 199.39 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 199.39 113.03 0)
 			(effects
 				(font
@@ -39067,6 +41389,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 303.53 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ec1560a3-8e58-4ce1-9b63-5cf0376aeae9")
 		)
@@ -39139,6 +41470,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 130.81 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 130.81 74.93 0)
 			(effects
 				(font
@@ -39227,6 +41567,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 334.01 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7f24f476-1aad-407f-9deb-8035a94bbe03")
 		)
@@ -39299,6 +41648,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 123.19 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 123.19 29.21 0)
 			(effects
 				(font
@@ -39387,6 +41745,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 39.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "79785e1b-6606-4f20-b30f-f3d0cb8d2861")
 		)
@@ -39459,6 +41826,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 250.19 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 250.19 97.79 0)
 			(effects
 				(font
@@ -39547,6 +41923,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 379.73 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "55841e7e-6401-47c0-bcdd-dee5054eeef8")
 		)
@@ -39619,6 +42004,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 54.61 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 54.61 44.45 0)
 			(effects
 				(font
@@ -39707,6 +42101,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 191.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aa1cae58-6659-4380-b0c3-6e3ca1142572")
 		)
@@ -39779,6 +42182,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 168.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 168.91 59.69 0)
 			(effects
 				(font
@@ -39867,6 +42279,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 46.99 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7c015fbf-297a-4fc4-a96f-c293ec80a4cc")
 		)
@@ -39939,6 +42360,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 379.73 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 379.73 67.31 0)
 			(effects
 				(font
@@ -40027,6 +42457,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 250.19 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "99e9528e-296e-475b-ad36-9bf6b78537a0")
 		)
@@ -40099,6 +42538,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 161.29 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 161.29 36.83 0)
 			(effects
 				(font
@@ -40187,6 +42635,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 46.99 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d137662c-81ef-49b1-9e03-d72174b56f5c")
 		)
@@ -40259,6 +42716,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 46.99 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 46.99 36.83 0)
 			(effects
 				(font
@@ -40347,6 +42813,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 191.77 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "30242643-e587-4ef0-b018-9c53eac8dffd")
 		)
@@ -40419,6 +42894,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 372.11 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 372.11 29.21 0)
 			(effects
 				(font
@@ -40507,6 +42991,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 69.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b06eead5-b267-4113-977f-888fd31bb2ab")
 		)
@@ -40579,6 +43072,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 394.97 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 394.97 67.31 0)
 			(effects
 				(font
@@ -40667,6 +43169,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 115.57 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a73b53a5-a7a0-4fcc-a505-b642ab6cf8e4")
 		)
@@ -40739,6 +43250,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 46.99 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 46.99 105.41 0)
 			(effects
 				(font
@@ -40827,6 +43347,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 341.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5a9af7de-d630-4523-a306-1bffc88b80e8")
 		)
@@ -40899,6 +43428,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 303.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 303.53 74.93 0)
 			(effects
 				(font
@@ -40987,6 +43525,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 349.25 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "032c2ee8-4fce-453b-b0d6-b77aee15737e")
 		)
@@ -41059,6 +43606,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 295.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 295.91 82.55 0)
 			(effects
 				(font
@@ -41147,6 +43703,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 273.05 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e69960fe-ff9b-48b7-8846-64836cc9350f")
 		)
@@ -41219,6 +43784,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 265.43 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 265.43 74.93 0)
 			(effects
 				(font
@@ -41307,6 +43881,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 265.43 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d440e5a8-4a30-4ca0-bf9c-dcd6edc6546b")
 		)
@@ -41379,6 +43962,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 234.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 234.95 36.83 0)
 			(effects
 				(font
@@ -41467,6 +44059,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 130.81 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b594ddd1-9f36-4262-8f58-7362fbd2eb57")
 		)
@@ -41539,6 +44140,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 379.73 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 379.73 82.55 0)
 			(effects
 				(font
@@ -41627,6 +44237,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 356.87 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d9fe8a63-3574-4b1d-8d1f-cdae228dc440")
 		)
@@ -41699,6 +44318,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 372.11 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 372.11 67.31 0)
 			(effects
 				(font
@@ -41787,6 +44415,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 62.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "94af5afe-bffe-4d1a-b6ef-e2f4dff2b42e")
 		)
@@ -41859,6 +44496,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 46.99 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 46.99 44.45 0)
 			(effects
 				(font
@@ -41947,6 +44593,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 242.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4a9d7174-8b84-4d6f-aabe-a6edf0bab2df")
 		)
@@ -42019,6 +44674,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 219.71 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 219.71 29.21 0)
 			(effects
 				(font
@@ -42107,6 +44771,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 379.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c3a6a928-d3a7-430c-8c90-180f167bb41a")
 		)
@@ -42179,6 +44852,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 227.33 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 227.33 36.83 0)
 			(effects
 				(font
@@ -42267,6 +44949,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 234.95 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8813f876-63c6-4733-a607-5d911d98715f")
 		)
@@ -42339,6 +45030,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 191.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 191.77 59.69 0)
 			(effects
 				(font
@@ -42427,6 +45127,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 153.67 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "00169224-fdfe-4671-9cc9-0b25996617b8")
 		)
@@ -42499,6 +45208,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 207.01 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 207.01 52.07 0)
 			(effects
 				(font
@@ -42587,6 +45305,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 372.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ed7e1887-3354-4d6c-ace1-5e8ee93ff948")
 		)
@@ -42659,6 +45386,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 130.81 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 130.81 29.21 0)
 			(effects
 				(font
@@ -42747,6 +45483,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 138.43 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8f973503-11ee-49de-a5e1-eaf271bbc0ec")
 		)
@@ -42819,6 +45564,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 295.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 295.91 105.41 0)
 			(effects
 				(font
@@ -42907,6 +45661,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 115.57 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6faf8087-bac0-43f3-b53e-a6bec2f50a45")
 		)
@@ -42979,6 +45742,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 31.75 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 31.75 74.93 0)
 			(effects
 				(font
@@ -43067,6 +45839,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 184.15 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "127765ae-374c-4e35-9aad-b0228d8adc43")
 		)
@@ -43139,6 +45920,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 234.95 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 234.95 29.21 0)
 			(effects
 				(font
@@ -43227,6 +46017,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 257.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "307584b7-1279-494f-9e3e-cf9f889925f9")
 		)
@@ -43299,6 +46098,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 295.91 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 295.91 44.45 0)
 			(effects
 				(font
@@ -43387,6 +46195,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 227.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3654a982-4cce-45a6-b376-a30037fd6913")
 		)
@@ -43459,6 +46276,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 130.81 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 130.81 67.31 0)
 			(effects
 				(font
@@ -43547,6 +46373,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 334.01 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0d2396a2-b2b8-4d25-82e3-b5ffa16b4fb7")
 		)
@@ -43619,6 +46454,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 92.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 92.71 59.69 0)
 			(effects
 				(font
@@ -43707,6 +46551,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 184.15 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "035e58ca-6c1d-4050-8f2b-5034fb266072")
 		)
@@ -43779,6 +46632,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 242.57 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 242.57 44.45 0)
 			(effects
 				(font
@@ -43867,6 +46729,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 273.05 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5fa5f97-530b-443d-b1e3-c45568e88644")
 		)
@@ -43939,6 +46810,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 85.09 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 85.09 52.07 0)
 			(effects
 				(font
@@ -44027,6 +46907,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 334.01 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a1e5c00a-11d4-4944-9cab-73f18dfea9e8")
 		)
@@ -44099,6 +46988,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 387.35 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 387.35 59.69 0)
 			(effects
 				(font
@@ -44187,6 +47085,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 318.77 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "54a15201-be91-431b-9b5d-e98fa019c79f")
 		)
@@ -44259,6 +47166,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 326.39 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 326.39 52.07 0)
 			(effects
 				(font
@@ -44347,6 +47263,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 349.25 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac3dcb73-8abf-4ae6-9623-f7f252eb3ab4")
 		)
@@ -44419,6 +47344,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 191.77 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 191.77 97.79 0)
 			(effects
 				(font
@@ -44507,6 +47441,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 199.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f4adcf7c-8848-49ad-a797-2afb12fa8c89")
 		)
@@ -44579,6 +47522,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 77.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 77.47 90.17 0)
 			(effects
 				(font
@@ -44667,6 +47619,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 326.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d92a211c-2480-4a8f-9d14-28fe073579be")
 		)
@@ -44739,6 +47700,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 54.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 54.61 105.41 0)
 			(effects
 				(font
@@ -44827,6 +47797,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 161.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e9984613-dffa-4422-bd8a-5e8b4281f21f")
 		)
@@ -44899,6 +47878,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 379.73 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 379.73 59.69 0)
 			(effects
 				(font
@@ -44987,6 +47975,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 107.95 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2d8166fd-f48b-4709-ba53-51a432d34d89")
 		)
@@ -45059,6 +48056,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 100.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 100.33 105.41 0)
 			(effects
 				(font
@@ -45147,6 +48153,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 341.63 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2911e19b-5a42-426a-92dc-84a456f10171")
 		)
@@ -45219,6 +48234,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 107.95 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 107.95 29.21 0)
 			(effects
 				(font
@@ -45307,6 +48331,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 92.71 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1d2dcd29-06ba-4231-8c70-9c326681e3f3")
 		)
@@ -45379,6 +48412,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 31.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 31.75 97.79 0)
 			(effects
 				(font
@@ -45467,6 +48509,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 318.77 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0720253-105c-40a6-8015-bf1b66032feb")
 		)
@@ -45539,6 +48590,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 288.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 288.29 67.31 0)
 			(effects
 				(font
@@ -45627,6 +48687,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 62.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "944229ad-95a8-4702-95de-afa1339f39d4")
 		)
@@ -45699,6 +48768,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 31.75 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 31.75 113.03 0)
 			(effects
 				(font
@@ -45787,6 +48865,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 146.05 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2117da59-8210-49e8-b3d4-99d3be0f622a")
 		)
@@ -45859,6 +48946,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 31.75 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 31.75 90.17 0)
 			(effects
 				(font
@@ -45947,6 +49043,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 334.01 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0107a0be-848b-4f06-9d32-0fbfdc1d9604")
 		)
@@ -46019,6 +49124,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 85.09 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 85.09 29.21 0)
 			(effects
 				(font
@@ -46107,6 +49221,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 364.49 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "301eb803-cf53-42c9-ad64-a7434a84d48d")
 		)
@@ -46179,6 +49302,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 349.25 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 349.25 74.93 0)
 			(effects
 				(font
@@ -46267,6 +49399,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 69.85 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "73b80e38-a0ae-462f-8524-143cbc13aa49")
 		)
@@ -46339,6 +49480,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 138.43 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 138.43 29.21 0)
 			(effects
 				(font
@@ -46427,6 +49577,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 77.47 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8600610-8f43-463f-adcb-02574ebdb506")
 		)
@@ -46499,6 +49658,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 394.97 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 394.97 74.93 0)
 			(effects
 				(font
@@ -46587,6 +49755,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 207.01 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5414ddbe-ebac-4f90-ae04-48e94b165e49")
 		)
@@ -46659,6 +49836,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 115.57 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 115.57 59.69 0)
 			(effects
 				(font
@@ -46747,6 +49933,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 153.67 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "50e0fbd3-b999-4302-9219-68ed4d7b7e65")
 		)
@@ -46819,6 +50014,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 161.29 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 161.29 82.55 0)
 			(effects
 				(font
@@ -46907,6 +50111,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 273.05 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d234c4e0-dbfa-4de2-bd42-93fc0c362628")
 		)
@@ -46979,6 +50192,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 54.61 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 54.61 52.07 0)
 			(effects
 				(font
@@ -47067,6 +50289,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 394.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b474954f-a71a-4f3d-8dbe-e86911b57923")
 		)
@@ -47139,6 +50370,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 77.47 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 77.47 44.45 0)
 			(effects
 				(font
@@ -47227,6 +50467,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 31.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16d2482f-7f20-4afe-b4ff-c32745853040")
 		)
@@ -47299,6 +50548,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 394.97 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 394.97 44.45 0)
 			(effects
 				(font
@@ -47387,6 +50645,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 115.57 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "10ddb9e3-31ee-4c9d-a704-8287329d3509")
 		)
@@ -47459,6 +50726,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 54.61 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 54.61 29.21 0)
 			(effects
 				(font
@@ -47547,6 +50823,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 273.05 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "49bdea39-728d-476b-a34a-4047a08cdac9")
 		)
@@ -47619,6 +50904,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 356.87 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 356.87 36.83 0)
 			(effects
 				(font
@@ -47707,6 +51001,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 184.15 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6843d4ee-beb1-4172-9808-9807bf31e85f")
 		)
@@ -47779,6 +51082,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 288.29 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 288.29 29.21 0)
 			(effects
 				(font
@@ -47867,6 +51179,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 54.61 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "64b3f23d-1752-4c8a-93b6-f3614cefca8b")
 		)
@@ -47939,6 +51260,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 146.05 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 146.05 113.03 0)
 			(effects
 				(font
@@ -48027,6 +51357,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 364.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "54f822aa-bb77-4581-be87-1b3523fd1637")
 		)
@@ -48099,6 +51438,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 69.85 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 69.85 36.83 0)
 			(effects
 				(font
@@ -48187,6 +51535,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 326.39 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1ee5e957-c13f-46d5-935b-874aa285f6db")
 		)
@@ -48259,6 +51616,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 161.29 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 161.29 113.03 0)
 			(effects
 				(font
@@ -48347,6 +51713,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 115.57 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a625923-e6d0-43a4-9527-4f354fb7d76d")
 		)
@@ -48419,6 +51794,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 364.49 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 364.49 74.93 0)
 			(effects
 				(font
@@ -48507,6 +51891,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 257.81 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "321166b6-d352-49f7-905d-5632b360db39")
 		)
@@ -48579,6 +51972,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 219.71 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 219.71 105.41 0)
 			(effects
 				(font
@@ -48667,6 +52069,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 295.91 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c550e295-aa41-46b6-9afb-f8cc10370f6b")
 		)
@@ -48739,6 +52150,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 242.57 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 242.57 52.07 0)
 			(effects
 				(font
@@ -48827,6 +52247,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 130.81 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fb5b28e3-a579-4ca5-9f4b-bb312839e533")
 		)
@@ -48899,6 +52328,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 379.73 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 379.73 74.93 0)
 			(effects
 				(font
@@ -48987,6 +52425,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0402cc70-8f05-4949-b543-b6aa75f80ee2")
 		)
@@ -49059,6 +52506,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 234.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 234.95 105.41 0)
 			(effects
 				(font
@@ -49147,6 +52603,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 130.81 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "81479045-4709-4d1e-a8b0-e63102cbfdaa")
 		)
@@ -49219,6 +52684,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 394.97 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 394.97 82.55 0)
 			(effects
 				(font
@@ -49307,6 +52781,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 115.57 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d4f87002-dd09-4c30-a871-2b677a8d9bc5")
 		)
@@ -49379,6 +52862,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 138.43 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 138.43 52.07 0)
 			(effects
 				(font
@@ -49467,6 +52959,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 219.71 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "27ddf306-ba16-49ba-aa02-ec074c400fe4")
 		)
@@ -49539,6 +53040,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 161.29 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 161.29 52.07 0)
 			(effects
 				(font
@@ -49627,6 +53137,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 115.57 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f26702f6-2fb4-4513-b4b8-fbaf12915cd1")
 		)
@@ -49699,6 +53218,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 138.43 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 138.43 36.83 0)
 			(effects
 				(font
@@ -49787,6 +53315,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 54.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "af210fc8-9030-42ab-a558-f450c7421c48")
 		)
@@ -49859,6 +53396,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 62.23 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 62.23 52.07 0)
 			(effects
 				(font
@@ -49947,6 +53493,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 227.33 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2ebd6cc4-32f4-4b05-a1a2-ca685a2d000e")
 		)
@@ -50019,6 +53574,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 184.15 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 184.15 44.45 0)
 			(effects
 				(font
@@ -50107,6 +53671,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 31.75 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e46b8a53-f16c-4eff-85ce-0d34ba43fffa")
 		)
@@ -50179,6 +53752,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 364.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 364.49 36.83 0)
 			(effects
 				(font
@@ -50267,6 +53849,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 85.09 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2410c904-385f-49da-861a-e042ce58604b")
 		)
@@ -50339,6 +53930,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 69.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 69.85 90.17 0)
 			(effects
 				(font
@@ -50427,6 +54027,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 334.01 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3bb815fa-ec6f-4548-8154-4112ae0f0963")
 		)
@@ -50499,6 +54108,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 107.95 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 107.95 74.93 0)
 			(effects
 				(font
@@ -50587,6 +54205,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "686ad728-f77d-43b0-b215-94bdf34eb30f")
 		)
@@ -50659,6 +54286,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 138.43 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 138.43 44.45 0)
 			(effects
 				(font
@@ -50747,6 +54383,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 123.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8e666ea2-4661-4173-9e8c-63dbd5138261")
 		)
@@ -50819,6 +54464,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 280.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 280.67 59.69 0)
 			(effects
 				(font
@@ -50907,6 +54561,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 227.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5e67c961-5179-4cff-a478-d2e180bd7b18")
 		)
@@ -50979,6 +54642,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 372.11 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 372.11 36.83 0)
 			(effects
 				(font
@@ -51067,6 +54739,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 85.09 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8d91375-6e96-41cb-9777-769d4788c4ba")
 		)
@@ -51139,6 +54820,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 107.95 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 107.95 44.45 0)
 			(effects
 				(font
@@ -51227,6 +54917,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 54.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4ab4e694-9908-44d6-8129-601860ed4316")
 		)
@@ -51299,6 +54998,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 295.91 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 295.91 52.07 0)
 			(effects
 				(font
@@ -51387,6 +55095,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 227.33 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8ac02e46-f452-4083-9d59-84ca2b745a4f")
 		)
@@ -51459,6 +55176,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 138.43 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 138.43 105.41 0)
 			(effects
 				(font
@@ -51547,6 +55273,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 184.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f8f4147f-3168-40ef-be14-c3a354a447fa")
 		)
@@ -51619,6 +55354,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 46.99 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 46.99 52.07 0)
 			(effects
 				(font
@@ -51707,6 +55451,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 242.57 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "48444e8e-e8be-4e3e-87a6-84e7e1e57387")
 		)
@@ -51779,6 +55532,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 115.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 115.57 113.03 0)
 			(effects
 				(font
@@ -51867,6 +55629,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 199.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5b9f81be-0814-498e-aaaf-bf207fd96b5e")
 		)
@@ -51939,6 +55710,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 257.81 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 257.81 52.07 0)
 			(effects
 				(font
@@ -52027,6 +55807,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 242.57 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3c25d041-6854-4ffc-abc2-6f17cc8fcb1b")
 		)
@@ -52099,6 +55888,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 372.11 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 372.11 97.79 0)
 			(effects
 				(font
@@ -52187,6 +55985,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 303.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "54f3208f-81ee-4a4a-9212-6958ea574c01")
 		)
@@ -52259,6 +56066,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 176.53 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 176.53 44.45 0)
 			(effects
 				(font
@@ -52347,6 +56163,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 130.81 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3f667ab9-2ff2-4627-a69e-e78e527768df")
 		)
@@ -52419,6 +56244,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 356.87 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 356.87 44.45 0)
 			(effects
 				(font
@@ -52507,6 +56341,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 62.23 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ead5141a-93c5-4907-a8de-79bf14b181a8")
 		)
@@ -52579,6 +56422,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 207.01 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 207.01 82.55 0)
 			(effects
 				(font
@@ -52667,6 +56519,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 39.37 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b8246fa8-0d1e-4924-acfd-3e54359b005c")
 		)
@@ -52739,6 +56600,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 46.99 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 46.99 59.69 0)
 			(effects
 				(font
@@ -52827,6 +56697,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 219.71 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba77b290-8e8a-47eb-9cde-19befc1a9201")
 		)
@@ -52899,6 +56778,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 168.91 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 168.91 52.07 0)
 			(effects
 				(font
@@ -52987,6 +56875,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 115.57 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3b7f6160-29ac-4a12-9709-7aeb482e7432")
 		)
@@ -53059,6 +56956,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 138.43 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 138.43 74.93 0)
 			(effects
 				(font
@@ -53147,6 +57053,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 207.01 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f8f80311-bc9e-4f75-976a-8357c69875dc")
 		)
@@ -53219,6 +57134,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 234.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 234.95 59.69 0)
 			(effects
 				(font
@@ -53307,6 +57231,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 92.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2093944e-e0c6-4112-a870-9b7cddc9bd47")
 		)
@@ -53379,6 +57312,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 394.97 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 394.97 90.17 0)
 			(effects
 				(font
@@ -53467,6 +57409,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 168.91 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "98e49410-f930-491e-91c8-4ee7c6ef9658")
 		)
@@ -53539,6 +57490,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 77.47 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 77.47 113.03 0)
 			(effects
 				(font
@@ -53627,6 +57587,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 349.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "31b0ca36-7606-4020-b8c5-a61f199fa208")
 		)
@@ -53699,6 +57668,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 207.01 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 207.01 67.31 0)
 			(effects
 				(font
@@ -53787,6 +57765,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 39.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bda606d3-2e93-41f0-bdf3-c045fbf7f872")
 		)
@@ -53859,6 +57846,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 199.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 199.39 82.55 0)
 			(effects
 				(font
@@ -53947,6 +57943,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 62.23 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "43afdf0b-f490-43ff-88d3-9f46d3910fb0")
 		)
@@ -54019,6 +58024,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 234.95 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 234.95 67.31 0)
 			(effects
 				(font
@@ -54107,6 +58121,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 250.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3d5c02f3-1ea3-437b-a685-59783c6aadf3")
 		)
@@ -54179,6 +58202,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 341.63 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 341.63 82.55 0)
 			(effects
 				(font
@@ -54267,6 +58299,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 349.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "45c2910b-7b21-4167-9ce2-e966d2c8598c")
 		)
@@ -54339,6 +58380,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 184.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 184.15 97.79 0)
 			(effects
 				(font
@@ -54427,6 +58477,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 176.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "99300689-1df9-4b47-9524-e2257dd2c7d7")
 		)
@@ -54499,6 +58558,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 273.05 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 273.05 36.83 0)
 			(effects
 				(font
@@ -54587,6 +58655,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 123.19 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "94ce6cf8-d33c-4008-be56-28dc48eea4eb")
 		)
@@ -54659,6 +58736,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 318.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 318.77 90.17 0)
 			(effects
 				(font
@@ -54747,6 +58833,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 349.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8fbd9658-f7d3-4c95-bbed-c4e465e11f34")
 		)
@@ -54819,6 +58914,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 311.15 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 311.15 44.45 0)
 			(effects
 				(font
@@ -54907,6 +59011,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 219.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c539a325-4543-461c-b9ff-9cfc146fcba9")
 		)
@@ -54979,6 +59092,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 123.19 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 123.19 105.41 0)
 			(effects
 				(font
@@ -55067,6 +59189,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 326.39 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90f40e87-2ae1-4d85-99f4-b0f728e2f2c5")
 		)
@@ -55139,6 +59270,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 326.39 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 326.39 74.93 0)
 			(effects
 				(font
@@ -55227,6 +59367,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 219.71 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e1dbaa9c-1bfc-4fda-82ff-ef7d56e74c1c")
 		)
@@ -55299,6 +59448,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 234.95 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 234.95 52.07 0)
 			(effects
 				(font
@@ -55387,6 +59545,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 372.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cef80a05-d4c2-4595-b2ea-94bbe26a9dd0")
 		)
@@ -55459,6 +59626,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 303.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 303.53 59.69 0)
 			(effects
 				(font
@@ -55547,6 +59723,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 199.39 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "122b364c-6d56-49f5-b7be-2f7fb053f312")
 		)
@@ -55619,6 +59804,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 92.71 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 92.71 82.55 0)
 			(effects
 				(font
@@ -55707,6 +59901,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 107.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "80f3befd-068c-48df-8a0b-982b34c54d75")
 		)
@@ -55779,6 +59982,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 123.19 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 123.19 36.83 0)
 			(effects
 				(font
@@ -55867,6 +60079,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 341.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a059a68-d9f8-4ede-870b-372f004b3ee7")
 		)
@@ -55939,6 +60160,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 280.67 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 280.67 67.31 0)
 			(effects
 				(font
@@ -56027,6 +60257,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 115.57 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3a82a233-998e-470f-b80b-1e87baf0d659")
 		)
@@ -56099,6 +60338,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 62.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 62.23 74.93 0)
 			(effects
 				(font
@@ -56187,6 +60435,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 349.25 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "65eff079-6c63-41de-aea4-95bb7170d96c")
 		)
@@ -56259,6 +60516,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 146.05 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 146.05 36.83 0)
 			(effects
 				(font
@@ -56347,6 +60613,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 288.29 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ccadf4a0-b1f9-4a51-ac38-eccdf8877be2")
 		)
@@ -56419,6 +60694,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 85.09 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 85.09 105.41 0)
 			(effects
 				(font
@@ -56507,6 +60791,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 326.39 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "406f3473-3803-4b50-a2ae-5264c1620f70")
 		)
@@ -56579,6 +60872,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 85.09 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 85.09 113.03 0)
 			(effects
 				(font
@@ -56667,6 +60969,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 288.29 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "31da358d-45bd-4065-bf38-3d085d3f3339")
 		)
@@ -56739,6 +61050,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 311.15 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 311.15 29.21 0)
 			(effects
 				(font
@@ -56827,6 +61147,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 161.29 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "98830c73-29b9-4f45-82a2-79d97bba738e")
 		)
@@ -56899,6 +61228,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 387.35 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 387.35 52.07 0)
 			(effects
 				(font
@@ -56987,6 +61325,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 394.97 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c1167a8-afd4-449d-9170-83d625df8c2b")
 		)
@@ -57059,6 +61406,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 100.33 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 100.33 44.45 0)
 			(effects
 				(font
@@ -57147,6 +61503,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 77.47 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eddc11c6-9c95-407e-ab32-e71bc9818282")
 		)
@@ -57219,6 +61584,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 123.19 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 123.19 74.93 0)
 			(effects
 				(font
@@ -57307,6 +61681,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 227.33 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11735714-1b2b-42f7-a5f7-97894dfe3d0b")
 		)
@@ -57379,6 +61762,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 364.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 364.49 105.41 0)
 			(effects
 				(font
@@ -57467,6 +61859,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 146.05 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d53d1ae1-171a-4a4f-9e08-2598fa8375b7")
 		)
@@ -57539,6 +61940,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 349.25 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 349.25 36.83 0)
 			(effects
 				(font
@@ -57627,6 +62037,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 379.73 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ecd97d68-c570-4583-9147-addbbc235144")
 		)
@@ -57699,6 +62118,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 356.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 356.87 82.55 0)
 			(effects
 				(font
@@ -57787,6 +62215,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 219.71 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b8b9399e-ef26-40cd-ae3d-ad4b7cb84670")
 		)
@@ -57859,6 +62296,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 39.37 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 39.37 29.21 0)
 			(effects
 				(font
@@ -57947,6 +62393,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 115.57 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4257a4ed-6e65-4535-9a3e-9d5cdc80bea2")
 		)
@@ -58019,6 +62474,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 100.33 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 100.33 59.69 0)
 			(effects
 				(font
@@ -58107,6 +62571,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 288.29 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f49e8c60-f8af-42d2-b1b5-ef1b55e9960f")
 		)
@@ -58179,6 +62652,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 273.05 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 273.05 67.31 0)
 			(effects
 				(font
@@ -58267,6 +62749,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 364.49 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "daec8b27-509c-4f35-ae54-b0035c980ca7")
 		)
@@ -58339,6 +62830,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 280.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 280.67 105.41 0)
 			(effects
 				(font
@@ -58427,6 +62927,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 242.57 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f3bca856-02e3-4bfc-9303-fdd7fd19de8c")
 		)
@@ -58499,6 +63008,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 153.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 153.67 97.79 0)
 			(effects
 				(font
@@ -58587,6 +63105,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 379.73 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0317dc5c-3c64-4055-b8f9-4b2d6f3fc5e5")
 		)
@@ -58659,6 +63186,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 219.71 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 219.71 52.07 0)
 			(effects
 				(font
@@ -58747,6 +63283,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 234.95 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d5ca04fa-61df-4a63-a0e1-7635946cc905")
 		)
@@ -58819,6 +63364,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 161.29 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 161.29 90.17 0)
 			(effects
 				(font
@@ -58907,6 +63461,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 295.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d6811de2-4bb7-4fe0-8e83-63f056c51c09")
 		)
@@ -58979,6 +63542,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 257.81 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 257.81 82.55 0)
 			(effects
 				(font
@@ -59067,6 +63639,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 207.01 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aac9db3b-802f-48e8-9f62-7fe965537d9c")
 		)
@@ -59139,6 +63720,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 199.39 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 199.39 90.17 0)
 			(effects
 				(font
@@ -59227,6 +63817,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 92.71 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "033cfa46-c76b-494b-9240-318e398a9219")
 		)
@@ -59299,6 +63898,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 69.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 69.85 67.31 0)
 			(effects
 				(font
@@ -59387,6 +63995,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 62.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ca876bda-6150-40e1-9fc1-74998d0b03cd")
 		)
@@ -59459,6 +64076,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 191.77 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 191.77 82.55 0)
 			(effects
 				(font
@@ -59547,6 +64173,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 100.33 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a02f2d34-d13d-4d96-9019-c9911c386841")
 		)
@@ -59619,6 +64254,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 31.75 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 31.75 105.41 0)
 			(effects
 				(font
@@ -59707,6 +64351,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 62.23 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b5e1624-64c4-4f08-af92-5de9a4eba662")
 		)
@@ -59779,6 +64432,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 288.29 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 288.29 59.69 0)
 			(effects
 				(font
@@ -59867,6 +64529,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 326.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fca2322b-4aaa-4f9a-a9ec-b0ad32ab7eb3")
 		)
@@ -59939,6 +64610,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 250.19 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 250.19 36.83 0)
 			(effects
 				(font
@@ -60027,6 +64707,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 100.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "80e4257f-f4d6-4f8f-ac2a-e0862790cc37")
 		)
@@ -60099,6 +64788,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 115.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 115.57 105.41 0)
 			(effects
 				(font
@@ -60187,6 +64885,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 234.95 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c2d3bb96-d096-4eca-a374-d7a7272e3b0f")
 		)
@@ -60259,6 +64966,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 311.15 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 311.15 67.31 0)
 			(effects
 				(font
@@ -60347,6 +65063,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 265.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0fb36dfe-d86c-4eac-8038-d8e1e6a5e88c")
 		)
@@ -60419,6 +65144,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 77.47 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 77.47 74.93 0)
 			(effects
 				(font
@@ -60507,6 +65241,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 69.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c8e2ab8-7025-4ab4-a01a-85db4eb8b1d9")
 		)
@@ -60587,6 +65330,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C3646923"
+			(at 334.01 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eccd05c1-089b-46e8-a898-7eaa163e3663")
 		)
@@ -60659,6 +65411,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 387.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C3646923"
 			(at 387.35 82.55 0)
 			(effects
 				(font
