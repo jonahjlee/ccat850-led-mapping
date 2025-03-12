@@ -17561,7 +17561,7 @@
 		)
 		(uuid "247fc126-f093-48b6-9448-0db0a13d169d")
 	)
-	(label "P03"
+	(label "P3"
 		(at 232.41 20.32 180)
 		(effects
 			(font
@@ -17611,7 +17611,7 @@
 		)
 		(uuid "2f9b8ad2-4afc-4377-bfbc-ddadfb221c77")
 	)
-	(label "P04"
+	(label "P4"
 		(at 240.03 20.32 180)
 		(effects
 			(font
@@ -17661,7 +17661,7 @@
 		)
 		(uuid "3b480d37-704e-4978-b89b-8717bc35a140")
 	)
-	(label "P07"
+	(label "P7"
 		(at 262.89 20.32 180)
 		(effects
 			(font
@@ -17671,7 +17671,7 @@
 		)
 		(uuid "3dbe85fb-afa1-4a9f-a9c5-c86200b41ce7")
 	)
-	(label "P08"
+	(label "P8"
 		(at 270.51 20.32 180)
 		(effects
 			(font
@@ -18011,7 +18011,7 @@
 		)
 		(uuid "a2126140-fd15-4f8e-af0f-a8dae72aa71d")
 	)
-	(label "P05"
+	(label "P5"
 		(at 247.65 20.32 180)
 		(effects
 			(font
@@ -18041,7 +18041,7 @@
 		)
 		(uuid "a40c1598-d913-4e2a-ad0b-89f4178070b8")
 	)
-	(label "P09"
+	(label "P9"
 		(at 278.13 20.32 180)
 		(effects
 			(font
@@ -18091,7 +18091,7 @@
 		)
 		(uuid "b608286a-5fc9-46e3-902b-01e8a251aa35")
 	)
-	(label "P02"
+	(label "P2"
 		(at 224.79 20.32 180)
 		(effects
 			(font
@@ -18141,7 +18141,7 @@
 		)
 		(uuid "c5fbf7d8-130c-4124-848b-773734a1e0bb")
 	)
-	(label "P01"
+	(label "P1"
 		(at 217.17 20.32 180)
 		(effects
 			(font
@@ -18341,7 +18341,7 @@
 		)
 		(uuid "f99f8cb4-eabb-454d-9ced-7cf01d513b9c")
 	)
-	(label "P06"
+	(label "P6"
 		(at 255.27 20.32 180)
 		(effects
 			(font
