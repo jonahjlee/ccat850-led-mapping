@@ -1054,6 +1054,12 @@
 		(uuid "29721bf7-6fd4-463b-b89d-f971af60dd80")
 	)
 	(junction
+		(at 196.85 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29a5edd4-f86a-45c1-9f4c-9d4ec5c332b6")
+	)
+	(junction
 		(at 90.17 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3692,12 +3698,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a90b2c5-f88d-429b-99a9-569daee05aac")
-	)
-	(junction
-		(at 196.85 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b0718d3-e16d-442b-9122-9158ebc522f8")
 	)
 	(junction
 		(at 64.77 87.63)
@@ -11523,7 +11523,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 31.75) (xy 196.85 46.99)
+			(xy 196.85 20.32) (xy 196.85 31.75)
 		)
 		(stroke
 			(width 0)
@@ -12623,6 +12623,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 31.75) (xy 196.85 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f1252b-9939-4062-8b0f-c95312a568eb")
+	)
+	(wire
+		(pts
 			(xy 392.43 77.47) (xy 392.43 85.09)
 		)
 		(stroke
@@ -13160,16 +13170,6 @@
 			(type default)
 		)
 		(uuid "a350aba8-2235-4adb-ae6a-0702ac6b7d62")
-	)
-	(wire
-		(pts
-			(xy 196.85 20.32) (xy 196.85 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3bffe40-d51a-4294-aeeb-41b1aac553bf")
 	)
 	(wire
 		(pts
@@ -33415,95 +33415,6 @@
 	)
 	(symbol
 		(lib_id "Device:LED_45deg")
-		(at 199.39 29.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4b985514-306f-4fd4-adbb-0cd6b9f6bb5d")
-		(property "Reference" "D?"
-			(at 196.85 27.686 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 199.898 30.988 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
-			(at 199.39 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, rotated by 45°"
-			(at 199.39 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C3646923"
-			(at 199.39 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd4e6fc1-fb2c-4290-b226-e8cf0b7cb93e")
-		)
-		(pin "2"
-			(uuid "dac1f65a-a491-4061-ab75-8b4a056cb6ea")
-		)
-		(instances
-			(project "single_net_reverse_cols"
-				(path "/47ee292d-1c66-48a5-a287-ef8b334ccd42"
-					(reference "D?")
-					(unit 1)
-				)
-			)
-			(project "led_mapper_850"
-				(path "/51b7e780-688f-494d-9172-4437a593740a/acdf1064-22a7-45b0-b045-023df4437ef1"
-					(reference "D1610")
-					(unit 1)
-				)
-				(path "/51b7e780-688f-494d-9172-4437a593740a/d9c8edf6-0db8-4a05-9e19-e51ea97e1f56"
-					(reference "D552")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_45deg")
 		(at 295.91 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -46847,6 +46758,89 @@
 				)
 				(path "/51b7e780-688f-494d-9172-4437a593740a/d9c8edf6-0db8-4a05-9e19-e51ea97e1f56"
 					(reference "D675")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_45deg")
+		(at 199.39 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a5418be-22e8-4104-b60a-5ea7608bd0bb")
+		(property "Reference" "D552"
+			(at 196.85 27.686 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 199.898 30.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+			(at 199.39 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, rotated by 45°"
+			(at 199.39 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C3646923"
+			(at 199.39 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "414eed20-abf4-4b32-883b-11855e87242c")
+		)
+		(pin "2"
+			(uuid "32cfc2b2-1136-45c4-bb65-e930c186b166")
+		)
+		(instances
+			(project "led_mapper_850"
+				(path "/51b7e780-688f-494d-9172-4437a593740a/acdf1064-22a7-45b0-b045-023df4437ef1"
+					(reference "D1610")
+					(unit 1)
+				)
+				(path "/51b7e780-688f-494d-9172-4437a593740a/d9c8edf6-0db8-4a05-9e19-e51ea97e1f56"
+					(reference "D552")
 					(unit 1)
 				)
 			)

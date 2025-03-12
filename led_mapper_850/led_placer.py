@@ -254,20 +254,9 @@ class LedPlacer:
         end_padnum = 1 if self.network in (1, 3) else 2
         for col in range(13, 23 + 1):
             row = 25 - col
-            if row < 10 and self.network in (2, 4): continue
             start_pad = self.led_footprint(row, col).FindPadByNumber(start_padnum)
             end_pad = self.led_footprint(row - 1, col).FindPadByNumber(end_padnum)
             self.add_track_between_items(start_pad, end_pad, layer=self.front_copper_layer)
-
-        if self.network in (1, 3):
-            for row in range(2, 4 + 1):
-                col = 36 - row
-                start_pad = self.led_footprint(row, col).FindPadByNumber(start_padnum)
-                end_pad = self.led_footprint(row - 1, col).FindPadByNumber(end_padnum)
-                self.add_track_between_items(start_pad, end_pad, layer=self.front_copper_layer)
-            self.refresh()
-            return
-
         for col in range(25, 34 + 1):
             row = 36 - col
             start_pad = self.led_footprint(row, col).FindPadByNumber(start_padnum)
