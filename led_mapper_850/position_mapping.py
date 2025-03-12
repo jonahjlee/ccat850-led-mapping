@@ -10,7 +10,7 @@
 #       This fact may conflict with KiCAD PCB/Schematic designs
 # ============================================================================ #
 
-from connector_state import ConnectorState, TriState
+import pcbnew
 
 class LEDPositions850:
 
@@ -53,15 +53,16 @@ class LEDPositions850:
             row -= 1
         return row + 1, col
 
+def test_pos_mapper():
+    pos_mapper = LEDPositions850()
+    for led_id  in range(1, 529 + 1):
+        row, col = pos_mapper.led_position(led_id)
+        out_id = pos_mapper.led_id(row, col)
+        assert led_id == out_id, f"FAIL for {led_id=}, got {out_id=}."
+        print(f"LED ID {led_id} passes the test!")
 
-if __name__ == "__main__":
-    # test position mapper
-    # pos_mapper = LEDPositions850()
-    # for led_id  in range(1, 529 + 1):
-    #     row, col = pos_mapper.led_position(led_id)
-    #     out_id = pos_mapper.led_id(row, col)
-    #     assert led_id == out_id, f"FAIL for {led_id=}, got {out_id=}."
-    #     print(f"LED ID {led_id} passes the test!")
+
+def diode_finder_interactive():
     pos_mapper = LEDPositions850()
     while True:
         input_str = input("Enter the LED ref number (int): ")
@@ -70,6 +71,14 @@ if __name__ == "__main__":
         except ValueError:
             print("Non-integer entered, exiting program...")
             break
-        led_id = (led_refnum-1) % 529 + 1
-        led_net = (led_refnum-1) // 529 + 1
+        led_id = (led_refnum - 1) % 529 + 1
+        led_net = (led_refnum - 1) // 529 + 1
         print(f"(row, col): {pos_mapper.led_position(led_id)}, {led_net=}")
+
+
+
+if __name__ == "__main__":
+
+    # test_pos_mapper()
+
+    diode_finder_interactive()
