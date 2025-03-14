@@ -46772,7 +46772,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a5418be-22e8-4104-b60a-5ea7608bd0bb")
-		(property "Reference" "D552"
+		(property "Reference" "D1610"
 			(at 196.85 27.686 90)
 			(effects
 				(font
