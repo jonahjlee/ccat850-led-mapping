@@ -444,7 +444,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "led_mapper_850.kicad_pro",
+    "filename": "led_mapper_850_mirrored.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -487,7 +487,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "led_mapper_850_v4.step",
+      "step": "led_mapper_850_mirrored.step",
       "svg": "",
       "vrml": ""
     },
