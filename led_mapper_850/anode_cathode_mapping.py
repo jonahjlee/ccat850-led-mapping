@@ -5,42 +5,24 @@ pcb: pcbnew.BOARD = pcbnew.GetBoard()
 pos_mapper = position_mapping.LEDPositions850()
 
 
-def get_anode_pin(row, col):
-    diode_id: int = pos_mapper.led_id(row, col)
+def get_cathode_pin(row, col, network=1):
+    diode_id: int = pos_mapper.led_id(row, col, network)
     diode_footprint: pcbnew.FOOTPRINT = pcb.FindFootprintByReference(f'D{diode_id}')
-    anode_pad: pcbnew.PAD = diode_footprint.FindPadByNumber(1)
-    net_name: str = anode_pad.GetDisplayNetname()
-    print(f'LED at {row=}, {col=}, has anode (pad 1) in net: {net_name}')
+    cathode_pad: pcbnew.PAD = diode_footprint.FindPadByNumber(1)
+    net_name: str = cathode_pad.GetDisplayNetname()
+    print(f'LED at {row=}, {col=}, has cathode (pad 1) in net: {net_name}')
     return int(net_name[1:]) # ('P1' --> 1)
 
-def get_cathode_pin(row, col):
-    diode_id: int = pos_mapper.led_id(row, col)
+def get_anode_pin(row, col, network=1):
+    diode_id: int = pos_mapper.led_id(row, col, network)
     diode_footprint: pcbnew.FOOTPRINT = pcb.FindFootprintByReference(f'D{diode_id}')
-    cathode_pad: pcbnew.PAD = diode_footprint.FindPadByNumber(2)
-    net_name: str = cathode_pad.GetDisplayNetname()
-    print(f'LED at {row=}, {col=}, has cathode (pad 2) in net: {net_name}')
+    anode_pad: pcbnew.PAD = diode_footprint.FindPadByNumber(2)
+    net_name: str = anode_pad.GetDisplayNetname()
+    print(f'LED at {row=}, {col=}, has anode (pad 2) in net: {net_name}')
     return int(net_name[1:])  # ('P1' --> 1)
 
-def get_anode_array() -> list[list[int]]:
-    """Returns a 2D array indexed by [row][col] which returns the anode (pin to set LOW) for the LED at (row, col)"""
-    anode_array = []
-    for row_idx in range(12):
-        row = row_idx + 1
-
-        row_array = []
-        for col_idx in range(46):
-            col = col_idx + 1
-
-            if row == 12 and col > 23:
-                row_array.append(-1)  # no diode exists in last half-row
-                continue
-
-            row_array.append(get_anode_pin(row, col))
-        anode_array.append(row_array)
-    return anode_array
-
-def get_cathode_array() -> list[list[int]]:
-    """Returns a 2D array indexed by [row][col] which returns the cathode (pin to set HI) for the LED at (row, col)"""
+def get_cathode_array(network=1) -> list[list[int]]:
+    """Returns a 2D array indexed by [row][col] which returns the cathode (pin to set LOW) for the LED at (row, col)"""
     cathode_array = []
     for row_idx in range(12):
         row = row_idx + 1
@@ -53,14 +35,42 @@ def get_cathode_array() -> list[list[int]]:
                 row_array.append(-1)  # no diode exists in last half-row
                 continue
 
-            row_array.append(get_cathode_pin(row, col))
+            row_array.append(get_cathode_pin(row, col, network))
         cathode_array.append(row_array)
     return cathode_array
 
-# output of get_anode_array as of March 17th 2025
-# anode_array[row][col]: int - the anode pin (as shown in kicad_project/single_net.kicad_sch) to set to LOW on network 1/3 when addressing the LED at (row, col)
+def get_anode_array(network=1) -> list[list[int]]:
+    """Returns a 2D array indexed by [row][col] which returns the anode (pin to set HI) for the LED at (row, col)"""
+    anode_array = []
+    for row_idx in range(12):
+        row = row_idx + 1
+
+        row_array = []
+        for col_idx in range(46):
+            col = col_idx + 1
+
+            if row == 12 and col > 23:
+                row_array.append(-1)  # no diode exists in last half-row
+                continue
+
+            row_array.append(get_anode_pin(row, col, network))
+        anode_array.append(row_array)
+    return anode_array
+
+
+
+# Note: "rows" and "columns" refer to the LEDs' positions in the *schematic*.
+# The top left LED in the schematic, e.g. D1 or D530 is at row 1, col 1.
+# On the actual board, I tried to match the layout with the schematic.
+# However, network 2 and 4 had to be rotated 180 degrees to align the half-row.
+
+
+# output of get_cathode_array as of March 21st 2025
+# cathode_array[row - 1][col - 1]: int - the cathode pin (as shown in kicad_project/single_net.kicad_sch) to set to LOW when addressing the LED at (row, col)
 # contains -1 where no LED is present (half row).
-anode_array = [
+
+# for networks 1 and 3
+cathode_array_1_3 = [
     [24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12],
     [23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11],
     [22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
@@ -75,10 +85,28 @@ anode_array = [
     [13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
 ]
 
-# output of get_cathode_array as of March 17th 2025
-# cathode_array[row][col]: int - the cathode pin (as shown in kicad_project/single_net.kicad_sch) to set to HIGH on network 1/3 when addressing the LED at (row, col)
+# for networks 2 and 4
+cathode_array_2_4 = [
+    [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13],
+    [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14],
+    [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15],
+    [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16],
+    [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17],
+    [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18],
+    [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19],
+    [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20],
+    [9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21],
+    [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22],
+    [11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23],
+    [12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+]
+
+# output of get_anode_array as of March 21st 2025
+# anode_array[row - 1][col - 1]: int - the anode pin (as shown in kicad_project/single_net.kicad_sch) to set to HIGH when addressing the LED at (row, col)
 # contains -1 where no LED is present (half row).
-cathode_array = [
+
+# for networks 1 and 3
+anode_array_1_3 = [
     [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
     [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 24, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
     [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 24, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
@@ -93,6 +121,18 @@ cathode_array = [
     [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
 ]
 
-# reversed arrays are valid for
-anode_array_reversed = [row[::-1] for row in anode_array]
-cathode_array_reversed = [row[::-1] for row in cathode_array]
+# for networks 2 and 4
+anode_array_2_4 = [
+    [24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1],
+    [24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 1, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1],
+    [24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 2, 1, 24, 23, 22, 21, 20, 19, 18, 17, 16, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1],
+    [24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 3, 2, 1, 24, 23, 22, 21, 20, 19, 18, 17, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1],
+    [24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 4, 3, 2, 1, 24, 23, 22, 21, 20, 19, 18, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1],
+    [24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 5, 4, 3, 2, 1, 24, 23, 22, 21, 20, 19, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1],
+    [24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 6, 5, 4, 3, 2, 1, 24, 23, 22, 21, 20, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1],
+    [24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 7, 6, 5, 4, 3, 2, 1, 24, 23, 22, 21, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1],
+    [24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 8, 7, 6, 5, 4, 3, 2, 1, 24, 23, 22, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1],
+    [24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 9, 8, 7, 6, 5, 4, 3, 2, 1, 24, 23, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1],
+    [24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 24, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1],
+    [24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+]

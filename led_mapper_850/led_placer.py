@@ -110,7 +110,7 @@ class LedPlacer:
         self.refresh()
 
     def place_pad2_vias(self, place_tracks=True) -> None:
-        """Place vias and connect them with tracks to each LED pad 2 (cathode)"""
+        """Place vias and connect them with tracks to each LED pad 2"""
         # place a via for each LED pad 2
 
         for fp in self.leds:
@@ -123,7 +123,7 @@ class LedPlacer:
 
 
     def route_columns(self) -> None:
-        """Route tracks for vertical columns across for LED pad 2 (cathode)"""
+        """Route tracks for vertical columns across for LED pad 2"""
         for col_idx in range(self.num_cols):
             col = col_idx + 1
 

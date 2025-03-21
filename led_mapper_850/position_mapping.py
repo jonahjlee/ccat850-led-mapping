@@ -18,13 +18,14 @@ class LEDPositions850:
         self.num_rows = 12
         self.num_cols = 46
 
-    def led_id(self, row: int, col: int) -> int:
+    def led_id(self, row: int, col: int, network: int=1) -> int:
         """Get the id of an LED given its position in the grid.
 
         This method will break if the schematic is changed.
 
         :param int row: The row of the LED in the rectangular grid, from top (row 1) to bottom (row 12)
         :param int col: The column of the LED in the rectangular grid, from left (col 1) to right (col 46)
+        :param int network: The network ([1,4]) of the LED. Each network has its own row/col grid.
         :return int: LED id
         """
         assert 1 <= row <= self.num_rows, f"row {row} is outside the grid!"
@@ -34,7 +35,9 @@ class LEDPositions850:
             f"final row (row {self.num_rows}) is only half-full, with LEDs from col 1 - {half_cols}!"
 
         row_idx = row - 1
-        return row_idx * self.num_cols + col
+        network_1_id = row_idx * self.num_cols + col
+
+        return network_1_id + (network - 1) * 529
 
     def led_position(self, led_id: int) -> tuple[int, int]:
         """Get the row and column of an LED given its ID.
