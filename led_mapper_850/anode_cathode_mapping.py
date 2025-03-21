@@ -61,6 +61,7 @@ def get_anode_array(network=1) -> list[list[int]]:
 
 # Note: "rows" and "columns" refer to the LEDs' positions in the *schematic*.
 # The top left LED in the schematic, e.g. D1 or D530 is at row 1, col 1.
+# Note that the gaps are to be collapsed in horizontally. That is to say, D23 is in the same column as D69
 # On the actual board, I tried to match the layout with the schematic.
 # However, network 2 and 4 had to be rotated 180 degrees to align the half-row.
 
