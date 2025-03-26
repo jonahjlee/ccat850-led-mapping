@@ -10,8 +10,6 @@
 #       This fact may conflict with KiCAD PCB/Schematic designs
 # ============================================================================ #
 
-import pcbnew
-
 class LEDPositions850:
 
     def __init__(self):
