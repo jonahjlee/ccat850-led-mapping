@@ -18400,7 +18400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 39.37 97.79 0)
 			(effects
 				(font
@@ -18483,7 +18483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 250.19 52.07 0)
 			(effects
 				(font
@@ -18566,7 +18566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 280.67 90.17 0)
 			(effects
 				(font
@@ -18649,7 +18649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 387.35 36.83 0)
 			(effects
 				(font
@@ -18732,7 +18732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 85.09 90.17 0)
 			(effects
 				(font
@@ -18815,7 +18815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 207.01 74.93 0)
 			(effects
 				(font
@@ -18898,7 +18898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 54.61 74.93 0)
 			(effects
 				(font
@@ -18981,7 +18981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 394.97 29.21 0)
 			(effects
 				(font
@@ -19064,7 +19064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 250.19 29.21 0)
 			(effects
 				(font
@@ -19147,7 +19147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 280.67 97.79 0)
 			(effects
 				(font
@@ -19230,7 +19230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 227.33 82.55 0)
 			(effects
 				(font
@@ -19313,7 +19313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 379.73 52.07 0)
 			(effects
 				(font
@@ -19396,7 +19396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 341.63 44.45 0)
 			(effects
 				(font
@@ -19479,7 +19479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 334.01 82.55 0)
 			(effects
 				(font
@@ -19562,7 +19562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 318.77 44.45 0)
 			(effects
 				(font
@@ -19645,7 +19645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 100.33 36.83 0)
 			(effects
 				(font
@@ -19728,7 +19728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 39.37 74.93 0)
 			(effects
 				(font
@@ -19811,7 +19811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 257.81 90.17 0)
 			(effects
 				(font
@@ -19894,7 +19894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 242.57 59.69 0)
 			(effects
 				(font
@@ -19977,7 +19977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 138.43 90.17 0)
 			(effects
 				(font
@@ -20060,7 +20060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 199.39 97.79 0)
 			(effects
 				(font
@@ -20143,7 +20143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 123.19 82.55 0)
 			(effects
 				(font
@@ -20226,7 +20226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 46.99 90.17 0)
 			(effects
 				(font
@@ -20309,7 +20309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 62.23 59.69 0)
 			(effects
 				(font
@@ -20392,7 +20392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 295.91 67.31 0)
 			(effects
 				(font
@@ -20475,7 +20475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 318.77 52.07 0)
 			(effects
 				(font
@@ -20558,7 +20558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 341.63 90.17 0)
 			(effects
 				(font
@@ -20641,7 +20641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 265.43 36.83 0)
 			(effects
 				(font
@@ -20724,7 +20724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 184.15 113.03 0)
 			(effects
 				(font
@@ -20807,7 +20807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 77.47 36.83 0)
 			(effects
 				(font
@@ -20890,7 +20890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 138.43 59.69 0)
 			(effects
 				(font
@@ -20973,7 +20973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 199.39 74.93 0)
 			(effects
 				(font
@@ -21056,7 +21056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 153.67 113.03 0)
 			(effects
 				(font
@@ -21139,7 +21139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 250.19 59.69 0)
 			(effects
 				(font
@@ -21222,7 +21222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 176.53 29.21 0)
 			(effects
 				(font
@@ -21305,7 +21305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 257.81 29.21 0)
 			(effects
 				(font
@@ -21388,7 +21388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 176.53 67.31 0)
 			(effects
 				(font
@@ -21471,7 +21471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 146.05 67.31 0)
 			(effects
 				(font
@@ -21554,7 +21554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 394.97 59.69 0)
 			(effects
 				(font
@@ -21637,7 +21637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 334.01 44.45 0)
 			(effects
 				(font
@@ -21720,7 +21720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 318.77 105.41 0)
 			(effects
 				(font
@@ -21803,7 +21803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 176.53 36.83 0)
 			(effects
 				(font
@@ -21886,7 +21886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 199.39 67.31 0)
 			(effects
 				(font
@@ -21969,7 +21969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 168.91 105.41 0)
 			(effects
 				(font
@@ -22052,7 +22052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 107.95 82.55 0)
 			(effects
 				(font
@@ -22135,7 +22135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 31.75 44.45 0)
 			(effects
 				(font
@@ -22218,7 +22218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 364.49 52.07 0)
 			(effects
 				(font
@@ -22301,7 +22301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 288.29 52.07 0)
 			(effects
 				(font
@@ -22384,7 +22384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 372.11 52.07 0)
 			(effects
 				(font
@@ -22467,7 +22467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 311.15 59.69 0)
 			(effects
 				(font
@@ -22550,7 +22550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 100.33 113.03 0)
 			(effects
 				(font
@@ -22633,7 +22633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 100.33 67.31 0)
 			(effects
 				(font
@@ -22716,7 +22716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 107.95 67.31 0)
 			(effects
 				(font
@@ -22799,7 +22799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 77.47 59.69 0)
 			(effects
 				(font
@@ -22882,7 +22882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 77.47 105.41 0)
 			(effects
 				(font
@@ -22965,7 +22965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 191.77 74.93 0)
 			(effects
 				(font
@@ -23048,7 +23048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 31.75 52.07 0)
 			(effects
 				(font
@@ -23131,7 +23131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 39.37 36.83 0)
 			(effects
 				(font
@@ -23214,7 +23214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 92.71 36.83 0)
 			(effects
 				(font
@@ -23297,7 +23297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 318.77 67.31 0)
 			(effects
 				(font
@@ -23380,7 +23380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 184.15 105.41 0)
 			(effects
 				(font
@@ -23463,7 +23463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 100.33 97.79 0)
 			(effects
 				(font
@@ -23546,7 +23546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 153.67 36.83 0)
 			(effects
 				(font
@@ -23629,7 +23629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 184.15 29.21 0)
 			(effects
 				(font
@@ -23712,7 +23712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 265.43 44.45 0)
 			(effects
 				(font
@@ -23795,7 +23795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 234.95 90.17 0)
 			(effects
 				(font
@@ -23878,7 +23878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 130.81 44.45 0)
 			(effects
 				(font
@@ -23961,7 +23961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 199.39 44.45 0)
 			(effects
 				(font
@@ -24044,7 +24044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 207.01 105.41 0)
 			(effects
 				(font
@@ -24127,7 +24127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 250.19 74.93 0)
 			(effects
 				(font
@@ -24210,7 +24210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 372.11 44.45 0)
 			(effects
 				(font
@@ -24293,7 +24293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 146.05 44.45 0)
 			(effects
 				(font
@@ -24376,7 +24376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 168.91 90.17 0)
 			(effects
 				(font
@@ -24459,7 +24459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 356.87 90.17 0)
 			(effects
 				(font
@@ -24542,7 +24542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 311.15 36.83 0)
 			(effects
 				(font
@@ -24625,7 +24625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 250.19 44.45 0)
 			(effects
 				(font
@@ -24708,7 +24708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 176.53 90.17 0)
 			(effects
 				(font
@@ -24791,7 +24791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 69.85 44.45 0)
 			(effects
 				(font
@@ -24874,7 +24874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 69.85 113.03 0)
 			(effects
 				(font
@@ -24957,7 +24957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 288.29 97.79 0)
 			(effects
 				(font
@@ -25040,7 +25040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 191.77 52.07 0)
 			(effects
 				(font
@@ -25123,7 +25123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 62.23 97.79 0)
 			(effects
 				(font
@@ -25206,7 +25206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 280.67 36.83 0)
 			(effects
 				(font
@@ -25289,7 +25289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 219.71 97.79 0)
 			(effects
 				(font
@@ -25372,7 +25372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 123.19 59.69 0)
 			(effects
 				(font
@@ -25455,7 +25455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 92.71 113.03 0)
 			(effects
 				(font
@@ -25538,7 +25538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 39.37 105.41 0)
 			(effects
 				(font
@@ -25621,7 +25621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 326.39 36.83 0)
 			(effects
 				(font
@@ -25704,7 +25704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 265.43 82.55 0)
 			(effects
 				(font
@@ -25787,7 +25787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 69.85 59.69 0)
 			(effects
 				(font
@@ -25870,7 +25870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 176.53 52.07 0)
 			(effects
 				(font
@@ -25953,7 +25953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 146.05 105.41 0)
 			(effects
 				(font
@@ -26036,7 +26036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 349.25 52.07 0)
 			(effects
 				(font
@@ -26119,7 +26119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 207.01 59.69 0)
 			(effects
 				(font
@@ -26202,7 +26202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 250.19 90.17 0)
 			(effects
 				(font
@@ -26285,7 +26285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 387.35 97.79 0)
 			(effects
 				(font
@@ -26368,7 +26368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 130.81 36.83 0)
 			(effects
 				(font
@@ -26451,7 +26451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 318.77 74.93 0)
 			(effects
 				(font
@@ -26534,7 +26534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 341.63 74.93 0)
 			(effects
 				(font
@@ -26617,7 +26617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 46.99 67.31 0)
 			(effects
 				(font
@@ -26700,7 +26700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 130.81 90.17 0)
 			(effects
 				(font
@@ -26783,7 +26783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 227.33 90.17 0)
 			(effects
 				(font
@@ -26866,7 +26866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 176.53 82.55 0)
 			(effects
 				(font
@@ -26949,7 +26949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 318.77 82.55 0)
 			(effects
 				(font
@@ -27032,7 +27032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 153.67 44.45 0)
 			(effects
 				(font
@@ -27115,7 +27115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 54.61 97.79 0)
 			(effects
 				(font
@@ -27198,7 +27198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 280.67 82.55 0)
 			(effects
 				(font
@@ -27281,7 +27281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 379.73 105.41 0)
 			(effects
 				(font
@@ -27364,7 +27364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 100.33 52.07 0)
 			(effects
 				(font
@@ -27447,7 +27447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 257.81 44.45 0)
 			(effects
 				(font
@@ -27530,7 +27530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 303.53 44.45 0)
 			(effects
 				(font
@@ -27613,7 +27613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 54.61 59.69 0)
 			(effects
 				(font
@@ -27696,7 +27696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 303.53 90.17 0)
 			(effects
 				(font
@@ -27779,7 +27779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 356.87 52.07 0)
 			(effects
 				(font
@@ -27862,7 +27862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 161.29 97.79 0)
 			(effects
 				(font
@@ -27945,7 +27945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 364.49 67.31 0)
 			(effects
 				(font
@@ -28028,7 +28028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 107.95 113.03 0)
 			(effects
 				(font
@@ -28111,7 +28111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 39.37 90.17 0)
 			(effects
 				(font
@@ -28194,7 +28194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 168.91 29.21 0)
 			(effects
 				(font
@@ -28277,7 +28277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 54.61 36.83 0)
 			(effects
 				(font
@@ -28360,7 +28360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 69.85 52.07 0)
 			(effects
 				(font
@@ -28443,7 +28443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 176.53 113.03 0)
 			(effects
 				(font
@@ -28526,7 +28526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 311.15 82.55 0)
 			(effects
 				(font
@@ -28609,7 +28609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 372.11 105.41 0)
 			(effects
 				(font
@@ -28692,7 +28692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 356.87 105.41 0)
 			(effects
 				(font
@@ -28775,7 +28775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 92.71 74.93 0)
 			(effects
 				(font
@@ -28858,7 +28858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 318.77 36.83 0)
 			(effects
 				(font
@@ -28941,7 +28941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 191.77 36.83 0)
 			(effects
 				(font
@@ -29024,7 +29024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 341.63 29.21 0)
 			(effects
 				(font
@@ -29107,7 +29107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 394.97 36.83 0)
 			(effects
 				(font
@@ -29190,7 +29190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 318.77 59.69 0)
 			(effects
 				(font
@@ -29273,7 +29273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 138.43 82.55 0)
 			(effects
 				(font
@@ -29356,7 +29356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 311.15 97.79 0)
 			(effects
 				(font
@@ -29439,7 +29439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 387.35 29.21 0)
 			(effects
 				(font
@@ -29522,7 +29522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 107.95 105.41 0)
 			(effects
 				(font
@@ -29605,7 +29605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 273.05 52.07 0)
 			(effects
 				(font
@@ -29688,7 +29688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 69.85 97.79 0)
 			(effects
 				(font
@@ -29771,7 +29771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 184.15 82.55 0)
 			(effects
 				(font
@@ -29854,7 +29854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 288.29 82.55 0)
 			(effects
 				(font
@@ -29937,7 +29937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 372.11 82.55 0)
 			(effects
 				(font
@@ -30020,7 +30020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 207.01 90.17 0)
 			(effects
 				(font
@@ -30103,7 +30103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 326.39 44.45 0)
 			(effects
 				(font
@@ -30186,7 +30186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 161.29 29.21 0)
 			(effects
 				(font
@@ -30269,7 +30269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 176.53 74.93 0)
 			(effects
 				(font
@@ -30352,7 +30352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 146.05 52.07 0)
 			(effects
 				(font
@@ -30435,7 +30435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 62.23 113.03 0)
 			(effects
 				(font
@@ -30518,7 +30518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 311.15 74.93 0)
 			(effects
 				(font
@@ -30601,7 +30601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 153.67 67.31 0)
 			(effects
 				(font
@@ -30684,7 +30684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 207.01 36.83 0)
 			(effects
 				(font
@@ -30767,7 +30767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 39.37 59.69 0)
 			(effects
 				(font
@@ -30850,7 +30850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 334.01 29.21 0)
 			(effects
 				(font
@@ -30933,7 +30933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 153.67 105.41 0)
 			(effects
 				(font
@@ -31016,7 +31016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 364.49 82.55 0)
 			(effects
 				(font
@@ -31099,7 +31099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 77.47 67.31 0)
 			(effects
 				(font
@@ -31182,7 +31182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 280.67 74.93 0)
 			(effects
 				(font
@@ -31265,7 +31265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 31.75 36.83 0)
 			(effects
 				(font
@@ -31348,7 +31348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 326.39 67.31 0)
 			(effects
 				(font
@@ -31431,7 +31431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 273.05 105.41 0)
 			(effects
 				(font
@@ -31514,7 +31514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 92.71 29.21 0)
 			(effects
 				(font
@@ -31597,7 +31597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 295.91 74.93 0)
 			(effects
 				(font
@@ -31680,7 +31680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 54.61 67.31 0)
 			(effects
 				(font
@@ -31763,7 +31763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 168.91 36.83 0)
 			(effects
 				(font
@@ -31846,7 +31846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 107.95 90.17 0)
 			(effects
 				(font
@@ -31929,7 +31929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 161.29 59.69 0)
 			(effects
 				(font
@@ -32012,7 +32012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 341.63 52.07 0)
 			(effects
 				(font
@@ -32095,7 +32095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 31.75 59.69 0)
 			(effects
 				(font
@@ -32178,7 +32178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 356.87 67.31 0)
 			(effects
 				(font
@@ -32261,7 +32261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 227.33 44.45 0)
 			(effects
 				(font
@@ -32344,7 +32344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 303.53 82.55 0)
 			(effects
 				(font
@@ -32427,7 +32427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 199.39 29.21 0)
 			(effects
 				(font
@@ -32510,7 +32510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 295.91 59.69 0)
 			(effects
 				(font
@@ -32593,7 +32593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 227.33 52.07 0)
 			(effects
 				(font
@@ -32676,7 +32676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 219.71 59.69 0)
 			(effects
 				(font
@@ -32759,7 +32759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 349.25 97.79 0)
 			(effects
 				(font
@@ -32842,7 +32842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 85.09 36.83 0)
 			(effects
 				(font
@@ -32925,7 +32925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 387.35 105.41 0)
 			(effects
 				(font
@@ -33008,7 +33008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 280.67 29.21 0)
 			(effects
 				(font
@@ -33091,7 +33091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 85.09 74.93 0)
 			(effects
 				(font
@@ -33174,7 +33174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 107.95 36.83 0)
 			(effects
 				(font
@@ -33257,7 +33257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 265.43 59.69 0)
 			(effects
 				(font
@@ -33340,7 +33340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 77.47 97.79 0)
 			(effects
 				(font
@@ -33423,7 +33423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 280.67 44.45 0)
 			(effects
 				(font
@@ -33506,7 +33506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 364.49 90.17 0)
 			(effects
 				(font
@@ -33589,7 +33589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 273.05 82.55 0)
 			(effects
 				(font
@@ -33672,7 +33672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 379.73 90.17 0)
 			(effects
 				(font
@@ -33755,7 +33755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 92.71 52.07 0)
 			(effects
 				(font
@@ -33838,7 +33838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 130.81 97.79 0)
 			(effects
 				(font
@@ -33921,7 +33921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 100.33 74.93 0)
 			(effects
 				(font
@@ -34004,7 +34004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 303.53 36.83 0)
 			(effects
 				(font
@@ -34087,7 +34087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 39.37 44.45 0)
 			(effects
 				(font
@@ -34170,7 +34170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 265.43 90.17 0)
 			(effects
 				(font
@@ -34253,7 +34253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 138.43 67.31 0)
 			(effects
 				(font
@@ -34336,7 +34336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 288.29 90.17 0)
 			(effects
 				(font
@@ -34419,7 +34419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 146.05 82.55 0)
 			(effects
 				(font
@@ -34502,7 +34502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 311.15 105.41 0)
 			(effects
 				(font
@@ -34585,7 +34585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 168.91 113.03 0)
 			(effects
 				(font
@@ -34668,7 +34668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 311.15 90.17 0)
 			(effects
 				(font
@@ -34751,7 +34751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 191.77 105.41 0)
 			(effects
 				(font
@@ -34834,7 +34834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 39.37 82.55 0)
 			(effects
 				(font
@@ -34917,7 +34917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 265.43 52.07 0)
 			(effects
 				(font
@@ -35000,7 +35000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 123.19 67.31 0)
 			(effects
 				(font
@@ -35083,7 +35083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 92.71 90.17 0)
 			(effects
 				(font
@@ -35166,7 +35166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 31.75 67.31 0)
 			(effects
 				(font
@@ -35249,7 +35249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 341.63 105.41 0)
 			(effects
 				(font
@@ -35332,7 +35332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 295.91 29.21 0)
 			(effects
 				(font
@@ -35415,7 +35415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 161.29 105.41 0)
 			(effects
 				(font
@@ -35498,7 +35498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 191.77 67.31 0)
 			(effects
 				(font
@@ -35581,7 +35581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 184.15 74.93 0)
 			(effects
 				(font
@@ -35664,7 +35664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 387.35 74.93 0)
 			(effects
 				(font
@@ -35747,7 +35747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 92.71 97.79 0)
 			(effects
 				(font
@@ -35830,7 +35830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 77.47 82.55 0)
 			(effects
 				(font
@@ -35913,7 +35913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 356.87 97.79 0)
 			(effects
 				(font
@@ -35996,7 +35996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 146.05 97.79 0)
 			(effects
 				(font
@@ -36079,7 +36079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 168.91 82.55 0)
 			(effects
 				(font
@@ -36162,7 +36162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 168.91 74.93 0)
 			(effects
 				(font
@@ -36245,7 +36245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 265.43 29.21 0)
 			(effects
 				(font
@@ -36328,7 +36328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 107.95 97.79 0)
 			(effects
 				(font
@@ -36411,7 +36411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 242.57 36.83 0)
 			(effects
 				(font
@@ -36494,7 +36494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 85.09 44.45 0)
 			(effects
 				(font
@@ -36577,7 +36577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 356.87 29.21 0)
 			(effects
 				(font
@@ -36660,7 +36660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 349.25 105.41 0)
 			(effects
 				(font
@@ -36743,7 +36743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 364.49 97.79 0)
 			(effects
 				(font
@@ -36826,7 +36826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 46.99 82.55 0)
 			(effects
 				(font
@@ -36909,7 +36909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 242.57 74.93 0)
 			(effects
 				(font
@@ -36992,7 +36992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 85.09 82.55 0)
 			(effects
 				(font
@@ -37075,7 +37075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 341.63 36.83 0)
 			(effects
 				(font
@@ -37158,7 +37158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 334.01 59.69 0)
 			(effects
 				(font
@@ -37241,7 +37241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 153.67 59.69 0)
 			(effects
 				(font
@@ -37324,7 +37324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 257.81 36.83 0)
 			(effects
 				(font
@@ -37407,7 +37407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 100.33 29.21 0)
 			(effects
 				(font
@@ -37490,7 +37490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 394.97 52.07 0)
 			(effects
 				(font
@@ -37573,7 +37573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 387.35 90.17 0)
 			(effects
 				(font
@@ -37656,7 +37656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 62.23 44.45 0)
 			(effects
 				(font
@@ -37739,7 +37739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 303.53 97.79 0)
 			(effects
 				(font
@@ -37822,7 +37822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 387.35 67.31 0)
 			(effects
 				(font
@@ -37905,7 +37905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 153.67 29.21 0)
 			(effects
 				(font
@@ -37988,7 +37988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 85.09 67.31 0)
 			(effects
 				(font
@@ -38071,7 +38071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 219.71 82.55 0)
 			(effects
 				(font
@@ -38154,7 +38154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 123.19 97.79 0)
 			(effects
 				(font
@@ -38237,7 +38237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 311.15 52.07 0)
 			(effects
 				(font
@@ -38320,7 +38320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 303.53 105.41 0)
 			(effects
 				(font
@@ -38403,7 +38403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 176.53 97.79 0)
 			(effects
 				(font
@@ -38486,7 +38486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 242.57 97.79 0)
 			(effects
 				(font
@@ -38569,7 +38569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 146.05 74.93 0)
 			(effects
 				(font
@@ -38652,7 +38652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 273.05 97.79 0)
 			(effects
 				(font
@@ -38735,7 +38735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 356.87 59.69 0)
 			(effects
 				(font
@@ -38818,7 +38818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 326.39 82.55 0)
 			(effects
 				(font
@@ -38901,7 +38901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 46.99 74.93 0)
 			(effects
 				(font
@@ -38984,7 +38984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 257.81 105.41 0)
 			(effects
 				(font
@@ -39067,7 +39067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 46.99 29.21 0)
 			(effects
 				(font
@@ -39150,7 +39150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 334.01 67.31 0)
 			(effects
 				(font
@@ -39233,7 +39233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 372.11 90.17 0)
 			(effects
 				(font
@@ -39316,7 +39316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 387.35 44.45 0)
 			(effects
 				(font
@@ -39399,7 +39399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 168.91 97.79 0)
 			(effects
 				(font
@@ -39482,7 +39482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 191.77 29.21 0)
 			(effects
 				(font
@@ -39565,7 +39565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 257.81 67.31 0)
 			(effects
 				(font
@@ -39648,7 +39648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 123.19 52.07 0)
 			(effects
 				(font
@@ -39731,7 +39731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 199.39 113.03 0)
 			(effects
 				(font
@@ -39814,7 +39814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 303.53 52.07 0)
 			(effects
 				(font
@@ -39897,7 +39897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 130.81 74.93 0)
 			(effects
 				(font
@@ -39980,7 +39980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 334.01 97.79 0)
 			(effects
 				(font
@@ -40063,7 +40063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 123.19 29.21 0)
 			(effects
 				(font
@@ -40146,7 +40146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 39.37 67.31 0)
 			(effects
 				(font
@@ -40229,7 +40229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 250.19 97.79 0)
 			(effects
 				(font
@@ -40312,7 +40312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 379.73 29.21 0)
 			(effects
 				(font
@@ -40395,7 +40395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 54.61 44.45 0)
 			(effects
 				(font
@@ -40478,7 +40478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 191.77 90.17 0)
 			(effects
 				(font
@@ -40561,7 +40561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 168.91 59.69 0)
 			(effects
 				(font
@@ -40644,7 +40644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 46.99 113.03 0)
 			(effects
 				(font
@@ -40727,7 +40727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 379.73 67.31 0)
 			(effects
 				(font
@@ -40810,7 +40810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 250.19 105.41 0)
 			(effects
 				(font
@@ -40893,7 +40893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 161.29 36.83 0)
 			(effects
 				(font
@@ -40976,7 +40976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 46.99 97.79 0)
 			(effects
 				(font
@@ -41059,7 +41059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 46.99 36.83 0)
 			(effects
 				(font
@@ -41142,7 +41142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 191.77 113.03 0)
 			(effects
 				(font
@@ -41225,7 +41225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 372.11 29.21 0)
 			(effects
 				(font
@@ -41308,7 +41308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 69.85 29.21 0)
 			(effects
 				(font
@@ -41391,7 +41391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 394.97 67.31 0)
 			(effects
 				(font
@@ -41474,7 +41474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 115.57 74.93 0)
 			(effects
 				(font
@@ -41557,7 +41557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 46.99 105.41 0)
 			(effects
 				(font
@@ -41640,7 +41640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 341.63 97.79 0)
 			(effects
 				(font
@@ -41723,7 +41723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 303.53 74.93 0)
 			(effects
 				(font
@@ -41806,7 +41806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 349.25 82.55 0)
 			(effects
 				(font
@@ -41889,7 +41889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 295.91 82.55 0)
 			(effects
 				(font
@@ -41972,7 +41972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 273.05 74.93 0)
 			(effects
 				(font
@@ -42055,7 +42055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 265.43 74.93 0)
 			(effects
 				(font
@@ -42138,7 +42138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 265.43 105.41 0)
 			(effects
 				(font
@@ -42221,7 +42221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 234.95 36.83 0)
 			(effects
 				(font
@@ -42304,7 +42304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 130.81 52.07 0)
 			(effects
 				(font
@@ -42387,7 +42387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 379.73 82.55 0)
 			(effects
 				(font
@@ -42470,7 +42470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 356.87 74.93 0)
 			(effects
 				(font
@@ -42553,7 +42553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 372.11 67.31 0)
 			(effects
 				(font
@@ -42636,7 +42636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 62.23 90.17 0)
 			(effects
 				(font
@@ -42719,7 +42719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 46.99 44.45 0)
 			(effects
 				(font
@@ -42802,7 +42802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 242.57 105.41 0)
 			(effects
 				(font
@@ -42885,7 +42885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 219.71 29.21 0)
 			(effects
 				(font
@@ -42968,7 +42968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 379.73 97.79 0)
 			(effects
 				(font
@@ -43051,7 +43051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 227.33 36.83 0)
 			(effects
 				(font
@@ -43134,7 +43134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 234.95 82.55 0)
 			(effects
 				(font
@@ -43217,7 +43217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 191.77 59.69 0)
 			(effects
 				(font
@@ -43300,7 +43300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 153.67 90.17 0)
 			(effects
 				(font
@@ -43383,7 +43383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 207.01 52.07 0)
 			(effects
 				(font
@@ -43466,7 +43466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 372.11 74.93 0)
 			(effects
 				(font
@@ -43549,7 +43549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 130.81 29.21 0)
 			(effects
 				(font
@@ -43632,7 +43632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 138.43 113.03 0)
 			(effects
 				(font
@@ -43715,7 +43715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 295.91 105.41 0)
 			(effects
 				(font
@@ -43798,7 +43798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 115.57 52.07 0)
 			(effects
 				(font
@@ -43881,7 +43881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 31.75 74.93 0)
 			(effects
 				(font
@@ -43964,7 +43964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 184.15 90.17 0)
 			(effects
 				(font
@@ -44047,7 +44047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 234.95 29.21 0)
 			(effects
 				(font
@@ -44130,7 +44130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 257.81 97.79 0)
 			(effects
 				(font
@@ -44213,7 +44213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 295.91 44.45 0)
 			(effects
 				(font
@@ -44296,7 +44296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 227.33 67.31 0)
 			(effects
 				(font
@@ -44379,7 +44379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 130.81 67.31 0)
 			(effects
 				(font
@@ -44462,7 +44462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 334.01 90.17 0)
 			(effects
 				(font
@@ -44545,7 +44545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 92.71 59.69 0)
 			(effects
 				(font
@@ -44628,7 +44628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 184.15 36.83 0)
 			(effects
 				(font
@@ -44711,7 +44711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 242.57 44.45 0)
 			(effects
 				(font
@@ -44794,7 +44794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 273.05 29.21 0)
 			(effects
 				(font
@@ -44877,7 +44877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 85.09 52.07 0)
 			(effects
 				(font
@@ -44960,7 +44960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 334.01 105.41 0)
 			(effects
 				(font
@@ -45043,7 +45043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 387.35 59.69 0)
 			(effects
 				(font
@@ -45126,7 +45126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 318.77 29.21 0)
 			(effects
 				(font
@@ -45209,7 +45209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 326.39 52.07 0)
 			(effects
 				(font
@@ -45292,7 +45292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 349.25 90.17 0)
 			(effects
 				(font
@@ -45375,7 +45375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 191.77 97.79 0)
 			(effects
 				(font
@@ -45458,7 +45458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 199.39 105.41 0)
 			(effects
 				(font
@@ -45541,7 +45541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 77.47 90.17 0)
 			(effects
 				(font
@@ -45624,7 +45624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 326.39 59.69 0)
 			(effects
 				(font
@@ -45707,7 +45707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 54.61 105.41 0)
 			(effects
 				(font
@@ -45790,7 +45790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 161.29 67.31 0)
 			(effects
 				(font
@@ -45873,7 +45873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 379.73 59.69 0)
 			(effects
 				(font
@@ -45956,7 +45956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 107.95 52.07 0)
 			(effects
 				(font
@@ -46039,7 +46039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 100.33 105.41 0)
 			(effects
 				(font
@@ -46122,7 +46122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 341.63 67.31 0)
 			(effects
 				(font
@@ -46205,7 +46205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 107.95 29.21 0)
 			(effects
 				(font
@@ -46288,7 +46288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 92.71 44.45 0)
 			(effects
 				(font
@@ -46371,7 +46371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 31.75 97.79 0)
 			(effects
 				(font
@@ -46454,7 +46454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 318.77 97.79 0)
 			(effects
 				(font
@@ -46537,7 +46537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 288.29 67.31 0)
 			(effects
 				(font
@@ -46620,7 +46620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 62.23 36.83 0)
 			(effects
 				(font
@@ -46703,7 +46703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 31.75 113.03 0)
 			(effects
 				(font
@@ -46786,7 +46786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 146.05 29.21 0)
 			(effects
 				(font
@@ -46869,7 +46869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 31.75 90.17 0)
 			(effects
 				(font
@@ -46952,7 +46952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 334.01 74.93 0)
 			(effects
 				(font
@@ -47035,7 +47035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 85.09 29.21 0)
 			(effects
 				(font
@@ -47118,7 +47118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 364.49 29.21 0)
 			(effects
 				(font
@@ -47201,7 +47201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 349.25 74.93 0)
 			(effects
 				(font
@@ -47284,7 +47284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 69.85 74.93 0)
 			(effects
 				(font
@@ -47367,7 +47367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 138.43 29.21 0)
 			(effects
 				(font
@@ -47450,7 +47450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 77.47 29.21 0)
 			(effects
 				(font
@@ -47533,7 +47533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 394.97 74.93 0)
 			(effects
 				(font
@@ -47616,7 +47616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 207.01 113.03 0)
 			(effects
 				(font
@@ -47699,7 +47699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 115.57 59.69 0)
 			(effects
 				(font
@@ -47782,7 +47782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 153.67 52.07 0)
 			(effects
 				(font
@@ -47865,7 +47865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 161.29 82.55 0)
 			(effects
 				(font
@@ -47948,7 +47948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 273.05 44.45 0)
 			(effects
 				(font
@@ -48031,7 +48031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 54.61 52.07 0)
 			(effects
 				(font
@@ -48114,7 +48114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 394.97 97.79 0)
 			(effects
 				(font
@@ -48197,7 +48197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 77.47 44.45 0)
 			(effects
 				(font
@@ -48280,7 +48280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 31.75 82.55 0)
 			(effects
 				(font
@@ -48363,7 +48363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 394.97 44.45 0)
 			(effects
 				(font
@@ -48446,7 +48446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 115.57 36.83 0)
 			(effects
 				(font
@@ -48529,7 +48529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 54.61 29.21 0)
 			(effects
 				(font
@@ -48612,7 +48612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 273.05 90.17 0)
 			(effects
 				(font
@@ -48695,7 +48695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 356.87 36.83 0)
 			(effects
 				(font
@@ -48778,7 +48778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 184.15 67.31 0)
 			(effects
 				(font
@@ -48861,7 +48861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 288.29 29.21 0)
 			(effects
 				(font
@@ -48944,7 +48944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 54.61 113.03 0)
 			(effects
 				(font
@@ -49027,7 +49027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 146.05 113.03 0)
 			(effects
 				(font
@@ -49110,7 +49110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 364.49 44.45 0)
 			(effects
 				(font
@@ -49193,7 +49193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 69.85 36.83 0)
 			(effects
 				(font
@@ -49276,7 +49276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 326.39 90.17 0)
 			(effects
 				(font
@@ -49359,7 +49359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 161.29 113.03 0)
 			(effects
 				(font
@@ -49442,7 +49442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 115.57 82.55 0)
 			(effects
 				(font
@@ -49525,7 +49525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 364.49 74.93 0)
 			(effects
 				(font
@@ -49608,7 +49608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 257.81 59.69 0)
 			(effects
 				(font
@@ -49691,7 +49691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 219.71 105.41 0)
 			(effects
 				(font
@@ -49774,7 +49774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 295.91 90.17 0)
 			(effects
 				(font
@@ -49857,7 +49857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 242.57 52.07 0)
 			(effects
 				(font
@@ -49940,7 +49940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 130.81 59.69 0)
 			(effects
 				(font
@@ -50023,7 +50023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 379.73 74.93 0)
 			(effects
 				(font
@@ -50106,7 +50106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 153.67 74.93 0)
 			(effects
 				(font
@@ -50189,7 +50189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 234.95 105.41 0)
 			(effects
 				(font
@@ -50272,7 +50272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 130.81 82.55 0)
 			(effects
 				(font
@@ -50355,7 +50355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 394.97 82.55 0)
 			(effects
 				(font
@@ -50438,7 +50438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 115.57 29.21 0)
 			(effects
 				(font
@@ -50521,7 +50521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 138.43 52.07 0)
 			(effects
 				(font
@@ -50604,7 +50604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 219.71 74.93 0)
 			(effects
 				(font
@@ -50687,7 +50687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 161.29 52.07 0)
 			(effects
 				(font
@@ -50770,7 +50770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 115.57 97.79 0)
 			(effects
 				(font
@@ -50853,7 +50853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 138.43 36.83 0)
 			(effects
 				(font
@@ -50936,7 +50936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 54.61 90.17 0)
 			(effects
 				(font
@@ -51019,7 +51019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 62.23 52.07 0)
 			(effects
 				(font
@@ -51102,7 +51102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 227.33 74.93 0)
 			(effects
 				(font
@@ -51185,7 +51185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 184.15 44.45 0)
 			(effects
 				(font
@@ -51268,7 +51268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 31.75 29.21 0)
 			(effects
 				(font
@@ -51351,7 +51351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 364.49 36.83 0)
 			(effects
 				(font
@@ -51434,7 +51434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 85.09 97.79 0)
 			(effects
 				(font
@@ -51517,7 +51517,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 69.85 90.17 0)
 			(effects
 				(font
@@ -51600,7 +51600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 334.01 36.83 0)
 			(effects
 				(font
@@ -51683,7 +51683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 107.95 74.93 0)
 			(effects
 				(font
@@ -51766,7 +51766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 69.85 82.55 0)
 			(effects
 				(font
@@ -51849,7 +51849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 138.43 44.45 0)
 			(effects
 				(font
@@ -51932,7 +51932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 123.19 90.17 0)
 			(effects
 				(font
@@ -52015,7 +52015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 280.67 59.69 0)
 			(effects
 				(font
@@ -52098,7 +52098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 227.33 97.79 0)
 			(effects
 				(font
@@ -52181,7 +52181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 372.11 36.83 0)
 			(effects
 				(font
@@ -52264,7 +52264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 85.09 59.69 0)
 			(effects
 				(font
@@ -52347,7 +52347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 107.95 44.45 0)
 			(effects
 				(font
@@ -52430,7 +52430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 54.61 82.55 0)
 			(effects
 				(font
@@ -52513,7 +52513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 295.91 52.07 0)
 			(effects
 				(font
@@ -52596,7 +52596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 227.33 59.69 0)
 			(effects
 				(font
@@ -52679,7 +52679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 138.43 105.41 0)
 			(effects
 				(font
@@ -52762,7 +52762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 184.15 59.69 0)
 			(effects
 				(font
@@ -52845,7 +52845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 46.99 52.07 0)
 			(effects
 				(font
@@ -52928,7 +52928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 242.57 67.31 0)
 			(effects
 				(font
@@ -53011,7 +53011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 115.57 113.03 0)
 			(effects
 				(font
@@ -53094,7 +53094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 199.39 59.69 0)
 			(effects
 				(font
@@ -53177,7 +53177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 257.81 52.07 0)
 			(effects
 				(font
@@ -53260,7 +53260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 242.57 29.21 0)
 			(effects
 				(font
@@ -53343,7 +53343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 372.11 97.79 0)
 			(effects
 				(font
@@ -53426,7 +53426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 303.53 67.31 0)
 			(effects
 				(font
@@ -53509,7 +53509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 176.53 44.45 0)
 			(effects
 				(font
@@ -53592,7 +53592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 130.81 113.03 0)
 			(effects
 				(font
@@ -53675,7 +53675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 356.87 44.45 0)
 			(effects
 				(font
@@ -53758,7 +53758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 62.23 82.55 0)
 			(effects
 				(font
@@ -53841,7 +53841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 207.01 82.55 0)
 			(effects
 				(font
@@ -53924,7 +53924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 39.37 113.03 0)
 			(effects
 				(font
@@ -54007,7 +54007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 46.99 59.69 0)
 			(effects
 				(font
@@ -54090,7 +54090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 219.71 44.45 0)
 			(effects
 				(font
@@ -54173,7 +54173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 168.91 52.07 0)
 			(effects
 				(font
@@ -54256,7 +54256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 115.57 44.45 0)
 			(effects
 				(font
@@ -54339,7 +54339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 138.43 74.93 0)
 			(effects
 				(font
@@ -54422,7 +54422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 207.01 97.79 0)
 			(effects
 				(font
@@ -54505,7 +54505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 234.95 59.69 0)
 			(effects
 				(font
@@ -54588,7 +54588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 92.71 67.31 0)
 			(effects
 				(font
@@ -54671,7 +54671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 394.97 90.17 0)
 			(effects
 				(font
@@ -54754,7 +54754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 168.91 44.45 0)
 			(effects
 				(font
@@ -54837,7 +54837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 77.47 113.03 0)
 			(effects
 				(font
@@ -54920,7 +54920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 349.25 29.21 0)
 			(effects
 				(font
@@ -55003,7 +55003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 207.01 67.31 0)
 			(effects
 				(font
@@ -55086,7 +55086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 39.37 52.07 0)
 			(effects
 				(font
@@ -55169,7 +55169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 199.39 82.55 0)
 			(effects
 				(font
@@ -55252,7 +55252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 62.23 67.31 0)
 			(effects
 				(font
@@ -55335,7 +55335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 234.95 67.31 0)
 			(effects
 				(font
@@ -55418,7 +55418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 250.19 67.31 0)
 			(effects
 				(font
@@ -55501,7 +55501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 341.63 82.55 0)
 			(effects
 				(font
@@ -55584,7 +55584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 349.25 44.45 0)
 			(effects
 				(font
@@ -55667,7 +55667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 184.15 97.79 0)
 			(effects
 				(font
@@ -55750,7 +55750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 176.53 105.41 0)
 			(effects
 				(font
@@ -55833,7 +55833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 273.05 36.83 0)
 			(effects
 				(font
@@ -55916,7 +55916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 123.19 44.45 0)
 			(effects
 				(font
@@ -55999,7 +55999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 318.77 90.17 0)
 			(effects
 				(font
@@ -56082,7 +56082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 349.25 59.69 0)
 			(effects
 				(font
@@ -56165,7 +56165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 311.15 44.45 0)
 			(effects
 				(font
@@ -56248,7 +56248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 219.71 67.31 0)
 			(effects
 				(font
@@ -56331,7 +56331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 123.19 105.41 0)
 			(effects
 				(font
@@ -56414,7 +56414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 326.39 29.21 0)
 			(effects
 				(font
@@ -56497,7 +56497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 326.39 74.93 0)
 			(effects
 				(font
@@ -56580,7 +56580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 219.71 36.83 0)
 			(effects
 				(font
@@ -56663,7 +56663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 234.95 52.07 0)
 			(effects
 				(font
@@ -56746,7 +56746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 372.11 59.69 0)
 			(effects
 				(font
@@ -56829,7 +56829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 303.53 59.69 0)
 			(effects
 				(font
@@ -56912,7 +56912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 199.39 52.07 0)
 			(effects
 				(font
@@ -56995,7 +56995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 92.71 82.55 0)
 			(effects
 				(font
@@ -57078,7 +57078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 107.95 59.69 0)
 			(effects
 				(font
@@ -57161,7 +57161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 123.19 36.83 0)
 			(effects
 				(font
@@ -57244,7 +57244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 341.63 59.69 0)
 			(effects
 				(font
@@ -57327,7 +57327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 280.67 67.31 0)
 			(effects
 				(font
@@ -57410,7 +57410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 115.57 67.31 0)
 			(effects
 				(font
@@ -57493,7 +57493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 62.23 74.93 0)
 			(effects
 				(font
@@ -57576,7 +57576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 349.25 67.31 0)
 			(effects
 				(font
@@ -57659,7 +57659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 146.05 36.83 0)
 			(effects
 				(font
@@ -57742,7 +57742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 288.29 105.41 0)
 			(effects
 				(font
@@ -57825,7 +57825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 85.09 105.41 0)
 			(effects
 				(font
@@ -57908,7 +57908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 326.39 97.79 0)
 			(effects
 				(font
@@ -57991,7 +57991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 85.09 113.03 0)
 			(effects
 				(font
@@ -58074,7 +58074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 288.29 36.83 0)
 			(effects
 				(font
@@ -58157,7 +58157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 311.15 29.21 0)
 			(effects
 				(font
@@ -58240,7 +58240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 161.29 44.45 0)
 			(effects
 				(font
@@ -58323,7 +58323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 387.35 52.07 0)
 			(effects
 				(font
@@ -58406,7 +58406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 394.97 105.41 0)
 			(effects
 				(font
@@ -58489,7 +58489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 100.33 44.45 0)
 			(effects
 				(font
@@ -58572,7 +58572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 77.47 52.07 0)
 			(effects
 				(font
@@ -58655,7 +58655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 123.19 74.93 0)
 			(effects
 				(font
@@ -58738,7 +58738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 227.33 29.21 0)
 			(effects
 				(font
@@ -58821,7 +58821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 364.49 105.41 0)
 			(effects
 				(font
@@ -58904,7 +58904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 146.05 59.69 0)
 			(effects
 				(font
@@ -58987,7 +58987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 349.25 36.83 0)
 			(effects
 				(font
@@ -59070,7 +59070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 379.73 44.45 0)
 			(effects
 				(font
@@ -59153,7 +59153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 356.87 82.55 0)
 			(effects
 				(font
@@ -59236,7 +59236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 219.71 90.17 0)
 			(effects
 				(font
@@ -59319,7 +59319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 39.37 29.21 0)
 			(effects
 				(font
@@ -59402,7 +59402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 115.57 90.17 0)
 			(effects
 				(font
@@ -59485,7 +59485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 100.33 59.69 0)
 			(effects
 				(font
@@ -59568,7 +59568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 288.29 74.93 0)
 			(effects
 				(font
@@ -59651,7 +59651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 273.05 67.31 0)
 			(effects
 				(font
@@ -59734,7 +59734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 364.49 59.69 0)
 			(effects
 				(font
@@ -59817,7 +59817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 280.67 105.41 0)
 			(effects
 				(font
@@ -59900,7 +59900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 242.57 82.55 0)
 			(effects
 				(font
@@ -59983,7 +59983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 153.67 97.79 0)
 			(effects
 				(font
@@ -60066,7 +60066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 379.73 36.83 0)
 			(effects
 				(font
@@ -60149,7 +60149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 219.71 52.07 0)
 			(effects
 				(font
@@ -60232,7 +60232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 234.95 74.93 0)
 			(effects
 				(font
@@ -60315,7 +60315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 161.29 90.17 0)
 			(effects
 				(font
@@ -60398,7 +60398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 295.91 97.79 0)
 			(effects
 				(font
@@ -60481,7 +60481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 257.81 82.55 0)
 			(effects
 				(font
@@ -60564,7 +60564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 207.01 44.45 0)
 			(effects
 				(font
@@ -60647,7 +60647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 199.39 90.17 0)
 			(effects
 				(font
@@ -60730,7 +60730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 92.71 105.41 0)
 			(effects
 				(font
@@ -60813,7 +60813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 69.85 67.31 0)
 			(effects
 				(font
@@ -60896,7 +60896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 62.23 105.41 0)
 			(effects
 				(font
@@ -60979,7 +60979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 191.77 82.55 0)
 			(effects
 				(font
@@ -61062,7 +61062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 100.33 90.17 0)
 			(effects
 				(font
@@ -61145,7 +61145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 31.75 105.41 0)
 			(effects
 				(font
@@ -61228,7 +61228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 62.23 29.21 0)
 			(effects
 				(font
@@ -61311,7 +61311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 288.29 59.69 0)
 			(effects
 				(font
@@ -61394,7 +61394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 326.39 105.41 0)
 			(effects
 				(font
@@ -61477,7 +61477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 250.19 36.83 0)
 			(effects
 				(font
@@ -61560,7 +61560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 100.33 82.55 0)
 			(effects
 				(font
@@ -61643,7 +61643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 115.57 105.41 0)
 			(effects
 				(font
@@ -61726,7 +61726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 234.95 44.45 0)
 			(effects
 				(font
@@ -61809,7 +61809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 311.15 67.31 0)
 			(effects
 				(font
@@ -61892,7 +61892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 265.43 97.79 0)
 			(effects
 				(font
@@ -61975,7 +61975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 77.47 74.93 0)
 			(effects
 				(font
@@ -62058,7 +62058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 69.85 105.41 0)
 			(effects
 				(font
@@ -62141,7 +62141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 334.01 52.07 0)
 			(effects
 				(font
@@ -62224,7 +62224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "ccatlib:LED_0201_0603Metric_XINGLIGHT"
 			(at 387.35 82.55 0)
 			(effects
 				(font
